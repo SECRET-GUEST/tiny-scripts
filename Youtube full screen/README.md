@@ -1,4 +1,4 @@
-                                                                                                                 
+Python 3.11                                                                                                               
 ```
 ██    ██ ████████     ███████ ██    ██ ██      ██          ███████  ██████ ██████  ███████ ███████ ███    ██
  ██  ██     ██        ██      ██    ██ ██      ██          ██      ██      ██   ██ ██      ██      ████   ██
@@ -13,6 +13,3 @@
 ```
 py -m pip install webbrowser pyautogui 
 ```
-
-
-BTW this script is potentially going to be improved ,that's why it has its own repertory on my main page.
