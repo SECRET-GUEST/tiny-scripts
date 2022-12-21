@@ -24,9 +24,11 @@ Do left clic on the script then "open with", "python"
 
 The gif will be created in the same directory
 
+```
 #----/!\-----/!\-----/!\-----/!\-----/!\-----/!\----#
 |                                                   |
 |    DO NOT FORGET to change directories paths      |
 |       at begining and end of this script          |
 |                                                   |
 #---------------------------------------------------#
+```
