@@ -15,17 +15,21 @@ Here are little useful scripts to manage files under windows.
 
 It will returns you a text with all informations about the folder where you ran the script, and the files in.
 This is useful to make wordlists.
+
 => You just have to download the file and click on it
 
 ## 2.Rename all files in the directory.bat
 
 This will rename all .png files or whatever extension you want in the folder where you placed this program
+
 => You have to change into the script the extension ".png" if you want to run it for something else than PNG images.
 
 ## 3.create a simple Wordlist.py 
 
 Create a simple wordlist of 1.png, 2.png ,... 500.png
+
 => Needs to download python then use left click on the file, "open with", "python".
+
 => You have to change the path inside the python file replacing by yours, all instructions in the script.
 
 
@@ -38,12 +42,12 @@ _  _ ____ ____ ___  _  _ ____ ____
 
 ## Open Python files :
 To manage python file you can use the softwares; 
-.
+
 Python : https://www.python.org/downloads/
-.
-visual studio code : https://code.visualstudio.com/download
-or
-notepad++ : https://notepad-plus-plus.org/downloads/
+
+visual studio code : https://code.visualstudio.com/download 
+
+or notepad++ : https://notepad-plus-plus.org/downloads/
 
 ## Rewrite or open batch files:
 
