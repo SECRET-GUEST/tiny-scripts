@@ -46,8 +46,6 @@ Rest is in **french** 👇 👇 👇
 └--> CREATIONS :
 https://www.youtube.com/channel/UCffuj1MEaD6Ga5beTRa525A
 
-   └ https://secretguest9.bandcamp.com/
-
 └--> STREAMING : 
 https://www.twitch.tv/9secret9guest9
 
