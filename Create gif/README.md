@@ -16,7 +16,7 @@ and maybe download PIL by running this in your CMD :
 
 
 ```
-py -m pip install PIL
+python -m pip install PIL
 ```
 
 
