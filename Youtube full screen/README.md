@@ -12,5 +12,5 @@ Python 3.11
 ## You obviously first have to install libraries ;
 
 ```
-py -m pip install webbrowser pyautogui 
+python -m pip install webbrowser pyautogui 
 ```
