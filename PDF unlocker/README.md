@@ -18,7 +18,10 @@ You have to first intall pike pdf and tqdm libraries by running in your cmd :
 
 **pip install pikepdf tqdm** 
 
-Then you will have to get a password list like wordlist or rockyou from kali Linux or else. 
+Then you will have to get a password list from kali Linux or else. 
+
+By default you can download here rockyou.txt.
+
 You will just have to change paths and input files and you can run the script in your cmd by :
 
 **python pikepdf.py**
