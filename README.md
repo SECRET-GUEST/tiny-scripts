@@ -20,7 +20,7 @@ If you don't find a script you've downloaded here in the past, there is great ch
 
 The following note is in **french** it's a part of a bigger memory helper for ffmpeg, all and nothing ,...
 
-I'm putting that's here to save it or if someones needs
+I'm dropping this here to save it / if someones needs
 👇 👇 👇
 
 
