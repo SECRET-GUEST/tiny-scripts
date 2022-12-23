@@ -16,7 +16,12 @@ In the different folder I will insert some informations relative to the use of t
 If you don't find a script you've downloaded here in the past, there is great chances that it has is own repository in my main page.
 
 
-Rest is in **french** 👇 👇 👇
+#That's all you have to know.
+
+The following note is in **french** it's a part of a bigger memory helper for ffmpeg, all and nothing ,...
+
+I'm putting that's here to save it or if someones needs
+👇 👇 👇
 
 
 ```  
