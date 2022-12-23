@@ -17,7 +17,7 @@ This **program** is a simple base to make a **little piano** with your **keyboar
 
 ## Pygame
 
-py -m pip install pygame -U
+python -m pip install pygame 
 
 ## Assignment 
 
