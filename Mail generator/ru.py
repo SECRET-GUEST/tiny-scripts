@@ -1,5 +1,10 @@
 import random
 
+# My really first python program, it's very simple to use ;
+# There are different dictionnaries to include all parts of an mail like "9","8","brian","3","@gmail.com" 
+# then email will merge the all randomly so print the result in your cmd.
+
+
 name0 = ["", "", "1", "2", "3", "4", "5", "6", "7", "8", "9", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
 
 name1 = ["Елена", "Ольга", "Оксана", "Ирина", "Иванна", "Маша", "Милана", "Наташа", "Таша", "Екатерина", "Юлия", "Светлана", "Елизавета", "Соня",
