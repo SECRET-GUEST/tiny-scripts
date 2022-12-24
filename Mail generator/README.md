@@ -15,6 +15,6 @@ For the story, I did it to overkill database of 2 random Russians "web designers
 
 (I will not share the program I used to send the mails sorry, even for educational purpose you don't need it because it could be dangerous for yourself)
 
-So this random mail generator is really easy to use or re-write, it will generate random mail from dictionaries.
+So this random mail generator is really easy to use or re-write, it will generate random mail from dictionaries already included in the script.
 
 Both French and Russian versions are available.
