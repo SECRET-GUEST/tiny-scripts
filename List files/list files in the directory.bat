@@ -1,1 +1,0 @@
- dir *.* >0List.txt
