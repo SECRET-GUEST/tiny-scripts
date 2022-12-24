@@ -1,15 +1,14 @@
-Python 3.11
 ```
-██╗    ██╗ ██████╗ ██████╗ ██████╗ ██╗     ██╗███████╗████████╗███████╗
-██║    ██║██╔═══██╗██╔══██╗██╔══██╗██║     ██║██╔════╝╚══██╔══╝██╔════╝
-██║ █╗ ██║██║   ██║██████╔╝██║  ██║██║     ██║███████╗   ██║   ███████╗
-██║███╗██║██║   ██║██╔══██╗██║  ██║██║     ██║╚════██║   ██║   ╚════██║
-╚███╔███╔╝╚██████╔╝██║  ██║██████╔╝███████╗██║███████║   ██║   ███████║
- ╚══╝╚══╝  ╚═════╝ ╚═╝  ╚═╝╚═════╝ ╚══════╝╚═╝╚══════╝   ╚═╝   ╚══════╝
+██████╗  █████╗ ████████╗ ██████╗██╗  ██╗    ███████╗██╗██╗     ███████╗███████╗
+██╔══██╗██╔══██╗╚══██╔══╝██╔════╝██║  ██║    ██╔════╝██║██║     ██╔════╝██╔════╝
+██████╔╝███████║   ██║   ██║     ███████║    █████╗  ██║██║     █████╗  ███████╗
+██╔══██╗██╔══██║   ██║   ██║     ██╔══██║    ██╔══╝  ██║██║     ██╔══╝  ╚════██║
+██████╔╝██║  ██║   ██║   ╚██████╗██║  ██║    ██║     ██║███████╗███████╗███████║
+╚═════╝ ╚═╝  ╚═╝   ╚═╝    ╚═════╝╚═╝  ╚═╝    ╚═╝     ╚═╝╚══════╝╚══════╝╚══════╝
+                                                                                
                                                                        
 ```
-
-Here are little useful scripts to manage files under windows.
+Here are little useful scripts to manage lists under windows 10.
 **For people who don't use/ know batch, I put a tutorial at the end of this file.**
 
 # How is it working ?
@@ -26,14 +25,6 @@ This is useful to make wordlists.
 This will rename all .png files or whatever extension you want in the folder where you placed this program
 
 => You have to change into the script the extension ".png" if you want to run it for something else than PNG images.
-
-## 3.create a simple Wordlist.py 
-
-Create a simple wordlist of 1.png, 2.png ,... 500.png
-
-=> Needs to download python then use left click on the file, "open with", "python".
-
-=> You have to change the path inside the python file replacing by yours, all instructions in the script.
 
 
 ```
