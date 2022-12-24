@@ -9,6 +9,8 @@ Python 3.11
                                                                                                                                                                     
 ```
 
+This is not a Keylogger.
+
 ## You obviously first have to install libraries ;
 
 ```
