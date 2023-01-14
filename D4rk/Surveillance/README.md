@@ -1,3 +1,6 @@
+IS NOT STABLE
+
+
 Python version 3.11 | batch script = Windows 10
 ```
 ██╗    ██╗██╗  ██╗ ██████╗     ██╗███████╗    ██╗    ██╗██╗  ██╗ ██████╗     ██████╗ 
@@ -9,9 +12,21 @@ Python version 3.11 | batch script = Windows 10
  ```
  ![who is who](https://user-images.githubusercontent.com/92639080/212443523-50a251f5-27e4-40e4-9434-c17760fe5c97.jpg)
 
-# Surveillance ?
+## Surveillance ?
 
-BOn le fichier python est clairement inutile, je le laisse à des fins instructives.
+# Ce fichier est inutile, utiliser du batch rends le résultat trop aléatoire, je le laisse la a des fin éducatives et pour me rappeler du projet, mais comme dit a chaque fois que je le lance il se passe un truc bizzare, le résultat change, la connexion saute, ... 
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
 Ce batch script sert à repérer d'éventuelles menaces sur votre réseau de par ses fonctions ;
 
 - [] lancer un scan du pc avec la commande "netstat -no" afin de lister les IP avec lesquelles votre PC communique.
