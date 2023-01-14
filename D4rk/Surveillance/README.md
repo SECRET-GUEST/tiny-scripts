@@ -1,7 +1,4 @@
-IS NOT STABLE
-
-
-Python version 3.11 | batch script = Windows 10
+Version : NOT CURRENTLY WORKING !!!
 ```
 ██╗    ██╗██╗  ██╗ ██████╗     ██╗███████╗    ██╗    ██╗██╗  ██╗ ██████╗     ██████╗ 
 ██║    ██║██║  ██║██╔═══██╗    ██║██╔════╝    ██║    ██║██║  ██║██╔═══██╗    ╚════██╗
