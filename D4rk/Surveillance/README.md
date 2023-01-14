@@ -21,7 +21,7 @@ Parceque Feur.
 
 ## Bref
 
-Ce programme utilise nslookup et whois, qui auront sans doutes besoin d'etre installé avant.
+Ce programme utilise nslookup et whois, qui auront sans doutes besoin d'etre installé avant (ns est présent dans windows depuis la version 8, sauf si vous l'avez craqué)
 
 Whois a besoin d'etre téléchargé et d'etre ajouté au PATH ( vous allez dans modifier les environnements variables, demandez à Cortana, variables d'environnement, path dans la section du bas, ajouter, et la vous copiez coller l'adresse du dossier whois que vous venez de télécharger et **déplacé la ou il ne bougera plus** , puis redémarrez le pc)
 
