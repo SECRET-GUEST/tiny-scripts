@@ -28,7 +28,7 @@ Lancer un scan au hazard sur tout votre réseau n'est pas forcément la meilleur
 
 Renseignez vous au préalable sur quelle méthode vous interesse le plus entre nmap, nslookup et whois.
 
-1. Utilisez le programmes batch choisi dans son dossier respectif, les fichiers textes seront générés la ou vous lancerez le script (il suffit de cliquer pour lancer le programme)
+1. Utilisez le programmes batch choisi dans son dossier respectif, les fichiers textes seront générés la ou vous lancerez le script (il suffit de cliquer dessus)
 
 2. Pour ceux qui utilisent Mac ou Linux, vous avez le fichier Python que vous pouvez reparamètrer au besoin, je ne sais pas comment ca s'adapte, demandez à GPT-3 au pire.
 
