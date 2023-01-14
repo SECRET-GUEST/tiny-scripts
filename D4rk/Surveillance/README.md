@@ -14,7 +14,7 @@ Python version 3.11 | batch script = Windows 10
 
 ## Surveillance ?
 
-# Ce fichier est inutile, utiliser du batch rends le résultat trop aléatoire, je le laisse la a des fin éducatives et pour me rappeler du projet, mais comme dit a chaque fois que je le lance il se passe un truc bizzare, le résultat change, la connexion saute, ... 
+# Ce fichier est inutile, utiliser du batch rends le résultat trop aléatoire, a chaque fois que je le lance il se passe un truc bizzare, le résultat change, la connexion saute,  d'un coups ca fonctionne 9/10, puis sans rien changer ca ne fonctionne plus, je le laisse la a des fin éducatives et parceque c'est drole, mais je vais sans doutes refaire de 0 en partant sur du C.
 
 .
 
