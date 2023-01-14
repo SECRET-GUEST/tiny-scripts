@@ -15,17 +15,29 @@ Python version 3.11 | batch script = Windows 10
 ## Surveillance ?
 
 # Ce fichier est inutile, utiliser du batch rends le résultat trop aléatoire, je le laisse la a des fin éducatives et pour me rappeler du projet, mais comme dit a chaque fois que je le lance il se passe un truc bizzare, le résultat change, la connexion saute, ... 
+
 .
+
 .
+
 .
+
 .
+
 .
+
 .
+
 .
+
 .
+
 .
+
 .
+
 .
+
 .
 Ce batch script sert à repérer d'éventuelles menaces sur votre réseau de par ses fonctions ;
 
