@@ -8,7 +8,7 @@ Python 3.11
 ╚═╝     ╚═════╝ ╚═╝          ╚═════╝ ╚═╝  ╚═══╝╚══════╝ ╚═════╝  ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
 ```
 
-This script will help you to try a list of passwords to unlock a PDF file if you forget it :/
+This script will help you to try a list of passwords to unlock a PDF file if you forget it :/ :/ ^^'
 
 Btw you can easily reconvert it to open locked folders.
 
