@@ -1,3 +1,5 @@
+# https://www.youtube.com/watch?v=-uO496C6xYE&ab_channel=ArananSesEfektleri
+
 import itertools
 
 #Here we will define the password to find, in which characters he's been written
