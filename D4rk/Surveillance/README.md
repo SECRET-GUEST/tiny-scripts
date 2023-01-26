@@ -40,8 +40,8 @@ Version : NOT CURRENTLY WORKING !!! + ALL IS IN FRENCH.
 .
 Ce batch script sert à repérer d'éventuelles menaces sur votre réseau de par ses fonctions ;
 
-- [] lancer un scan du pc avec la commande "netstat -no" afin de lister les IP avec lesquelles votre PC communique.
-- [] Récupération des adresses IP distantes puis affiche d'ou ces IP proviennent.
+- [ ] lancer un scan du pc avec la commande "netstat -no" afin de lister les IP avec lesquelles votre PC communique.
+- [ ] Récupération des adresses IP distantes puis affiche d'ou ces IP proviennent.
 
 Parceque Feur.
 
