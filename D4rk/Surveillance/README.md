@@ -1,4 +1,4 @@
-Version : NOT CURRENTLY WORKING !!!
+Version : NOT CURRENTLY WORKING !!! + ALL IS IN FRENCH.
 ```
 ██╗    ██╗██╗  ██╗ ██████╗     ██╗███████╗    ██╗    ██╗██╗  ██╗ ██████╗     ██████╗ 
 ██║    ██║██║  ██║██╔═══██╗    ██║██╔════╝    ██║    ██║██║  ██║██╔═══██╗    ╚════██╗
