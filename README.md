@@ -142,6 +142,36 @@ https://theasciicode.com.ar/
 ███████ ███████ ███████      ██████  ██████  ██   ████   ████   ███████ ██   ██ ███████ ██  ██████  ██   ████ ███████ 
                                                                                                                       
 
+----------------------PYTHON TO EXE----------------------
+
+Avant toute chose, voici comment convertir un fichier python en executable avec pyinstaller : 
+
+Deja on installe pyinstaller avec : 
+
+pip install pyinstaller
+
+
+Puis on lance cette commande dans le CMD :
+
+pyinstaller --onefile --icon=icone.ico --add-data "chemin/vers/fichier;nom_du_dossier" script.py --noconsole
+
+
+Explications :
+
+--onefile : crée un exécutable unique qui inclut toutes les dépendances.
+--icon=icone.ico : spécifie l'icône à utiliser pour l'exécutable (remplacez icone.ico par le chemin de votre fichier d'icône).
+--add-data "chemin/vers/fichier;nom_du_dossier" : ajoute des fichiers externes nécessaires au programme. Le chemin vers le fichier et le nom du dossier dans lequel le fichier sera extrait doivent être séparés par un point-virgule (;). Vous pouvez ajouter plusieurs fichiers en les séparant par des points-virgules.
+script.py : spécifie le nom de votre script Python.
+--noconsole : masque la console lors de l'exécution de l'exécutable.
+Assurez-vous de remplacer les parties en italique par les noms de vos fichiers et dossiers. Notez également que le chemin doit être spécifié en fonction du système d'exploitation sur lequel vous travaillez.
+
+Après avoir exécuté cette commande, vous devriez avoir un exécutable unique qui inclut toutes les dépendances, des fichiers externes et une icône personnalisée, et qui ne montre pas la console lors de l'exécution.
+
+
+
+
+
+
 ----------------------CREER UN GIF A PARTIR D'UNE SEQUENCE D'IMAGES ----------------------
 
 ffmpeg -f -framerate 1 -i img%3d.png -loop -1 0.gif
