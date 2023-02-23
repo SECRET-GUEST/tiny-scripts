@@ -153,7 +153,8 @@ pip install pyinstaller
 
 Puis on lance cette commande dans le CMD :
 
-pyinstaller --onefile --icon=icone.ico --add-data "chemin/vers/fichier;nom_du_dossier" script.py --noconsole
+pyinstaller --icon="PATH" --add-data "PATH" --noconsole test.py
+
 
 
 Explications :
