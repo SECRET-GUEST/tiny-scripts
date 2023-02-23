@@ -155,6 +155,7 @@ Puis on lance cette commande dans le CMD :
 
 pyinstaller --icon="PATH" --add-data "PATH" --noconsole test.py
 
+par exemple :pyinstaller --onefile --icon=".../tireur.ico" --add-data ".../Beta 5/ico;ico" --noconsole test.py
 
 
 Explications :
