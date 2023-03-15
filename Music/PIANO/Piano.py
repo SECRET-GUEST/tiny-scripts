@@ -1,33 +1,24 @@
-#Need pygame module :
+import keyboard
+import time
+import os
 
-# py -m pip install pygame -U
+# Our function to record all keys in a texte
+def record_key(key):
+    with open("piano_keys.txt", "a") as f:
+        f.write(f"{key.name}")
 
-import pygame
+#Create new file for record words in a text
+filename = "piano_keys.txt"
+file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), filename)
 
-pygame.init()
+# If no file we create one
+if not os.path.isfile(file_path):
+    with open(file_path, "w") as f:
+        pass
 
-# display window in choosen size (needs 2 () to avoid errors)
+# Every time the key are pushed we record it
+keyboard.on_release(record_key)
 
-screen = pygame.display.set_mode((400, 300))
-
-# Game start
-run = True
-
-while run:
-    for event in pygame.event.get():
-        
-        #If you quit, no more records.
-        if event.type == pygame.QUIT:
-            run = False
-
-        elif event.type == pygame.KEYDOWN:
-
-            # Returns pressed q w e r t y keys (you have to add yours)
-
-            if event.key in [pygame.K_q, pygame.K_w, pygame.K_e, pygame.K_r, pygame.K_t, pygame.K_y]:
-
-                # Display the "note" in your cmd
-                print("note played ;", event.key)
-
-
-pygame.quit()
+# Then we launch the logger in subprocess
+while True:
+    time.sleep(1)
