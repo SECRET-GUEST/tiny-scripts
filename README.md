@@ -15,6 +15,14 @@ In the different folder I will insert some informations relative to the use of t
 
 If you don't find a script you've downloaded here in the past, there is great chances that it has is own repository in my main page.
 
+# :scroll: License
+
+This repository is released under the [MIT License](LICENSE). Please see the `LICENSE` file for more information.
+
+# :question: Support & Questions
+
+If you have any questions or need support, please feel free to open an issue or join my twitter.
+
 
 # That's all you have to know.
 
@@ -176,18 +184,19 @@ Après avoir exécuté cette commande, vous devriez avoir un exécutable unique 
 
 ----------------------CREER UN GIF A PARTIR D'UNE SEQUENCE D'IMAGES ----------------------
 
-ffmpeg -f -framerate 1 -i img%3d.png -loop -1 0.gif
+ffmpeg -i pic%04d.png -vf "fps=15,scale=800:-1:flags=lanczos" -c:v gif 0.gif
 
-Pas possible de mettre un fond transparent !!
 
--i img%03d.png – liste la séquence d'image img001.png img002.png,...
+Description ;
+-i 3D_wire_%05d.png: Utilise les fichiers image avec le format de nom "3D_wire_00000.png" comme entrée. 
 
--framerate 1 veux dire qu'FFMPEG jouera 1 image/seconde
--loop -1 veux dire qu'il n'y aura pas de répetition du gif (loop)
+- %05d signifie un nombre à 5 chiffres, rempli de zéros si nécessaire.
 
-0 = loop a l'infini (valeur par défaut)
-1 = loop 1x (joué 2x)
-2 = loop 2x (joué 3x)
+-vf "fps=10,scale=320:-1:flags=lanczos": Applique un filtre vidéo pour définir le nombre d'images par seconde (FPS) à 10, redimensionne l'image avec une largeur de 320 pixels en conservant le rapport d'aspect, et utilise l'algorithme de mise à l'échelle Lanczos pour une meilleure qualité.
+
+-c:v gif: Utilise le codec vidéo GIF pour la sortie.
+
+0.gif: Nom du fichier GIF de sortie.
 
                                                                                                                       
 ----------------------CONVERTIR UNE VIDEO AVI EN MP4----------------------
