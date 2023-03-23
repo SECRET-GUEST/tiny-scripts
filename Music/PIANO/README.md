@@ -18,5 +18,6 @@ You will need some dependencies to run this script, then open your cmd then :
 
 ## keyboard
 
-`python -m pip install keyboard`
-
+```
+python -m pip install keyboard
+```
