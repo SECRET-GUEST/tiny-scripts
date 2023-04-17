@@ -19,7 +19,7 @@ This Python script serves as a convenient shortcut for launching the server and 
 - Opens a new Google Chrome tab with the AI's user interface after a 8-second delay.
 
 ## Usage
-
+0. Download [python](https://www.python.org/downloads/release/python-3106/)
 1. Replace the placeholders in the script with the appropriate file paths for your system.
 2. Run the Python script.
 3. The server will start, and a new Google Chrome tab will open with the AI's user interface after a short delay.
