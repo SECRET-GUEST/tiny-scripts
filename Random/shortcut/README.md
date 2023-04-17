@@ -11,7 +11,7 @@ python 3.9+
 
 # Description:
 
-This Python script serves as a convenient shortcut for launching the server and opening a new browser tab for the image generation AI provided by the [Stable-Diffusion-WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) project. The script automates the process of starting the server using a batch file and then opening a new Google Chrome window with the specified link after a short delay.
+This Python script serves as a convenient shortcut for launching the server and opening a new browser tab for the image generation AI provided by the [Stable-Diffusion-WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) project. The script automates the process of starting the server using a batch file and then opening a new web browser window or tab with the specified link after a short delay.
 
 ## Features
 
