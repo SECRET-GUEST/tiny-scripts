@@ -16,7 +16,7 @@ This Python script serves as a convenient shortcut for launching the server and 
 ## Features
 
 - Launches the server using a specified batch file.
-- Opens a new Google Chrome tab with the AI's user interface after a 5-second delay.
+- Opens a new Google Chrome tab with the AI's user interface after a 8-second delay.
 
 ## Usage
 
