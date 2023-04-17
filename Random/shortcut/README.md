@@ -24,6 +24,6 @@ This Python script serves as a convenient shortcut for launching the server and 
 2. Replace the placeholders in the `.bat` script with the path of the python script to launch is by simply clicking on the `.bat` file.
 3. Replace the placeholders in the script with the appropriate file paths for your system.
 4. Run the Python script.
-5. The server will start, and a new Google Chrome tab will open with the AI's user interface after a short delay.
+5. The server will start, and a new web browser tab will open with the AI's user interface after a short delay.
 
 Enjoy using the image generation AI provided by Stable-Diffusion-WebUI with this convenient shortcut script!
