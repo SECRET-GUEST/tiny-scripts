@@ -32,7 +32,11 @@ Python 3.10
 from config_manager import ConfigManager
 ```
 2. Create a ConfigManager instance with the path to your config.ini file:
+```
+config_manager = ConfigManager("config.ini")
+```
 
+3. Use the `ConfigManager` to read and update configuration values:
 ```python
 # Read values from the configuration
 app_name = config_manager.get("general", "name")
@@ -43,4 +47,7 @@ db_host = config_manager.get("database", "host")
 config_manager.set("general", "version", "1.1.0")
 ```
 
-3. Use the `ConfigManager` to read and update configuration values:
+  
+# License
+
+This program is licensed under the MIT license, which means you can use, modify, and distribute it freely, as long as you mention the original author and include a copy of the license. See the LICENSE.md file for more information.
