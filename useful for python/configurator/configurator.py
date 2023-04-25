@@ -131,7 +131,7 @@ class ConfigManager:
 #        Initialize the ConfigManager with the path to the config file.
 
 #        Example:
-#            config_manager = ConfigManager("config.ini")
+#            configurator = ConfigManager("config.ini")
 
 
         self.file_path = file_path
@@ -144,7 +144,7 @@ class ConfigManager:
 #        Retrieve the value of a specific key from a section in the config file.
 
 #        Example:
-#            app_name = config_manager.get("general", "name")
+#            app_name = configurator.get("general", "name")
 
 
         return self.config.get(section, key)
@@ -155,7 +155,7 @@ class ConfigManager:
 #        Update the value of a specific key in a section in the config file and save changes.
 
 #        Example:
-#            config_manager.set("general", "version", "1.1.0")
+#            configurator.set("general", "version", "1.1.0")
 
 
         self.config.set(section, key, value)
@@ -167,21 +167,21 @@ class ConfigManager:
 #Here is an example of use in another module: 
 
 
-#    from config_manager import ConfigManager
+#    from configurator import ConfigManager
 #    
 #    # Replace with the path to your config.ini file
 #    CONFIG_FILE = "config.ini"
 #    
-#    config_manager = ConfigManager(CONFIG_FILE)
+#    configurator = ConfigManager(CONFIG_FILE)
 #    
 #    # Use the configurations in your application
-#    print(config_manager.get("general", "name"))
-#    print(config_manager.get("general", "version"))
-#    print(config_manager.get("database", "host"))
-#    print(config_manager.get("database", "port"))
-#    print(config_manager.get("database", "user"))
-#    print(config_manager.get("database", "password"))
+#    print(configurator.get("general", "name"))
+#    print(configurator.get("general", "version"))
+#    print(configurator.get("database", "host"))
+#    print(configurator.get("database", "port"))
+#    print(configurator.get("database", "user"))
+#    print(configurator.get("database", "password"))
 #    
 #    # Update a value in the configuration and save
-#    config_manager.set("general", "version", "1.1.0")
+#    configurator.set("general", "version", "1.1.0")
 #    
