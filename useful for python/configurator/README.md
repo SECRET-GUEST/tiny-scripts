@@ -46,8 +46,11 @@ db_host = config_manager.get("database", "host")
 # Update a value in the configuration and save
 config_manager.set("general", "version", "1.1.0")
 ```
+ 
+## :scroll: License
 
-  
-# License
+This repository is released under the [MIT License](LICENSE). Please see the `LICENSE` file for more information.
 
-This program is licensed under the MIT license, which means you can use, modify, and distribute it freely, as long as you mention the original author and include a copy of the license. See the LICENSE.md file for more information.
+## :question: Support & Questions
+
+If you have any questions or need support, please feel free to open an issue or join my twitter.
