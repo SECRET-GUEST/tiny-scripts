@@ -72,39 +72,6 @@ https://sourceforge.net/u/secret-guest/profile
 Un logiciel regroupant ces commandes au travers d'une interface visuelle devrait voir le jour sous peu, quand j'aurai le temps de taffer dessus.
 
 ```
-
---------------------- ASCII FACILE ---------------------
-
-
-└--> TEXTE / 
-
-
-h1 :
-http://www.patorjk.com/software/taag/#p=display&h=0&f=ANSI%20Regular&t=En
-
-h2 :
-http://www.patorjk.com/software/taag/#p=display&h=0&f=Cybermedium&t=hack
-
-└--> IMAGES 
-
-https://www.twitchquotes.com/copypastas/ascii-art
-
-└--> GENERER / DESSINER
-
-https://www.topster.fr/generateur-d-ascii/
-https://emojicombos.com/dot-art-editor#
-
-└--> APPRENDRE 
-
-https://www.commentcamarche.net/informatique/technologies/1589-code-ascii/
-
-
-└--> TABLES 
-
-https://theasciicode.com.ar/
-
-
-
                                                                    
 
  ██████╗██████╗ ███████╗ █████╗ ████████╗██╗ ██████╗ ███╗   ██╗
@@ -138,7 +105,8 @@ https://theasciicode.com.ar/
                                                                        
                   Pourquoi utiliser FFMPEG ?
 
-         └--> Rendu ultra rapides, 0 perte de qualité avec q:v 0 / q:a 0
+         └--> Rendu ultra rapides, 0 perte de qualité.
+
 
 
 
@@ -149,6 +117,8 @@ https://theasciicode.com.ar/
 ██      ██           ██     ██      ██    ██ ██  ██ ██  ██  ██  ██      ██   ██      ██ ██ ██    ██ ██  ██ ██      ██ 
 ███████ ███████ ███████      ██████  ██████  ██   ████   ████   ███████ ██   ██ ███████ ██  ██████  ██   ████ ███████ 
                                                                                                                       
+
+
 
 ----------------------PYTHON TO EXE----------------------
 
@@ -161,10 +131,9 @@ pip install pyinstaller
 
 Puis on lance cette commande dans le CMD :
 
-pyinstaller --icon="PATH" --add-data "PATH" --noconsole test.py
+pyinstaller --icon="" --add-data "G:\M" --noconsole Trie.py
 
 par exemple :pyinstaller --onefile --icon=".../tireur.ico" --add-data ".../Beta 5/ico;ico" --noconsole test.py
-
 
 Explications :
 
@@ -180,6 +149,44 @@ Après avoir exécuté cette commande, vous devriez avoir un exécutable unique 
 
 
 
+
+----------------------CONVERTIR PNG EN SVG AVEC POTRACE----------------------
+
+Cette méthode est a approfondir et ne fonctionne pas avec toute les images :
+
+https://www.youtube.com/watch?v=-Fs2t6P5AjY
+
+C'est simple les png sont au format bitmap (raster graphics) et ne sont pas interchangeable avec le format vectorielle.
+La seule méthode qui fonctionne a peu pret est d'utiliser potrace mais ca peut créer un glitch qui ne rendra pas comme vous voulez
+par conséquent le mieux est de vectoriser sous illustrator et de supprimer le fond blanc puisque pour une image vectorielle un fond transparent 
+est un fond qui n'a pas de couleur, mais voici quand meme la méthode :
+
+└--> Télécharger potrace (ici par exemple : http://potrace.sourceforge.net/ )
+
+Une fois recus extraire simplement le fichier la ou windows lis les programmes, sur le bureau par exemple.
+Ensuite il faut ouvrir le cmd et indiquer le chemin du programme, par exemple pour le bureau de l'utilisateur jean-anarchie :
+
+
+PATH=%PATH%;Z:\Users\jean-anarchie\Desktop\potrace-1.16.win64
+
+
+└--> Ensuite convertissez d'abord en pnm votre png car potrace ne reconnait pas les png ; 
+
+convert discord.png discord.pnm
+
+Vous pouuvez utiliser convertio aussi :
+https://convertio.co/
+
+
+└--> Puis pnm en svg
+
+potrace discord.pnm -s -o discord.svg 
+
+
+└--> Explications :
+
+potrace -s => Output file est SVG
+potrace -o file.svg => Ecrivez l' output en file.svg
 
 
 ----------------------CREER UN GIF A PARTIR D'UNE SEQUENCE D'IMAGES ----------------------
@@ -197,7 +204,6 @@ Description ;
 -c:v gif: Utilise le codec vidéo GIF pour la sortie.
 
 0.gif: Nom du fichier GIF de sortie.
-
                                                                                                                       
 ----------------------CONVERTIR UNE VIDEO AVI EN MP4----------------------
 
@@ -302,7 +308,7 @@ ffmpeg -r 1/5 -i 1.png -c:v libx264 -vf fps=25 -pix_fmt yuv420p 1.mp4
 
 ---------------------- VIDEO ---------------------- 
 
-ffmpeg -i 2.mp4 -ss 00:01:22 -codec copy -q:v 0 -t 6969 3.mp4
+ffmpeg -i 0.gif -ss 00:00:04 -codec copy -q:v 0 -t 5 01.gif
 
 ---------------------- AUDIO ----------------------
 
@@ -676,8 +682,6 @@ ffmpeg -i 2.mp4 -vf scale=1280:-1 -c:v libx264 -preset veryslow -crf 24 meeting2
 ffmpeg -y -i 1.mp4 -r 9 -s 720x440 file.gif
 
 
-
-
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠰⠆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡰⠭⠽⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⠗⠒⠓⠾⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -695,4 +699,51 @@ ffmpeg -y -i 1.mp4 -r 9 -s 720x440 file.gif
 ⠀⣴⡽⣯⣉⡳⠀⠄⠌⣄⣒⣒⣒⣒⣒⣒⣒⣊⡭⠵⠖⠒⢪⣍⣙⣦⣤⡽⢧⠀
 ⣰⣟⡷⡆⠽⣃⢉⡐⣂⠄⣁⠐⠀⢂⢐⢀⠓⡐⢒⡚⣇⢉⣫⠡⠭⢲⡾⣛⣾⡆
 
+
+
+
+
+
+
+████████ ██████   ██████  ██       ██████  ██       ██████  
+   ██    ██   ██ ██    ██ ██      ██    ██ ██      ██    ██ 
+   ██    ██████  ██    ██ ██      ██    ██ ██      ██    ██ 
+   ██    ██   ██ ██    ██ ██      ██    ██ ██      ██    ██ 
+   ██    ██   ██  ██████  ███████  ██████  ███████  ██████  
+                                                            
+                                                            
+
+
+
+_  _ ____ ___ ____ _ _  _ 
+|\/| |__|  |  |__/ |  \/  
+|  | |  |  |  |  \ | _/\_ 
+                          
+                          
+                          
+Dans le CMD avec le module pip de python  ;
+
+pip install pymatrix-rain
+pip install windows-curses
+
+pymatrix-rain
+
+
+Ou (générateur d'id aléatoires)
+
+python
+import uuid
+uuid.uuid4()
+import random
+while True:
+	id = str(uuid.uuid4())
+	trimmed = id[:random.randint(0, len(id) - 1)]
+	spaces = " " * random.randint(0, 15)
+	print(f"{spaces}{trimmed}")
+
+SYSTEME DE FONCTION Nv17 TR001- dérivations polymere stricte
+
+
+
+```
 
