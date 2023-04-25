@@ -1,3 +1,13 @@
+Python 3.10
+```
+███████╗ ██████╗  ██████╗ ███╗   ███╗    ██╗  ██╗ █████╗ ███╗   ██╗██████╗ ██╗     ███████╗██████╗ 
+╚══███╔╝██╔═══██╗██╔═══██╗████╗ ████║    ██║  ██║██╔══██╗████╗  ██║██╔══██╗██║     ██╔════╝██╔══██╗
+  ███╔╝ ██║   ██║██║   ██║██╔████╔██║    ███████║███████║██╔██╗ ██║██║  ██║██║     █████╗  ██████╔╝
+ ███╔╝  ██║   ██║██║   ██║██║╚██╔╝██║    ██╔══██║██╔══██║██║╚██╗██║██║  ██║██║     ██╔══╝  ██╔══██╗
+███████╗╚██████╔╝╚██████╔╝██║ ╚═╝ ██║    ██║  ██║██║  ██║██║ ╚████║██████╔╝███████╗███████╗██║  ██║
+╚══════╝ ╚═════╝  ╚═════╝ ╚═╝     ╚═╝    ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═════╝ ╚══════╝╚══════╝╚═╝  ╚═╝
+                                                                                                   
+```
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![PyQt5](https://img.shields.io/badge/PyQt5-Compatible-orange)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow)
@@ -8,21 +18,22 @@ This Zoom Module allows you to easily enable zoom functionality in your PyQt5 ap
 
 # 📌 Usage
 
-1. Copy the `zoom_module.py` file into your project directory.
+1. Copy the `zoom_handler.py` file into your project directory.
 
 2. Import the `enable_zoom` function from the `zoom_module.py` file:
 
 ```python
 from zoom_module import enable_zoom
-Call the enable_zoom function with your main widget as an argument:
-python
-Copy code
+```
+3. Call the enable_zoom function with your main widget as an argument:
+
+```python
 enable_zoom(my_main_widget)
 📚 Example
 Here is an example of how to use the Zoom Module in a PyQt5 application:
-
+```python
 from PyQt5.QtWidgets import QApplication, QMainWindow
-from zoom_module import enable_zoom
+from zoom_handler import enable_zoom
 
 class MyWindow(QMainWindow):
     def __init__(self):
@@ -36,3 +47,12 @@ if __name__ == "__main__":
     window = MyWindow()
     window.show()
     app.exec_()
+```
+ 
+## :scroll: License
+
+This repository is released under the [MIT License](LICENSE). Please see the `LICENSE` file for more information.
+
+## :question: Support & Questions
+
+If you have any questions or need support, please feel free to open an issue or join my twitter.
