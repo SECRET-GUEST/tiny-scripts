@@ -73,7 +73,7 @@
                 
 #                          /                      |    v    |                    \
                 
-#                   easily, just follow the tutorial in the script or        |                                |                                          |      |                                |                                          |      |                                |                                          |           |                                |  
+#                      easily, just follow the tutorial in the end of  this little script        |                                |                                          |      |                                |                                          |      |                                |                                          |           |                                |  
 #     |                  !      |                                   |     |                                |                       |                    |                |                       |                    |                |                       |                    |                    |                                           |
 #                               |                                   |     |                  
 #                  |            |                   Anyway          !                        |                                         |                                |                       |                    |                |                       |                    |                |                       |                    |                    |
