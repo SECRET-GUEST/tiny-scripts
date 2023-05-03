@@ -2,8 +2,6 @@
 [![PyQt5](https://img.shields.io/badge/GUI-PyQt5-green)](https://www.riverbankcomputing.com/software/pyqt/intro)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow)](https://opensource.org/licenses/MIT)
 
-![Image Resizer](https://user-images.githubusercontent.com/.../image_resizer_screenshot.png)
-
 ## Description:
 
 **Image Resizer** is a simple and efficient Python application that allows you to resize all images in a selected folder and its subfolders. Built using PyQt5, this app provides a user-friendly interface to select a source folder, set new dimensions for the images, and start the resizing process.
