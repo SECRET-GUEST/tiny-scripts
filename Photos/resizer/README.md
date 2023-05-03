@@ -1,3 +1,12 @@
+Python 3.10+
+```
+██████╗ ███████╗███████╗██╗███████╗███████╗██████╗ 
+██╔══██╗██╔════╝██╔════╝██║╚══███╔╝██╔════╝██╔══██╗
+██████╔╝█████╗  ███████╗██║  ███╔╝ █████╗  ██████╔╝
+██╔══██╗██╔══╝  ╚════██║██║ ███╔╝  ██╔══╝  ██╔══██╗
+██║  ██║███████╗███████║██║███████╗███████╗██║  ██║
+╚═╝  ╚═╝╚══════╝╚══════╝╚═╝╚══════╝╚══════╝╚═╝  ╚═╝                                                
+```
 [![Python](https://img.shields.io/badge/Python-3.x-blue)](https://www.python.org/)
 [![PyQt5](https://img.shields.io/badge/GUI-PyQt5-green)](https://www.riverbankcomputing.com/software/pyqt/intro)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow)](https://opensource.org/licenses/MIT)
