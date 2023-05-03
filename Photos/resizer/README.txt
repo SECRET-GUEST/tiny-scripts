@@ -2,7 +2,6 @@
 [![PyQt5](https://img.shields.io/badge/GUI-PyQt5-green)](https://www.riverbankcomputing.com/software/pyqt/intro)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow)](https://opensource.org/licenses/MIT)
 
-![Image Resizer](https://user-images.githubusercontent.com/.../image_resizer_screenshot.png)
 
 ## Description:
 
