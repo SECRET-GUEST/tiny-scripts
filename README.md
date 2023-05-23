@@ -1,4 +1,7 @@
-Python version : 3.11
+[![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Batch](https://img.shields.io/badge/Batch-Script-orange.svg)](https://en.wikipedia.org/wiki/Batch_file)
+
 ```
 
 ████████╗██╗███╗   ██╗██╗   ██╗    ███████╗ ██████╗██████╗ ██╗██████╗ ████████╗███████╗
@@ -10,7 +13,7 @@ Python version : 3.11
                                                                                        
 ```
 
-Here are multiple random useful scripts in python or few in batch able to be integrated in other script or be used as it is.
+Here are multiple random useful scripts for able to be integrated in other script or be used as it is.
 In the different folder I will insert some informations relative to the use of these scripts.
 
 If you don't find a script you've downloaded here in the past, there is great chances that it has is own repository in my main page.
