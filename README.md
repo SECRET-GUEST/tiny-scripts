@@ -36,7 +36,7 @@ If you're looking for more tools to boost your desktop productivity, these repos
 - [AutoClicker](https://github.com/SECRET-GUEST/autoclicker) : A potent autoclicker tool.
 
 Discover more mini scripts for 3D artists user-friendly: 
-- [Animation]([https://github.com/SECRET-GUEST/tiny-scripts](https://github.com/SECRET-GUEST/animation))
+- [Animation](https://github.com/SECRET-GUEST/animation)
 
 
 
