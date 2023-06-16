@@ -27,6 +27,19 @@ This repository is released under the [MIT License](LICENSE). Please see the `LI
 If you have any questions or need support, please feel free to open an issue or join my twitter.
 
 
+# :gem: Recommendations  
+
+If you're looking for more tools to boost your desktop productivity, these repositories are worth checking out:
+
+- [FFMPEG Assembler](https://github.com/SECRET-GUEST/ffmpeg-assembler) : Generate videos in one click from a multitude of footages.
+- [Layer One](https://github.com/SECRET-GUEST/Layer-one) : Navigate through pictures with this innovative overlay.
+- [AutoClicker](https://github.com/SECRET-GUEST/autoclicker) : A potent autoclicker tool.
+
+Discover more mini scripts for 3D artists user-friendly: 
+- [Animation]([https://github.com/SECRET-GUEST/tiny-scripts](https://github.com/SECRET-GUEST/animation))
+
+
+
 # That's all you have to know.
 
 The following note is in **french** it's a part of a bigger memory helper for ffmpeg, all and nothing ,...
