@@ -10,18 +10,6 @@
                                                                                      
 ```
 
-[![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-
-```
-███████╗███████╗██╗     ███████╗    ███████╗███████╗██████╗ ██╗   ██╗███████╗██████╗ 
-██╔════╝██╔════╝██║     ██╔════╝    ██╔════╝██╔════╝██╔══██╗██║   ██║██╔════╝██╔══██╗
-███████╗█████╗  ██║     █████╗      ███████╗█████╗  ██████╔╝██║   ██║█████╗  ██████╔╝
-╚════██║██╔══╝  ██║     ██╔══╝      ╚════██║██╔══╝  ██╔══██╗╚██╗ ██╔╝██╔══╝  ██╔══██╗
-███████║███████╗███████╗██║         ███████║███████╗██║  ██║ ╚████╔╝ ███████╗██║  ██║
-╚══════╝╚══════╝╚══════╝╚═╝         ╚══════╝╚══════╝╚═╝  ╚═╝  ╚═══╝  ╚══════╝╚═╝  ╚═╝
-                                                                                     
-```
-
 # Web Server Launcher Script
 
 This script creates a server to launch and test your web pages. It utilizes the Express framework and requires the installation of the Express package before running it (use `npm install express` command).
