@@ -10,6 +10,9 @@
                                                                                      
 ```
 
+# HERE, YOU WILL BE SHOWN HOW TO CREATE A SECURE LOCAL SERVER. THESE STEPS ARE RATHER UNNECESSARY; YOU SIMPLY NEED TO USE THE CODE CONTAINED IN server.js. THE REMAINING PORTION IS PURELY EDUCATIONAL, AIMED AT SECURING YOUR WEBSITES ONLINE AND INTRODUCING YOU TO CYBERSECURITY.
+
+
 # Web Server Launcher Script
 
 This script creates a server to launch and test your web pages. It utilizes the Express framework and requires the installation of the Express package before running it (use `npm install express` command).
