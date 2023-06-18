@@ -30,7 +30,7 @@ There are three versions of the script:
 npm install express
 ```
 
-    For `fullSafeServer.js`, run the following additional commands:
+For `fullSafeServer.js`, run the following additional commands:
 
 ```
 npm install helmet express-rate-limit hpp
@@ -45,7 +45,7 @@ npm install helmet express-rate-limit hpp
 ```
 node server.js
 ```
-    Replace `server.js` with `safeServer.js` or `fullSafeServer.js` as needed.
+Replace `server.js` with `safeServer.js` or `fullSafeServer.js` as needed.
 
 If you're on windows, you also can simply use the batch file I provide by clicking on it, or make yours, just open a new txt file write `node server.js` and rename the file with the name you want + extension `.bat` ( you first have to enable extension modification on your system, it's where you can also chose to display hidden content)
 
