@@ -26,13 +26,13 @@ There are three versions of the script:
 
 1. Install the necessary dependencies by running the following command in the project folder:
 
-```bash
+```
 npm install express
 ```
 
     For `fullSafeServer.js`, run the following additional commands:
 
-```bash
+```
 npm install helmet express-rate-limit hpp
 ```
 
@@ -42,7 +42,7 @@ npm install helmet express-rate-limit hpp
 
 4. Execute the script by running the following command:
 
-```bash
+```
 node server.js
 ```
     Replace `server.js` with `safeServer.js` or `fullSafeServer.js` as needed.
