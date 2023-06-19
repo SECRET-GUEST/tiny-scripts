@@ -16,6 +16,7 @@
 [![Windows](https://img.shields.io/badge/OS-Windows-informational.svg)](https://www.microsoft.com/windows)
 [![Visual Studio Code](https://img.shields.io/badge/IDE-Visual%20Studio%20Code-blueviolet.svg)](https://code.visualstudio.com/)
 
+#ENGLISH VERSION AVAILABLE BOTTOM OF THIS ONE
 
 # Script de lancement du projet Webpack pour Three.js
 
@@ -55,3 +56,57 @@ npx vite
 - À la fin, il vous demande si vous voulez ouvrir le projet dans Visual Studio Code et si vous voulez démarrer le serveur. Si vous répondez oui à l'une ou l'autre de ces questions, il exécute l'action correspondante.
 
 Notez : Assurez-vous d'installer les dépendances requises et d'ajuster le numéro du port selon vos besoins.
+
+
+
+```
+███████╗███████╗██████╗ ██╗   ██╗███████╗██████╗ 
+██╔════╝██╔════╝██╔══██╗██║   ██║██╔════╝██╔══██╗
+███████╗█████╗  ██████╔╝██║   ██║█████╗  ██████╔╝
+╚════██║██╔══╝  ██╔══██╗╚██╗ ██╔╝██╔══╝  ██╔══██╗
+███████║███████╗██║  ██║ ╚████╔╝ ███████╗██║  ██║
+╚══════╝╚══════╝╚═╝  ╚═╝  ╚═══╝  ╚══════╝╚═╝  ╚═╝
+```                                          
+
+
+
+# Webpack Project Launcher Script for Three.js
+
+This script creates a development environment for Three.js projects. It uses Webpack for module bundling and Vite for the development server. The necessary dependencies are installed via npm.
+
+## Usage
+
+0. Install JavaScript (Node) on your machine: https://nodejs.org/en/download
+
+1. Save the script to a file at the root of your project folder.
+
+2. Open a terminal or command prompt and navigate to your project folder.
+
+3. Run the script by double-clicking on it or executing it from the terminal. It will ask you how to name your project, install the necessary dependencies, create a batch file to start the server, and ask if you want to create a basic HTML file.
+
+4. To start the development server, run the `server.bat` file created by the script, or use the following command in the terminal:
+
+
+```bash
+npx vite
+```
+
+## Explanation
+
+- The script starts by asking for your project's name.
+
+- It then installs the necessary dependencies, notably Webpack, Three.js, and Vite.
+
+- It creates the `webpack.config.js` file, which contains the basic configuration for Webpack.
+
+- It then creates the `src` directory and the `index.js` file inside this directory, where you can start writing your Three.js code.
+
+- It compiles the bundle with Webpack.
+
+- It creates the `server.bat` file to start the development server with Vite.
+
+- It then asks you if you want to create a basic HTML file. If you answer yes, it creates the `index.html` file with a script referring to the bundle created by Webpack.
+
+- At the end, it asks you if you want to open the project in Visual Studio Code and if you want to start the server. If you answer yes to either of these questions, it performs the corresponding action.
+
+Note: Make sure to install the required dependencies and adjust the port number according to your needs.
