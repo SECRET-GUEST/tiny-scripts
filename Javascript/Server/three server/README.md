@@ -16,7 +16,7 @@
 [![Windows](https://img.shields.io/badge/OS-Windows-informational.svg)](https://www.microsoft.com/windows)
 [![Visual Studio Code](https://img.shields.io/badge/IDE-Visual%20Studio%20Code-blueviolet.svg)](https://code.visualstudio.com/)
 
-# ENGLISH VERSION AVAILABLE BOTTOM OF THIS ONE BATCH IN FRENCH OR ENGLISH
+# ENGLISH DESCRIPTION AVAILABLE BOTTOM OF THIS ONE BATCH IN FRENCH OR ENGLISH
 
 # Script de lancement du projet Webpack pour Three.js
 
