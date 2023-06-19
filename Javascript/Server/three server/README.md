@@ -1,4 +1,5 @@
-[![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)[![Windows](https://img.shields.io/badge/OS-Windows-informational.svg)](https://www.microsoft.com/windows)
+
 
 ```
 ██╗    ██╗███████╗██████╗ ██████╗  █████╗  ██████╗██╗  ██╗
@@ -13,7 +14,6 @@
 [![Webpack](https://img.shields.io/badge/Webpack-5.0.0-blue.svg)](https://webpack.js.org/)
 [![Three.js](https://img.shields.io/badge/Three.js-R128-orange.svg)](https://threejs.org/)
 [![Vite](https://img.shields.io/badge/Vite-2.0.0-green.svg)](https://vitejs.dev/)
-[![Windows](https://img.shields.io/badge/OS-Windows-informational.svg)](https://www.microsoft.com/windows)
 [![Visual Studio Code](https://img.shields.io/badge/IDE-Visual%20Studio%20Code-blueviolet.svg)](https://code.visualstudio.com/)
 
 # ENGLISH DESCRIPTION AVAILABLE BOTTOM OF THIS ONE BATCH IN FRENCH OR ENGLISH
