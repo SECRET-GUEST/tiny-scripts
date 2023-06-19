@@ -36,6 +36,53 @@ Ce script crée un environnement de développement pour les projets Three.js. Il
 ```bash
 npx vite
 ```
+5. Ajoutez vos scripts .js dans le dossier src, dans index.js (comme dans notre exemple), n'oubliez pas de tout intégrer, en encapsulant dans des fonctions à exporter. Notez que les variables globales risquent de vous poser problème.
+
+Par exemple, vous pouvez procéder de la manière suivante :
+
+**page1.js**
+```js
+function checkViewport() {
+    let viewportWidth = window.innerWidth || document.documentElement.clientWidth;
+    let viewportHeight = window.innerHeight || document.documentElement.clientHeight;
+
+    return { width: viewportWidth, height: viewportHeight };
+}
+
+export { checkViewport };
+```
+page2.js
+```js
+let globalVariable = "I'm a global variable";
+
+function scrollFunction() {
+    let scrollPosition = window.scrollY;
+    console.log(`You're at ${scrollPosition}px from the top of the page`);
+
+    // Usage of the global variable
+    console.log(globalVariable);
+}
+
+export { scrollFunction };
+
+```
+index.js
+```js
+import { checkViewport } from './page1.js';
+import { scrollFunction } from './page2.js';
+
+document.addEventListener("DOMContentLoaded", () => {
+    console.log(checkViewport());
+    document.addEventListener('scroll', scrollFunction);
+});
+
+```
+
+6. Transpilez enfin le code à l'aide de cette commande :
+   
+```bash
+npx webpack
+```
 
 ## Explication
 
@@ -86,6 +133,52 @@ This script creates a development environment for Three.js projects. It uses Web
 
 4. To start the development server, run the `server.bat` file created by the script, or use the following command in the terminal:
 
+5. Add your .js scripts in the src folder, in index.js (as in our example), remember to integrate everything by encapsulating in functions to be exported. Note that global variables might cause you issues.
+
+
+**page1.js**
+```js
+function checkViewport() {
+    let viewportWidth = window.innerWidth || document.documentElement.clientWidth;
+    let viewportHeight = window.innerHeight || document.documentElement.clientHeight;
+
+    return { width: viewportWidth, height: viewportHeight };
+}
+
+export { checkViewport };
+```
+page2.js
+```js
+let globalVariable = "I'm a global variable";
+
+function scrollFunction() {
+    let scrollPosition = window.scrollY;
+    console.log(`You're at ${scrollPosition}px from the top of the page`);
+
+    // Usage of the global variable
+    console.log(globalVariable);
+}
+
+export { scrollFunction };
+
+```
+index.js
+```js
+import { checkViewport } from './page1.js';
+import { scrollFunction } from './page2.js';
+
+document.addEventListener("DOMContentLoaded", () => {
+    console.log(checkViewport());
+    document.addEventListener('scroll', scrollFunction);
+});
+
+```
+
+6. Finally, transpile the code using this command:
+   
+```bash
+npx webpack
+```
 
 ```bash
 npx vite
