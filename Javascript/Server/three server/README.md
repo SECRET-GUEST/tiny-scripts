@@ -18,7 +18,9 @@
 
 # Script de lancement du projet Webpack pour Three.js
 
-Ce script crée un environnement de développement pour les projets Three.js. Il utilise Webpack pour la compilation des modules et Vite pour le serveur de développement. L'installation des dépendances nécessaires est réalisée par npm.
+Ce script crée un environnement de développement pour les projets Three.js. Il utilise Webpack pour la compilation des modules et pour le serveur de développement. L'installation des dépendances nécessaires est réalisée par npm.
+
+(Supprimez "code" . du fichier batch si vous n'utilisez pas visual studio code, remplacez le par votre IDE)
 
 ## Utilisation
 
@@ -128,7 +130,9 @@ Notez : Assurez-vous d'installer les dépendances requises et d'ajuster le numé
 
 # Webpack Project Launcher Script for Three.js
 
-This script creates a development environment for Three.js projects. It uses Webpack for module bundling and Vite for the development server. The necessary dependencies are installed via npm.
+This script creates a development environment for Three.js projects. It uses Webpack for module bundling and for the development server. The necessary dependencies are installed via npm.
+
+(Remove "code" from batch file if you're not using visual studio code, replace it by your IDE)
 
 ## Usage
 
