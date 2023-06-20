@@ -77,17 +77,6 @@ document.addEventListener("DOMContentLoaded", () => {
 ```
 
 
-En plus des étapes précédentes, vous devrez modifier votre fichier `package.json` pour y ajouter des scripts qui vont utiliser la configuration de Webpack.
-
-Voici les lignes à ajouter :
-
-```json
-"scripts": {
-    "start": "webpack serve --open",
-    "build": "webpack"
-}
-```
-
 Voici une explication des scripts :
 
 - `"start": "webpack serve --open"` : Ce script démarre le serveur de développement, qui sert votre application en mode développement et recharge la page automatiquement à chaque modification du code source. L'option `--open` indique à Webpack d'ouvrir automatiquement votre navigateur à l'URL du serveur de développement.
@@ -186,25 +175,6 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 ```
-
-In addition to the previous steps, you will need to modify your `package.json` file to include scripts that will use the Webpack configuration.
-
-Here are the lines to add:
-
-```json
-"scripts": {
-    "start": "webpack serve --open",
-    "build": "webpack"
-}
-```
-
-Here's an explanation of the scripts:
-
-- `"start": "webpack serve --open"`: This script starts the development server, which serves your app in development mode and automatically reloads the page whenever you change the source code. The `--open` option tells Webpack to automatically open your browser to the development server's URL.
-
-- `"build": "webpack"`: This script creates a bundle of your application in production mode. It optimizes your application for performance and the final bundle size.
-
-
 
 
 ## Explanation
