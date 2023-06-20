@@ -12,7 +12,9 @@
 [![Webpack](https://img.shields.io/badge/Webpack-5.0.0-blue.svg)](https://webpack.js.org/)
 [![Batch Script](https://img.shields.io/badge/Batch%20Script-1.0.0-blue.svg)](https://url_a_mettre_a_jour)
 
-# ENGLISH DESCRIPTION AVAILABLE BOTTOM OF THIS ONE BATCH IN FRENCH OR ENGLISH
+# ENGLISH DESCRIPTION AVAILABLE BOTTOM OF THIS DESCRIPTION
+
+### BATCH IN FRENCH OR ENGLISH yw^^
 
 # Script de lancement du projet Webpack pour Three.js
 
