@@ -95,6 +95,7 @@ echo   "devDependencies": {
 echo     "@babel/core": "^7.22.5",
 echo     "@babel/preset-env": "^7.22.5",
 echo     "babel-loader": "^9.1.2",
+echo     "copy-webpack-plugin": "^11.0.0",
 echo     "css-loader": "^6.8.1",
 echo     "html-webpack-plugin": "^5.5.3",
 echo     "mini-css-extract-plugin": "^2.7.6",
@@ -115,6 +116,7 @@ echo !text4!
 echo const path = require('path');>> webpack.config.js
 echo const HtmlWebpackPlugin = require('html-webpack-plugin');>> webpack.config.js
 echo const MiniCssExtractPlugin = require('mini-css-extract-plugin');>> webpack.config.js
+echo const CopyWebpackPlugin = require('copy-webpack-plugin');>> webpack.config.js
 echo.>> webpack.config.js
 echo module.exports = {>> webpack.config.js
 echo   mode: process.env.NODE_ENV === 'production' ? 'production' : 'development',>> webpack.config.js
@@ -163,6 +165,11 @@ echo     }),>> webpack.config.js
 echo     new MiniCssExtractPlugin({>> webpack.config.js
 echo       filename: 'style.css',>> webpack.config.js
 echo     }),>> webpack.config.js
+echo     new CopyWebpackPlugin({>> webpack.config.js
+echo       patterns: [>> webpack.config.js
+echo         { from: './assets', to: 'assets' }>> webpack.config.js
+echo       ],>> webpack.config.js
+echo     }),>> webpack.config.js
 echo   ],>> webpack.config.js
 echo   devServer: {>> webpack.config.js
 echo     static: {>> webpack.config.js
@@ -174,6 +181,7 @@ echo     open: true,>> webpack.config.js
 echo     hot: true>> webpack.config.js
 echo   }>> webpack.config.js
 echo };>> webpack.config.js
+
 cls
 echo !text5!
 mkdir src
