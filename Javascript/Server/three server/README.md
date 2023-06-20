@@ -32,10 +32,8 @@ Ce script crée un environnement de développement pour les projets Three.js. Il
 
 3. Exécutez le script en double-cliquant dessus ou en l'exécutant depuis le terminal. Il vous demandera comment nommer votre projet, installera les dépendances nécessaires, créera un fichier batch pour démarrer le serveur, et vous demandera si vous voulez créer un fichier HTML de base.
 
-4. Pour démarrer le serveur de développement, exécutez le fichier `server.bat` créé par le script, ou utilisez la commande suivante dans le terminal:
-```bash
-npx vite
-```
+4. Pour démarrer le serveur de développement, exécutez simplement le fichier `server.bat` créé par le script.
+
 5. Ajoutez vos scripts .js dans le dossier src, dans index.js (comme dans notre exemple), n'oubliez pas de tout intégrer, en encapsulant dans des fonctions à exporter. Notez que les variables globales risquent de vous poser problème.
 
 Par exemple, vous pouvez procéder de la manière suivante :
@@ -78,11 +76,24 @@ document.addEventListener("DOMContentLoaded", () => {
 
 ```
 
-6. Transpilez enfin le code à l'aide de cette commande :
-   
-```bash
-npx webpack
+
+En plus des étapes précédentes, vous devrez modifier votre fichier `package.json` pour y ajouter des scripts qui vont utiliser la configuration de Webpack.
+
+Voici les lignes à ajouter :
+
+```json
+"scripts": {
+    "start": "webpack serve --open",
+    "build": "webpack"
+}
 ```
+
+Voici une explication des scripts :
+
+- `"start": "webpack serve --open"` : Ce script démarre le serveur de développement, qui sert votre application en mode développement et recharge la page automatiquement à chaque modification du code source. L'option `--open` indique à Webpack d'ouvrir automatiquement votre navigateur à l'URL du serveur de développement.
+
+- `"build": "webpack"` : Ce script crée un bundle de votre application en mode production. Il optimise votre application pour la performance et la taille du bundle final.
+
 
 ## Explication
 
@@ -96,7 +107,7 @@ npx webpack
 
 - Il compile le bundle avec Webpack.
 
-- Il crée le fichier `server.bat` pour démarrer le serveur de développement avec Vite.
+- Il crée le fichier `server.bat` pour démarrer le serveur de développement. Ce serveur est également responsable de la transpilation et du bundling de votre code.
 
 - Il vous demande ensuite si vous voulez créer un fichier HTML de base. Si vous répondez oui, il crée le fichier `index.html` avec un script qui se réfère au bundle créé par Webpack.
 
@@ -131,7 +142,7 @@ This script creates a development environment for Three.js projects. It uses Web
 
 3. Run the script by double-clicking on it or executing it from the terminal. It will ask you how to name your project, install the necessary dependencies, create a batch file to start the server, and ask if you want to create a basic HTML file.
 
-4. To start the development server, run the `server.bat` file created by the script, or use the following command in the terminal:
+4. To start the development server, simply run the `server.bat` file created by the script.
 
 5. Add your .js scripts in the src folder, in index.js (as in our example), remember to integrate everything by encapsulating in functions to be exported. Note that global variables might cause you issues.
 
@@ -174,15 +185,25 @@ document.addEventListener("DOMContentLoaded", () => {
 
 ```
 
-6. Finally, transpile the code using this command:
-   
-```bash
-npx webpack
+In addition to the previous steps, you will need to modify your `package.json` file to include scripts that will use the Webpack configuration.
+
+Here are the lines to add:
+
+```json
+"scripts": {
+    "start": "webpack serve --open",
+    "build": "webpack"
+}
 ```
 
-```bash
-npx vite
-```
+Here's an explanation of the scripts:
+
+- `"start": "webpack serve --open"`: This script starts the development server, which serves your app in development mode and automatically reloads the page whenever you change the source code. The `--open` option tells Webpack to automatically open your browser to the development server's URL.
+
+- `"build": "webpack"`: This script creates a bundle of your application in production mode. It optimizes your application for performance and the final bundle size.
+
+
+
 
 ## Explanation
 
@@ -196,8 +217,8 @@ npx vite
 
 - It compiles the bundle with Webpack.
 
-- It creates the `server.bat` file to start the development server with Vite.
-
+- It creates the `server.bat` file to start the development server. This server is also responsible for transpiling and bundling your code.
+  
 - It then asks you if you want to create a basic HTML file. If you answer yes, it creates the `index.html` file with a script referring to the bundle created by Webpack.
 
 - At the end, it asks you if you want to open the project in Visual Studio Code and if you want to start the server. If you answer yes to either of these questions, it performs the corresponding action.
