@@ -18,21 +18,6 @@ https://github.com/SECRET-GUEST/Metamorphix
 
 This Python-based tool helps resize your images without significant quality loss, potentially freeing up storage on your device. It provides an intuitive user interface that allows you to choose the directory of images you want to resize and the quality percentage to which the images will be reduced. It can also convert PNG images to JPEG before resizing.
 
-## How to use
-
-1. Clone the repository to your local machine.
-
-2. Install the necessary Python libraries by running `pip install -r requirements.txt`.
-
-3. Run `python main.py` to open the application.
-
-4. Use the "Select Folder" button to choose the directory of images to resize.
-
-5. Adjust the quality percentage to which images will be resized using the slider.
-
-6. (Optional) Check the "Convert PNG to JPEG" box if you want to convert PNG images to JPEG before resizing.
-
-7. Click the "Resize Images" button to start resizing.
 
 ## Features
 
@@ -45,7 +30,6 @@ This Python-based tool helps resize your images without significant quality loss
 ## Note
 
 Make sure you have Python 3 and the necessary Python libraries installed before running the application.
-
 
 
 ## :scroll: License
