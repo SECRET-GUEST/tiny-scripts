@@ -1,8 +1,16 @@
 [![Python](httpsimg.shields.iobadgePython-3.8-blue.svg)](httpswww.python.org)
+[![OS](httpsimg.shields.iobadgeOS-Windows%20%7C%20MacOS%20%7C%20Linux-informational.svg)](httpswww.python.org)
+```
+████████╗███████╗██╗  ██╗████████╗    ███████╗██╗  ██╗████████╗██████╗  █████╗  ██████╗████████╗ ██████╗ ██████╗ 
+╚══██╔══╝██╔════╝╚██╗██╔╝╚══██╔══╝    ██╔════╝╚██╗██╔╝╚══██╔══╝██╔══██╗██╔══██╗██╔════╝╚══██╔══╝██╔═══██╗██╔══██╗
+   ██║   █████╗   ╚███╔╝    ██║       █████╗   ╚███╔╝    ██║   ██████╔╝███████║██║        ██║   ██║   ██║██████╔╝
+   ██║   ██╔══╝   ██╔██╗    ██║       ██╔══╝   ██╔██╗    ██║   ██╔══██╗██╔══██║██║        ██║   ██║   ██║██╔══██╗
+   ██║   ███████╗██╔╝ ██╗   ██║       ███████╗██╔╝ ██╗   ██║   ██║  ██║██║  ██║╚██████╗   ██║   ╚██████╔╝██║  ██║
+   ╚═╝   ╚══════╝╚═╝  ╚═╝   ╚═╝       ╚══════╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝   ╚═╝    ╚═════╝ ╚═╝  ╚═╝
+                                                                                                                 
+```
 [![PyQt5](httpsimg.shields.iobadgePyQt5-5.15.2-blue.svg)](httpspypi.orgprojectPyQt5)
 [![BeautifulSoup](httpsimg.shields.iobadgeBeautifulSoup-4.9.3-blue.svg)](httpspypi.orgprojectbeautifulsoup4)
-[![OS](httpsimg.shields.iobadgeOS-Windows%20%7C%20MacOS%20%7C%20Linux-informational.svg)](httpswww.python.org)
-[![IDE](httpsimg.shields.iobadgeIDE-PyCharm-blueviolet.svg)](httpswww.jetbrains.compycharm)
 
 # HTML Text Extractor
 
