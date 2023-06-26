@@ -1,8 +1,16 @@
 [![Python](https://img.shields.io/badge/Python-3.8-blue.svg)](https://www.python.org/)
+[![OS](https://img.shields.io/badge/OS-Windows%20%7C%20MacOS%20%7C%20Linux-informational.svg)](https://www.python.org/)
+```
+     ██╗███████╗ ██████╗ ███╗   ██╗    ██████╗     ██╗  ██╗████████╗███╗   ███╗██╗     
+     ██║██╔════╝██╔═══██╗████╗  ██║    ╚════██╗    ██║  ██║╚══██╔══╝████╗ ████║██║     
+     ██║███████╗██║   ██║██╔██╗ ██║     █████╔╝    ███████║   ██║   ██╔████╔██║██║     
+██   ██║╚════██║██║   ██║██║╚██╗██║    ██╔═══╝     ██╔══██║   ██║   ██║╚██╔╝██║██║     
+╚█████╔╝███████║╚██████╔╝██║ ╚████║    ███████╗    ██║  ██║   ██║   ██║ ╚═╝ ██║███████╗
+ ╚════╝ ╚══════╝ ╚═════╝ ╚═╝  ╚═══╝    ╚══════╝    ╚═╝  ╚═╝   ╚═╝   ╚═╝     ╚═╝╚══════╝
+                                                                                       
+```
 [![PyQt5](https://img.shields.io/badge/PyQt5-5.15.2-blue.svg)](https://pypi.org/project/PyQt5/)
 [![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-4.9.3-blue.svg)](https://pypi.org/project/beautifulsoup4/)
-[![OS](https://img.shields.io/badge/OS-Windows%20%7C%20MacOS%20%7C%20Linux-informational.svg)](https://www.python.org/)
-[![IDE](https://img.shields.io/badge/IDE-PyCharm-blueviolet.svg)](https://www.jetbrains.com/pycharm/)
 
 # HTML-JSON Parser
 
