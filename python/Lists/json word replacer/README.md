@@ -1,11 +1,16 @@
-Here's the Github description in English for your script:
 
-```
 [![Python](https://img.shields.io/badge/Python-3.8-blue.svg)](https://www.python.org/)
 [![PyQt5](https://img.shields.io/badge/PyQt5-5.15.2-blue.svg)](https://pypi.org/project/PyQt5/)
 [![OS](https://img.shields.io/badge/OS-Windows%20%7C%20MacOS%20%7C%20Linux-informational.svg)](https://www.python.org/)
-[![IDE](https://img.shields.io/badge/IDE-PyCharm-blueviolet.svg)](https://www.jetbrains.com/pycharm/)
-
+```
+     ██╗███████╗ ██████╗ ███╗   ██╗    ██╗    ██╗ ██████╗ ██████╗ ██████╗ ███████╗    ██████╗ ███████╗██████╗ ██╗      █████╗  ██████╗███████╗██████╗ 
+     ██║██╔════╝██╔═══██╗████╗  ██║    ██║    ██║██╔═══██╗██╔══██╗██╔══██╗██╔════╝    ██╔══██╗██╔════╝██╔══██╗██║     ██╔══██╗██╔════╝██╔════╝██╔══██╗
+     ██║███████╗██║   ██║██╔██╗ ██║    ██║ █╗ ██║██║   ██║██████╔╝██║  ██║███████╗    ██████╔╝█████╗  ██████╔╝██║     ███████║██║     █████╗  ██████╔╝
+██   ██║╚════██║██║   ██║██║╚██╗██║    ██║███╗██║██║   ██║██╔══██╗██║  ██║╚════██║    ██╔══██╗██╔══╝  ██╔═══╝ ██║     ██╔══██║██║     ██╔══╝  ██╔══██╗
+╚█████╔╝███████║╚██████╔╝██║ ╚████║    ╚███╔███╔╝╚██████╔╝██║  ██║██████╔╝███████║    ██║  ██║███████╗██║     ███████╗██║  ██║╚██████╗███████╗██║  ██║
+ ╚════╝ ╚══════╝ ╚═════╝ ╚═╝  ╚═══╝     ╚══╝╚══╝  ╚═════╝ ╚═╝  ╚═╝╚═════╝ ╚══════╝    ╚═╝  ╚═╝╚══════╝╚═╝     ╚══════╝╚═╝  ╚═╝ ╚═════╝╚══════╝╚═╝  ╚═╝
+                                                                                                                                                      
+```
 # JSON Word Replacer
 
 This script provides a user interface to replace words in JSON files located within a selected directory. It uses the PyQt5 library to build the interface.
@@ -43,6 +48,3 @@ Note: Please back up your JSON files before using this tool to prevent unintende
 - The "Launch" button only becomes enabled after a directory is selected.
 
 Please ensure you have the necessary dependencies installed and Python version matches with the required one.
-```
-
-Please adjust the badges as per your requirement.
