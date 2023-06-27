@@ -1,5 +1,6 @@
 import os
 import json
+import shutil
 from bs4 import BeautifulSoup
 from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QVBoxLayout, QFileDialog
 
@@ -34,20 +35,25 @@ class MyApp(QWidget):
         html_files = [os.path.join(self.directory, f) for f in os.listdir(self.directory) if f.endswith('.html')]
         json_files = [os.path.join(self.directory, f) for f in os.listdir(self.directory) if f.endswith('.json')]
 
-        for html_file in html_files:
-            json_file = html_file.replace('.html', '.json')
-            if json_file in json_files:
+        if len(html_files) > 0:
+            html_file = html_files[0]
+
+            for json_file in json_files:
+                new_html_file = os.path.join(self.directory, os.path.basename(json_file).replace('.json', '.html'))
+                shutil.copy2(html_file, new_html_file)
+
                 with open(json_file, 'r', encoding='utf-8') as jf:
                     data = json.load(jf)
-                with open(html_file, 'r', encoding='utf-8') as hf:
+                with open(new_html_file, 'r+', encoding='utf-8') as hf:
                     soup = BeautifulSoup(hf, 'html.parser')
                     for key, value in data.items():
 
                         span = soup.find('span', {'id': key})
                         if span:
                             span.replace_with(soup.new_string(value))
-
-                with open(html_file, 'w', encoding='utf-8') as hf:
+                    
+                    hf.seek(0)
+                    hf.truncate()
                     hf.write(str(soup))
 
 # Create the application
