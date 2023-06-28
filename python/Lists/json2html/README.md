@@ -32,6 +32,8 @@ This script provides a user interface for parsing HTML files and updating them b
 
 6. The script will go through each JSON file in the selected directory, duplicate the base HTML file, identify corresponding JSON files, parse the HTML, update it based on the JSON contents, and save the changes. Each duplicated HTML file is named after its corresponding JSON file.
 
+7. After that the script will create several dirs with corresponding html names, then put the files inside 
+
 Note: Please back up your HTML files before using this tool to prevent unintended data loss.
 
 ## Explanation
