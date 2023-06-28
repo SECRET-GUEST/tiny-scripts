@@ -56,6 +56,20 @@ class MyApp(QWidget):
                     hf.truncate()
                     hf.write(str(soup))
 
+        #Move file in new directories
+        for filename in os.listdir(self.directory):
+            if filename.endswith(".html"):
+                new_folder_name = os.path.splitext(filename)[0]
+                new_folder_path = os.path.join(self.directory, new_folder_name)
+
+                if not os.path.exists(new_folder_path):
+                    os.mkdir(new_folder_path)
+                
+
+                # Moving the HTML file to the new directory
+                shutil.move(os.path.join(self.directory, filename), new_folder_path)
+
+
 # Create the application
 app = QApplication([])
 window = MyApp()
