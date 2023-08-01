@@ -1,15 +1,15 @@
 import subprocess
 
-# Chemin vers votre navigateur Brave
-navigateur = r"C:YOUR_PATH\Firefox.exe"
+# Path to your browser
+browser = r"C:YOUR_PATH\Firefox.exe"
 
-# Lancer le navigateur Brave en mode privé
-process = subprocess.Popen([navigateur, "--incognito"])
+# Launch in private mode
+process = subprocess.Popen([browser, "--incognito"])
 
-# Attendre que le navigateur soit fermé
+# Wait browser is closed
 process.wait()
 
-# Exécuter la commande "ipconfig /flushdns"
+# Run "ipconfig /flushdns"
 subprocess.call(["ipconfig", "/flushdns"])
 
 
