@@ -18,6 +18,20 @@ This PowerShell script allows a user to easily change the DNS server used by the
 
 ## Usage
 
+
+To run the script with a single click, you can create a shortcut that launches PowerShell as an administrator and runs the script:
+
+1. Right-click on your desktop (or wherever you want to place the shortcut) and choose "New" > "Shortcut".
+
+2. In the window that opens, enter the following command in the "Type the location of the item" field:
+
+```
+powershell.exe -Command "Start-Process PowerShell -ArgumentList '-ExecutionPolicy Bypass -File ""C:\Path\to\the\script\dns.ps1""' -Verb RunAs"
+```
+
+
+Or you can also : 
+
 1. Download the script and place it in a location of your choice.
 
 2. Open a PowerShell window as an administrator.
@@ -30,15 +44,7 @@ This PowerShell script allows a user to easily change the DNS server used by the
 
 6. The script will then change your computer's DNS settings to use the DNS server you chose.
 
-To run the script with a single click, you can create a shortcut that launches PowerShell as an administrator and runs the script:
 
-1. Right-click on your desktop (or wherever you want to place the shortcut) and choose "New" > "Shortcut".
-
-2. In the window that opens, enter the following command in the "Type the location of the item" field:
-
-```
-powershell.exe -Command "Start-Process PowerShell -ArgumentList '-ExecutionPolicy Bypass -File ""C:\Path\to\the\script\dns.ps1""' -Verb RunAs"
-```
 
 Make sure to replace `"C:\Path\to\the\script\dns.ps1"` with the actual path to your script.
 
