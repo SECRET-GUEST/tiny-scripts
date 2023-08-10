@@ -1,5 +1,8 @@
-[![Python](https://img.shields.iobadgePython-3.8-blue.svg)](https://www.python.org)
-[![OS](https://img.shields.iobadgeOS-Windows%20%7C%20MacOS%20%7C%20Linux-informational.svg)](https://www.python.org)
+[![Python](https://img.shields.io/badge/Python-3.8-blue.svg)](https://www.python.org)
+[![OS](https://img.shields.io/badge/OS-Windows%20%7C%20MacOS%20%7C%20Linux-informational.svg)](https://www.python.org)
+
+
+
 ```
 ████████╗███████╗██╗  ██╗████████╗    ███████╗██╗  ██╗████████╗██████╗  █████╗  ██████╗████████╗ ██████╗ ██████╗ 
 ╚══██╔══╝██╔════╝╚██╗██╔╝╚══██╔══╝    ██╔════╝╚██╗██╔╝╚══██╔══╝██╔══██╗██╔══██╗██╔════╝╚══██╔══╝██╔═══██╗██╔══██╗
@@ -9,8 +12,8 @@
    ╚═╝   ╚══════╝╚═╝  ╚═╝   ╚═╝       ╚══════╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝   ╚═╝    ╚═════╝ ╚═╝  ╚═╝
                                                                                                                  
 ```
-[![PyQt5](https://img.shields.iobadgePyQt5-5.15.2-blue.svg)](https://pypi.orgprojectPyQt5)
-[![BeautifulSoup](https://img.shields.iobadgeBeautifulSoup-4.9.3-blue.svg)](https://pypi.orgprojectbeautifulsoup4)
+[![PyQt5](https://img.shields.io/badge/PyQt5-5.15.2-blue.svg)](https://pypi.org/project/PyQt5)
+[![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-4.9.3-blue.svg)](https://pypi.org/project/beautifulsoup4)
 
 # HTML Text Extractor
 
