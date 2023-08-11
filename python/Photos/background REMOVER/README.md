@@ -33,7 +33,7 @@ Background Remover is a GUI-based application crafted to remove the background f
 
 The application is user-friendly, allowing even non-tech-savvy individuals to easily remove backgrounds from images.
 
-### Usage and Dependencies
+## Usage and Dependencies
 
 Ensure you have the required libraries installed:
 
