@@ -30,3 +30,8 @@ Python 3.10+
 ```bash
 pip install PyQt5
 pip install pillow
+```
+
+## Complete Version
+
+Image Converter is also encompassed within a more comprehensive program called Metamorphix, offering additional options and extended functionalities. You can find the complete version here: [Metamorphix GitHub Repository.](https://github.com/SECRET-GUEST/Metamorphix)
