@@ -10,10 +10,6 @@
                                                           
 ```
 
-# WILL JOIN METAMORPHIX ASAP
-
-https://github.com/SECRET-GUEST/Metamorphix
-
 # PyQt5-based Image Resizer
 
 This Python-based tool helps resize your images without significant quality loss, potentially freeing up storage on your device. It provides an intuitive user interface that allows you to choose the directory of images you want to resize and the quality percentage to which the images will be reduced. It can also convert PNG images to JPEG before resizing.
@@ -27,9 +23,11 @@ This Python-based tool helps resize your images without significant quality loss
 - Progress bar showing the progress of the image resizing process.
 - Confirmation dialog when the resizing is done.
 
-## Note
 
-Make sure you have Python 3 and the necessary Python libraries installed before running the application.
+## Complete Version
+
+Image Converter is also encompassed within a more comprehensive program called Metamorphix, offering additional options and extended functionalities. You can find the complete version here: [Metamorphix GitHub Repository.](https://github.com/SECRET-GUEST/Metamorphix)
+
 
 
 ## :scroll: License
@@ -39,6 +37,8 @@ This repository is released under the [MIT License](LICENSE). Please see the `LI
 ## :question: Support & Questions
 
 If you have any questions or need support, please feel free to open an issue or join my twitter.
+
+
 
 
 
