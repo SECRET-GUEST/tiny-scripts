@@ -57,6 +57,10 @@
 #                     |                                                |      |                                   |                               |                         |                               |                         |                               |                              |                               |
 #          |                                   |                               |                   |                                |                       |                    |          |                                |                       |                    |          |                                |                       |                    |               |                                                                |
               
+#_ _  _ ____ ___ ____ _    _    ____ ___ _ ____ _  _
+#| |\ | [__   |  |__| |    |    |__|  |  | |  | |\ |
+#| | \| ___]  |  |  | |___ |___ |  |  |  | |__| | \|
+         
 
 import sys, os, imageio
 from PIL import Image
@@ -64,7 +68,11 @@ from PyQt5.QtCore import QThread,pyqtSignal
 from PyQt5.QtWidgets import QApplication, QVBoxLayout, QHBoxLayout, QLineEdit, QPushButton, QFileDialog, QWidget, QCheckBox, QComboBox, QMessageBox,QLabel
 
 
-
+#___  ____ _ _ _ ____ ____    ___  _    ____ _  _ ___
+#|__] |  | | | | |___ |__/    |__] |    |__| |\ |  |
+#|    |__| |_|_| |___ |  \    |    |___ |  | | \|  |
+                
+#OPENING | https://www.youtube.com/watch?v=_85LaeTCtV8 :3
 
 class ConversionThread(QThread):
     # Signal to be emitted in case of error during conversion
@@ -218,6 +226,10 @@ class ImageToGifConverter(QWidget):
         self.convert_button.setEnabled(True) 
 
 
+#____ ____ ____ ___  _  _ _ ____ ____ _       _  _ ____ ____ ____    _ _  _ ___ ____ ____ ____ ____ ____ ____ 
+#| __ |__/ |__| |__] |__| | |    |__| |       |  | [__  |___ |__/    | |\ |  |  |___ |__/ |___ |__| |    |___ 
+#|__] |  \ |  | |    |  | | |___ |  | |___    |__| ___] |___ |  \    | | \|  |  |___ |  \ |    |  | |___ |___ 
+   
 
     def GUI(self):
 
@@ -276,6 +288,12 @@ class ImageToGifConverter(QWidget):
 
         self.setLayout(self.mainLayout)
 
+
+#____ ____ ____ _  _ ____ ___    _    ____ _  _ _  _ ____ _  _
+#|__/ |  | |    |_/  |___  |     |    |__| |  | |\ | |    |__|
+#|  \ |__| |___ | \_ |___  |     |___ |  | |__| | \| |___ |  |
+                
+#ENDING | https://www.youtube.com/watch?v=CgZVrvQZB6U&ab_channel=SECRETGUEST :3
 
 
 if __name__ == '__main__':
