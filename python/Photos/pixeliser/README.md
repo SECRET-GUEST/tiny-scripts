@@ -9,20 +9,53 @@ Python 3.11
 ╚═╝     ╚═╝╚═╝  ╚═╝╚══════╝╚══════╝╚═╝╚══════╝╚══════╝╚═╝  ╚═╝
 ```
 
-This script will pixelate your pictures keeping the same size of the original one.
+[![PIL](https://img.shields.io/badge/PIL-8.3.1-green.svg)](https://pypi.org/project/PIL/)
+[![Python](https://img.shields.io/badge/Python-3.11-blue.svg)](https://www.python.org/downloads/release/python-311/)
 
-# Installation :
+This script will pixelate your pictures, keeping the same size as the original one.
 
-You may have to import PIL (not pillow) if case you don't have the library included in your python
+# Version 1
+
+The first version of Pixeliser is a simple command-line script that pixelates an image. You can change the size of the pixels and the paths for input and output files directly within the code.
+
+## Installation for Version 1:
+
+You may have to import PIL (not pillow) if you don't have the library included in your Python environment.
 So run in your CMD 
 
+```bash
 python -m pip install PIL
+```
 
-After this you have to set these things ;
+After this, you have to set these things:
 
-  1. Change input path by yours
-  2. Change pixel size
-  3. Change ouput path, and name the file, choose extension.
+  1. Change the input path to yours
+  2. Change the pixel size
+  3. Change the output path, and name the file, choose the extension.
+
+
+# Version 2 (Pixeliser v2)
+
+Version 2 introduces a GUI using PyQt5, enabling users to select input/output folders or single files, and apply pixelization with a click. It provides options to pixelize a single image or a complete folder, allowing a more user-friendly experience.
+
+## Installation for Version 2:
+
+Follow the same installation process as Version 1, and make sure you have PyQt5 installed:
+
+```bash
+python -m pip install PyQt5
+```
+
+### Usage:
+
+  1. Run the script
+  2. Select Input (either a Folder or an individual image)
+  3. Select Output Folder
+  4. Choose the Pixel Size
+  5. Click "Launch pixelizer"
+
+**Note:** Version 2 is used in a more comprehensive program, Metamorphix. Check it out [here](https://github.com/SECRET-GUEST/Metamorphix)!
+
 
 # Examples :
 
