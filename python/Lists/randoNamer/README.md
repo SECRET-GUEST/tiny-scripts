@@ -26,7 +26,7 @@ This script provides a user interface for managing and renaming files in a direc
 
 3. Run the script. You will see a GUI with multiple buttons.
 
-4. Use the 'Open file .txt' button to open a text file which contains the list of new names.
+4. Drag'n'Drop txt files or use the 'Open file .txt' button to open a text file which contains the list of new names.
 
 5. Use the 'Delete clones' button to remove duplicates from the names list.
 
