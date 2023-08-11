@@ -20,7 +20,7 @@ Image Converter is a GUI-based program allowing for effortless conversion of ima
 - **Single File Conversion**: Converts an individual image file from one format to another.
 - **Folder Conversion**: Converts all image files of a specific format in a given folder.
 - **All Subfolders Conversion**: Recursively traverses subfolders and converts images, retaining the same folder architecture in the output directory.
-- **'arw' Format Support**: Utilizes `rawpy` to process 'arw' format images.
+- `arw`**Format Support**: Utilizes `rawpy` to process 'arw' format images.
 
 The program also includes error-handling mechanisms to provide informative messages if something goes awry during the conversion process.
 
