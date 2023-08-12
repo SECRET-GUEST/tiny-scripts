@@ -32,6 +32,6 @@ pip install PyQt5
 pip install pillow
 ```
 
-## Complete Version
+## Complete version
 
-Image Converter is also encompassed within a more comprehensive program called Metamorphix, offering additional options and extended functionalities. You can find the complete version here: [Macara GitHub Repository.](https://github.com/SECRET-GUEST/Macara)
+You can find a complete version with other options here : [Macara GitHub Repository.](https://github.com/SECRET-GUEST/Macara)
