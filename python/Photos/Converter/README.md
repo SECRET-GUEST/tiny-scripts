@@ -24,6 +24,6 @@ Image Converter is a GUI-based program allowing for effortless conversion of ima
 
 The program also includes error-handling mechanisms to provide informative messages if something goes awry during the conversion process.
 
-## Complete Version
+## Complete version
 
-Image Converter is also encompassed within a more comprehensive program called Metamorphix, offering additional options and extended functionalities. You can find the complete version here: [Metamorphix GitHub Repository](https://github.com/SECRET-GUEST/Metamorphix).
+You can find a complete version with other options here : [Macara GitHub Repository.](https://github.com/SECRET-GUEST/Macara)
