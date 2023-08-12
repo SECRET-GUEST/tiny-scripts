@@ -12,7 +12,7 @@
 
 # PyQt5-based Image Resizer
 
-This Python-based tool helps resize your images without significant quality loss, potentially freeing up storage on your device. It provides an intuitive user interface that allows you to choose the directory of images you want to resize and the quality percentage to which the images will be reduced. It can also convert PNG images to JPEG before resizing.
+This Python-based tool helps compress your images without significant quality loss, potentially freeing up storage on your device. It provides an intuitive user interface that allows you to choose the directory of images you want to resize and the quality percentage to which the images will be reduced. It can also convert PNG images to JPEG before resizing.
 
 
 ## Features
@@ -24,9 +24,11 @@ This Python-based tool helps resize your images without significant quality loss
 - Confirmation dialog when the resizing is done.
 
 
+
 ## Complete Version
 
-Image Converter is also encompassed within a more comprehensive program called Metamorphix, offering additional options and extended functionalities. You can find the complete version here: [Metamorphix GitHub Repository.](https://github.com/SECRET-GUEST/Metamorphix)
+QRusher is also encompassed within a more comprehensive program called Macara, offering additional options and extended functionalities. You can find the complete version here: [Macara GitHub Repository.](https://github.com/SECRET-GUEST/Macara)
+
 
 
 
