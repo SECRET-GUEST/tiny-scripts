@@ -21,4 +21,8 @@ The converted GIF is then saved to a user-specified location. Additionally, the 
 
 # Complete version
 
-You can find a complete version with other options here : https://github.com/SECRET-GUEST/Metamorphix
+You can find a complete version with other options here : [Macara GitHub Repository.](https://github.com/SECRET-GUEST/Macara)
+
+
+
+
