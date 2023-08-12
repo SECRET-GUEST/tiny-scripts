@@ -54,11 +54,9 @@ Run the application by executing the main script:
 python remBackBatch.py
 ```
 
-## Complete Version
+## Complete version
 
-Image Converter is also encompassed within a more comprehensive program called Macara, offering additional options and extended functionalities. You can find the complete version here: [Macara GitHub Repository.](https://github.com/SECRET-GUEST/Macara)
-
-
+You can find a complete version with other options here : [Macara GitHub Repository.](https://github.com/SECRET-GUEST/Macara)
 
 
 
