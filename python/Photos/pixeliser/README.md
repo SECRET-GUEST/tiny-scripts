@@ -54,7 +54,7 @@ python -m pip install PyQt5
   4. Choose the Pixel Size
   5. Click "Launch pixelizer"
 
-**Note:** Version 2 is used in a more comprehensive program, Metamorphix. Check it out [Macara GitHub Repository](https://github.com/SECRET-GUEST/Macara) !
+**Note:** Version 2 is used in a more comprehensive program, Macara. Check it out [Macara GitHub Repository](https://github.com/SECRET-GUEST/Macara) !
 
 
 # Examples :
