@@ -53,3 +53,8 @@ Note: Please back up your files before using this tool to prevent unintended dat
 - A progress bar is displayed during the renaming process.
 
 Please ensure you have the necessary dependencies installed and Python version matches with the required one.
+
+
+## Complete version
+
+You can find a complete version with other options here : [Macara GitHub Repository.](https://github.com/SECRET-GUEST/Macara)
