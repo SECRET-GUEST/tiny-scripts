@@ -8,7 +8,7 @@
 
 ```
 
-# Easily install a crypto miner on raspbery pi
+# Easily install a crypto miner on raspbery pi or any linux machine
 
 This guide provides step-by-step instructions on how to mine Bitcoin using a Raspberry Pi, either solo or by joining a mining pool. While solo mining is more private, mining in a pool can increase the chances of earning rewards due to combined computational power.
 
@@ -16,6 +16,13 @@ This guide provides step-by-step instructions on how to mine Bitcoin using a Ras
 
 The following 'bis' steps are specifically for those who wish to participate in a mining pool. If you follow the main tutorial without these additional steps, you'll be solo mining. Solo mining on a Raspberry Pi or else is not efficient due to the advanced hardware already deployed by professional miners, making it extremely challenging to mine a block on your own. Joining a mining pool can increase your chances of earning rewards, as you'll be combining computational power with other participants.
 
+
+Before proceeding, ensure you have `git` installed to clone repositories. If not, you can install it using:
+
+```bash
+sudo apt-get update
+sudo apt-get install git
+```
 
 Power Consumption when Mining Bitcoin on Raspberry Pi: 
    - Idle: ~2.7 W to 3 W
