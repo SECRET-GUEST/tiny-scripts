@@ -8,7 +8,7 @@
 
 ```
 
-### 1. Prerequisites: Ensure you have a Raspberry Pi 4 with an operating system already installed.
+### 1. Prerequisites: Ensure you have a Raspberry Pi with an operating system already installed.
 
 The following 'bis' steps are specifically for those who wish to participate in a mining pool. If you follow the main tutorial without these additional steps, you'll be solo mining. Solo mining on a Raspberry Pi or else is not efficient due to the advanced hardware already deployed by professional miners, making it extremely challenging to mine a block on your own. Joining a mining pool can increase your chances of earning rewards, as you'll be combining computational power with other participants.
 
