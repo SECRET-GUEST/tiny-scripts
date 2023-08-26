@@ -10,6 +10,9 @@
 
 ### 1. Prerequisites: Ensure you have a Raspberry Pi 4 with an operating system already installed.
 
+The following 'bis' steps are specifically for those who wish to participate in a mining pool. If you follow the main tutorial without these additional steps, you'll be solo mining. Solo mining on a Raspberry Pi or else is not efficient due to the advanced hardware already deployed by professional miners, making it extremely challenging to mine a block on your own. Joining a mining pool can increase your chances of earning rewards, as you'll be combining computational power with other participants.
+
+
 ### 2. Installing Dependencies
    ```bash
    sudo apt-get update
@@ -100,13 +103,14 @@
     ```bash
     ./src/bitcoin-cli -rpcuser=YourUsername -rpcpassword=YourPassword getmininginfo
     ```
+    
 #### 12bis. Receive Payouts
    Ensure you've set a Bitcoin address in your pool account settings for receiving payouts.
 
 By joining a pool, you combine computational power with other miners, increasing the chance of earning rewards, albeit shared among pool participants.
 
 
-13. Stopping Mining (if needed): 
+### 13. Stopping Mining (if needed): 
     ```bash
     ./src/bitcoin-cli -rpcuser=YourUsername -rpcpassword=YourPassword setgenerate false
     ```
