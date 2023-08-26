@@ -13,6 +13,15 @@
 The following 'bis' steps are specifically for those who wish to participate in a mining pool. If you follow the main tutorial without these additional steps, you'll be solo mining. Solo mining on a Raspberry Pi or else is not efficient due to the advanced hardware already deployed by professional miners, making it extremely challenging to mine a block on your own. Joining a mining pool can increase your chances of earning rewards, as you'll be combining computational power with other participants.
 
 
+Power Consumption when Mining Bitcoin on Raspberry Pi: 
+   - Idle: ~2.7 W to 3 W
+   - While Mining: ~5 W to 7.6 W
+
+Note on Raspberry Pi Lifespan:
+   - Mining without cooling can reduce the lifespan of the Raspberry Pi by up to 2 years.
+   - Mining with adequate cooling can reduce its lifespan by 1 month to 1 year.
+
+
 ### 2. Installing Dependencies
    ```bash
    sudo apt-get update
@@ -115,14 +124,8 @@ By joining a pool, you combine computational power with other miners, increasing
     ./src/bitcoin-cli -rpcuser=YourUsername -rpcpassword=YourPassword setgenerate false
     ```
 
+
+
 By following these steps, you'll be able to mine Bitcoin, back up your wallet, create a mining address, and make transactions from your Raspberry Pi 4.
 
 If you're looking for more detailed information or video tutorials, there are several available links, such as [this one on YouTube](https://www.youtube.com/watch?v=8lIvwwMGlsM) that might be helpful.
-
-Power Consumption when Mining Bitcoin on Raspberry Pi: 
-   - Idle: ~2.7 W to 3 W
-   - While Mining: ~5 W to 7.6 W
-
-Note on Raspberry Pi Lifespan:
-   - Mining without cooling can reduce the lifespan of the Raspberry Pi by up to 2 years.
-   - Mining with adequate cooling can reduce its lifespan by 1 month to 1 year.
