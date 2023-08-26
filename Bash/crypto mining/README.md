@@ -29,7 +29,7 @@ Note on Raspberry Pi Lifespan:
 ### 2. Installing Dependencies
    ```bash
    sudo apt-get update
-   sudo apt-get install -y build-essential libtool autotools-dev automake git pkg-config libssl-dev libevent-dev bsdmainutils python3
+   sudo apt-get install -y build-essential libtool libboost-all-dev autotools-dev automake git pkg-config libssl-dev libevent-dev bsdmainutils python3
    ```
 
 ### 3. Downloading Mining Software
