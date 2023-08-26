@@ -8,6 +8,10 @@
 
 ```
 
+# Easily install a crypto miner on raspbery pi
+
+This guide provides step-by-step instructions on how to mine Bitcoin using a Raspberry Pi, either solo or by joining a mining pool. While solo mining is more private, mining in a pool can increase the chances of earning rewards due to combined computational power.
+
 ### 1. Prerequisites: Ensure you have a Raspberry Pi with an operating system already installed.
 
 The following 'bis' steps are specifically for those who wish to participate in a mining pool. If you follow the main tutorial without these additional steps, you'll be solo mining. Solo mining on a Raspberry Pi or else is not efficient due to the advanced hardware already deployed by professional miners, making it extremely challenging to mine a block on your own. Joining a mining pool can increase your chances of earning rewards, as you'll be combining computational power with other participants.
@@ -126,6 +130,6 @@ By joining a pool, you combine computational power with other miners, increasing
 
 
 
-By following these steps, you'll be able to mine Bitcoin, back up your wallet, create a mining address, and make transactions from your Raspberry Pi 4.
+By following these steps, you'll be able to mine Bitcoin, back up your wallet, create a mining address, and make transactions from your Raspberry Pi.
 
 If you're looking for more detailed information or video tutorials, there are several available links, such as [this one on YouTube](https://www.youtube.com/watch?v=8lIvwwMGlsM) that might be helpful.
