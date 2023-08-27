@@ -36,14 +36,32 @@ Note on Raspberry Pi Lifespan:
    ```bash
    git clone https://github.com/bitcoin/bitcoin.git
    ```
-
 ### 4. Compilation
-   ```bash
-   cd bitcoin/
-   ./autogen.sh
-   ./configure
-   make
-   ```
+
+```bash
+cd bitcoin/
+./autogen.sh  # This script prepares the Bitcoin Core directory for compilation
+./configure
+make
+```
+
+You might encounter issues with configuration and compilation. If so, I suggest clearing the directory with:
+
+```
+cd bitcoin/
+make distclean
+```
+
+Then retry with setting flags for the compiler:
+
+```
+./autogen.sh
+./configure CXXFLAGS="-std=c++17"
+make
+```
+
+**Note**: Ensure you have `gcc` version 8.0 or later by checking with `g++ --version`. If you don't, consider updating `gcc`.
+
 
 ### 5. Configuration
    ```bash
