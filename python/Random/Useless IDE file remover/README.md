@@ -7,9 +7,6 @@
  ╚═════╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝    ╚═╝  ╚═╝╚══════╝╚═╝     ╚═╝ ╚═════╝   ╚═══╝  ╚══════╝╚═╝  ╚═╝
                                                                                                          
 ```
-![GitHub issues](https://img.shields.io/github/issues/your-username/antiCache)
-![GitHub stars](https://img.shields.io/github/stars/your-username/antiCache)
-
 ## Description
 
 `antiCache` is a set of scripted tools designed to clean your project from cache and temporary files commonly generated during the execution of Python programs. It includes both a Python script and a batch script, each capable of deleting `.pyc`, `.pyo`, and temporary files created by some editors, along with `__pycache__` directories.
