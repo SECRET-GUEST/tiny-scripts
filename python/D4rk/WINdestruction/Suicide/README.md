@@ -1,18 +1,20 @@
 ![OS](https://img.shields.io/badge/WINDOWS-blue)
 
 ```
-██████   █████  ███    ██  ██████  ███████ ██████      ███████  ██████  ███    ██ ███████ 
-██   ██ ██   ██ ████   ██ ██       ██      ██   ██        ███  ██    ██ ████   ██ ██      
-██   ██ ███████ ██ ██  ██ ██   ███ █████   ██████        ███   ██    ██ ██ ██  ██ █████   
-██   ██ ██   ██ ██  ██ ██ ██    ██ ██      ██   ██      ███    ██    ██ ██  ██ ██ ██      
-██████  ██   ██ ██   ████  ██████  ███████ ██   ██     ███████  ██████  ██   ████ ███████ 
+██████╗  █████╗ ███╗   ██╗ ██████╗ ███████╗██████╗     ███████╗ ██████╗ ███╗   ██╗███████╗
+██╔══██╗██╔══██╗████╗  ██║██╔════╝ ██╔════╝██╔══██╗    ╚══███╔╝██╔═══██╗████╗  ██║██╔════╝
+██║  ██║███████║██╔██╗ ██║██║  ███╗█████╗  ██████╔╝      ███╔╝ ██║   ██║██╔██╗ ██║█████╗  
+██║  ██║██╔══██║██║╚██╗██║██║   ██║██╔══╝  ██╔══██╗     ███╔╝  ██║   ██║██║╚██╗██║██╔══╝  
+██████╔╝██║  ██║██║ ╚████║╚██████╔╝███████╗██║  ██║    ███████╗╚██████╔╝██║ ╚████║███████╗
+╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚══════╝╚═╝  ╚═╝    ╚══════╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝
 ```
 
 
+# ⚠️ Instant Execution with a Double Click!
 
-## ⚠️ Warning Regarding `suicide.bat` and `suicidalTendencies.bat`
+## Warning Regarding `suicide.bat` and `suicidalTendencies.bat`
 
-The scripts `suicide.bat` and `suicidalTendencies.bat` are highly dangerous and destructive data eradication tools. They are designed to irreversibly eliminate all data on the partitions they are run on. Here's why these scripts are particularly hazardous:
+The scripts `suicide.bat` and `suicidalTendencies.bat` are highly dangerous and destructive data eradication tools. These scripts are executable with a simple double-click, which initiates the irreversible data destruction process immediately. They are designed to irreversibly eliminate all data on the partitions they are run on. Here's why these scripts are particularly hazardous:
 
 1. **Irreversible Data Destruction**: These scripts erase all data on the target partition by writing zeros onto every byte, making data recovery extremely difficult, if not impossible.
 
@@ -20,7 +22,7 @@ The scripts `suicide.bat` and `suicidalTendencies.bat` are highly dangerous and 
 
 3. **Extremely Risky Usage**: Due to their destructive nature, these scripts should only be used in extreme circumstances where complete and irreversible data deletion is absolutely necessary.
 
-4. **User Responsibility**: Users must be fully aware of the risks associated with running these scripts and take full responsibility for the consequences. 
+4. **User Responsibility**: Users must be fully aware of the risks associated with running these scripts and take full responsibility for the consequences.
 
 We strongly urge you to exercise the utmost caution and to resort to these scripts only as a last resort when all other data deletion methods have been exhausted. We highly recommend backing up all essential data before running these scripts and to consider physical disk destruction as a safer alternative to ensure complete data elimination.
 
