@@ -90,6 +90,34 @@ format %~d0 /fs:fat /p:1 /q
 
 ---
 
+Bien sûr, voici une partie README adaptée pour votre nouveau script `suicide.bat` :
+
+---
+
+### 5. `suicide.bat`
+![Recovery Risk: 5%](https://img.shields.io/badge/Recovery%20Risk-5%25-green)
+
+This script initiates a highly destructive operation, which writes zeros to every byte of the partition from which the script is executed, essentially "committing suicide". The command used is as follows:
+
+```batch
+dd if=/dev/zero of=%~d0 bs=1M
+```
+
+#### Operations Explained:
+- `dd`: Disk copying tool used to convert and copy files.
+- `if=/dev/zero`: Input file is set to `/dev/zero`, which writes zeros.
+- `of=%~d0`: Output file set to the partition from which the script is executed.
+- `bs=1M`: Block size set to 1 megabyte.
+
+#### ⚠️ Extreme Caution:
+- This script will irreversibly destroy all data on the drive from which it is run.
+- The operating system and all data will be lost during this process.
+- It's very likely that the system will become unresponsive and fail before the process completes, as essential system files will be deleted.
+- Before executing, ensure that there is absolutely nothing of value on the drive, and you fully intend to "kill" the drive.
+- This script should be used as a last resort for data sanitization and should only be executed with extreme caution.
+- Even with a low recovery risk, physical destruction of the drive remains the only method to guarantee 100% data elimination.
+
+
 ## Recommendations
 
 1. Be certain of the target drive before running these scripts to avoid unintended data loss.
