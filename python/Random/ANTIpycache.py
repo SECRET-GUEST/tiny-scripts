@@ -1,10 +1,14 @@
 import os
 import shutil
 
-for root, dirs, files in os.walk('.'):
-    if '__pycache__' in dirs:
-        shutil.rmtree(os.path.join(root, '__pycache__'))
+# Liste des extensions de fichiers et noms de dossiers à supprimer
+exts_to_delete = ['.pyc', '.pyo', '~']
+dirs_to_delete = ['__pycache__']
 
-
-# Can be used in cmd with : 
-# find . -type d -name __pycache__ -exec rm -r {} +
+for root, dirs, files in os.walk('.', topdown=False):
+    for d in dirs:
+        if d in dirs_to_delete:
+            shutil.rmtree(os.path.join(root, d))
+    for f in files:
+        if any(f.endswith(ext) for ext in exts_to_delete):
+            os.remove(os.path.join(root, f))
