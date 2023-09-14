@@ -11,7 +11,7 @@
 ```
 
 
-# Creating an MSI Installer using `cx_Freeze` 
+#  💼 Creating an MSI Installer using `cx_Freeze` 
 
 While creating an MSI installer using `cx_Freeze` is possible, it is somewhat deprecated and might not offer the flexibility and customization options that are easily achievable with Inno Setup. However, if you still wish to proceed with `cx_Freeze`, here is a guide to help you navigate the process:
 
@@ -23,7 +23,7 @@ While creating an MSI installer using `cx_Freeze` is possible, it is somewhat de
    pip install cx-freeze
    ```
 
-## Understanding the Files in the Repository
+## 🔧 Understanding the Files in the Repository
 
 1. **`generate.bat`**: This batch file contains the command `python setup.py bdist_msi`, which you can run by double-clicking the file or directly in the command prompt. Here's a breakdown of the command:
    
