@@ -14,7 +14,7 @@
 
 This folder contains scripts that can damage disk partitions and shorten hardware lifespan. Use only for erasing sensitive data, at your own risk. Full data elimination isn't guaranteed without physical drive destruction. Refer to colored badges for data recovery odds post-format..
 
-Additionally, within this folder, there is a [suicide folder](https://github.com/SECRET-GUEST/tiny-scripts/tree/ALL/python/D4rk/WINdestruction/Suicide) containing scripts of even higher risk, with capabilities extending to system-level data eradication. Please refer to the specific warnings and guidelines detailed in the folder's README before even considering their use.
+Additionally, there is a [suicide folder](https://github.com/SECRET-GUEST/tiny-scripts/tree/ALL/python/D4rk/WINdestruction/Suicide) containing scripts of even higher risk, with capabilities extending to system-level data eradication. Please refer to the specific warnings and guidelines detailed in the folder's README before even considering their use.
 
 ---
 
