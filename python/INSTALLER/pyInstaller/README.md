@@ -9,8 +9,8 @@ Pyinstaller configuration file
                                                                                                                                           
 ```
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
-![Ruby](https://img.shields.io/badge/Ruby-Compatible-red)
-![PyInstaller](https://img.shields.io/badge/PyInstaller-Compatible-orange)
+![Ruby](https://img.shields.io/badge/Ruby-red)
+![PyInstaller](https://img.shields.io/badge/PyInstaller-orange)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow)
 
 # 📦 PyInstaller Configuration for Single Executable and Directory-based Applications
