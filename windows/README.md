@@ -43,8 +43,4 @@ To alter file extensions, you may need to enable file extension visibility in Wi
 2. Navigate to the 'View' tab at the top of the window.
 3. Check the box labeled "File name extensions" to reveal and allow modification of file extensions.
 
-Refer to the image below for visual guidance:
-
-![Tutorial](https://user-images.githubusercontent.com/92639080/199935818-8d4f9bcf-5eb0-4a0d-9cd5-1eeb11182880.png)
-
 For additional methods to change file extensions, check out [this guide on WikiHow](https://www.wikihow.com/Change-a-File-Extension).
