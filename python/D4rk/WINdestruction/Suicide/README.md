@@ -29,8 +29,7 @@ We strongly urge you to exercise the utmost caution and to resort to these scrip
 
 ---
 
-### 4. suicidalTendencies.bat 
-![Recovery Risk: 90%](https://img.shields.io/badge/Recovery%20Risk-90%25-red)
+### 4. suicidalTendencies.bat ![Recovery Risk: 90%](https://img.shields.io/badge/Recovery%20Risk-90%25-red)
 
 This script formats the partition of the drive from which the script is executed. It uses the following dangerous command:
 
@@ -48,8 +47,7 @@ format %~d0 /fs:fat /p:1 /q
 ---
 
 
-### 5. suicide.bat 
-![Recovery Risk: 5%](https://img.shields.io/badge/Recovery%20Risk-5%25-green)
+### 5. suicide.bat ![Recovery Risk: 5%](https://img.shields.io/badge/Recovery%20Risk-5%25-green)
 
 This script initiates a highly destructive operation, which writes zeros to every byte of the partition from which the script is executed, essentially "committing suicide". The command used is as follows:
 
