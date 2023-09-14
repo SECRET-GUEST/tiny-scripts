@@ -15,8 +15,8 @@
 This folder contains scripts that can damage disk partitions and shorten hardware lifespan. Use only for erasing sensitive data, at your own risk. Full data elimination isn't guaranteed without physical drive destruction. Refer to colored badges for data recovery odds post-format..
 
 Additionally, there is a [suicide folder](https://github.com/SECRET-GUEST/tiny-scripts/tree/ALL/python/D4rk/WINdestruction/Suicide) containing scripts of even higher risk, with capabilities extending to system-level data eradication. Please refer to the specific warnings and guidelines detailed in the folder's README before even considering their use.
-```
-```
+---
+---
 ---
 
 ### 1. fastHit.bat ![Recovery Risk: 75%](https://img.shields.io/badge/Recovery%20Risk-75%25-red)
