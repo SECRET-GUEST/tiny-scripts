@@ -13,11 +13,11 @@
                                                                               
 ```
 
-# fast MSI installer for python softwares
+# 🚀 fast MSI installer for python softwares
 
 This repository contains essential files to help you package and distribute your Python application seamlessly. Below, we breakdown what each file does and the necessary steps to utilize them:
 
-## Repository Contents
+## 📦 Repository Contents
 
 1. **`dir.spec`**: A PyInstaller configuration file to help you create a standalone application. Detailed guidelines on how to configure this file are found in the section below.
    
@@ -25,7 +25,7 @@ This repository contains essential files to help you package and distribute your
    
 3. **`build.bat`**: A batch file containing the command `pyinstaller dir.spec` to easily run PyInstaller with the specified configuration file.
 
-## Step-by-Step Setup Guide
+## 🛠  Step-by-Step Setup Guide 🛠 
 
 ### Step 1: Setting Up PyInstaller
 
@@ -58,7 +58,7 @@ Now you are all set to distribute your application with a professional installer
 ---
 
 
-### Understanding the `.spec` File
+### 💎 Understanding the `.spec` File
 
 #### `block_cipher = None`
 
@@ -102,7 +102,7 @@ You will replace the placeholders with the actual paths, names, and other settin
 
 ---
 
-### Understanding the `setup.iss` Script
+### 🔧 Understanding the `setup.iss` Script
 
 This script is used to create an installer for your application using Inno Setup. Here is a breakdown of each section:
 
