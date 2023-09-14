@@ -18,8 +18,7 @@ Additionally, there is a [suicide folder](https://github.com/SECRET-GUEST/tiny-s
 
 ---
 
-### 1. fastHit.bat
-![Recovery Risk: 75%](https://img.shields.io/badge/Recovery%20Risk-75%25-red)
+### 1. fastHit.bat ![Recovery Risk: 75%](https://img.shields.io/badge/Recovery%20Risk-75%25-red)
 
 This script formats the specified partition (X:) to NTFS file system and performs a single pass of data wiping. It uses the command:
 
@@ -34,8 +33,7 @@ format X: /fs:ntfs /p:1
 - `/p:1`: Specifies the number of passes (1 in this case).
 
 ---
-### 2. ultraHit.bat
-![Recovery Risk: 40%](https://img.shields.io/badge/Recovery%20Risk-40%25-orange)
+### 2. ultraHit.bat ![Recovery Risk: 40%](https://img.shields.io/badge/Recovery%20Risk-40%25-orange)
 
 This script writes zeros to all the sectors in the partition (X:) using `dd`, a powerful disk copying tool. The command used is:
 
@@ -51,8 +49,7 @@ dd if=/dev/zero of=\\.\X: bs=1M
 
 ---
 
-### 3. comboHit.bat
-![Recovery Risk: 15%](https://img.shields.io/badge/Recovery%20Risk-15%25-yellow)
+### 3. comboHit.bat ![Recovery Risk: 15%](https://img.shields.io/badge/Recovery%20Risk-15%25-yellow)
 
 This script performs three passes of data wiping on the specified partition (X:), making data recovery extremely difficult. It uses a loop to execute the `dd` command three times:
 
