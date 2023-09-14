@@ -58,3 +58,8 @@ Please ensure you have the necessary dependencies installed and Python version m
 ## Complete version
 
 You can find a complete version with other options here : [Macara GitHub Repository.](https://github.com/SECRET-GUEST/Macara)
+
+
+---
+
+Additionally, you can utilize batch scripts to list files or rename them using a '123' format instead of the native Windows '1)(2)(3' system. Explore these functionalities here: [List and Rename](https://github.com/SECRET-GUEST/tiny-scripts/tree/ALL/windows/files%20handler/list%20and%20rename).
