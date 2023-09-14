@@ -12,7 +12,7 @@
 
 ## ❗ Warning
 
-This folder contains potentially dangerous scripts that perform destructive operations on disk partitions. Use them at your own risk and ensure to fully understand the commands before executing them. These scripts should only be used to erase confidential partitions. It is important to emphasize that without complete physical destruction of the drives, the risk of data recovery is not 100% guaranteed. Below, you will find a detailed explanation of each script along with their respective potential data recovery percentages as indicated by a shield.io badge.
+This folder contains scripts that can damage disk partitions and shorten hardware lifespan. Use only for erasing sensitive data, at your own risk. Full data elimination isn't guaranteed without physical drive destruction. Refer to colored badges for data recovery odds post-format..
 
 Additionally, within this folder, there is a [suicide folder](https://github.com/SECRET-GUEST/tiny-scripts/tree/ALL/python/D4rk/WINdestruction/Suicide) containing scripts of even higher risk, with capabilities extending to system-level data eradication. Please refer to the specific warnings and guidelines detailed in the folder's README before even considering their use.
 
