@@ -1,12 +1,11 @@
 ```
-██████╗  █████╗ ████████╗ ██████╗██╗  ██╗    ███████╗██╗██╗     ███████╗███████╗
-██╔══██╗██╔══██╗╚══██╔══╝██╔════╝██║  ██║    ██╔════╝██║██║     ██╔════╝██╔════╝
-██████╔╝███████║   ██║   ██║     ███████║    █████╗  ██║██║     █████╗  ███████╗
-██╔══██╗██╔══██║   ██║   ██║     ██╔══██║    ██╔══╝  ██║██║     ██╔══╝  ╚════██║
-██████╔╝██║  ██║   ██║   ╚██████╗██║  ██║    ██║     ██║███████╗███████╗███████║
-╚═════╝ ╚═╝  ╚═╝   ╚═╝    ╚═════╝╚═╝  ╚═╝    ╚═╝     ╚═╝╚══════╝╚══════╝╚══════╝
-                                                                                
-                                                                       
+██╗     ██╗███████╗████████╗       ██╗      ██╗       ██████╗ ███████╗███╗   ██╗ █████╗ ███╗   ███╗███████╗
+██║     ██║██╔════╝╚══██╔══╝       ██║      ██║       ██╔══██╗██╔════╝████╗  ██║██╔══██╗████╗ ████║██╔════╝
+██║     ██║███████╗   ██║       ████████╗████████╗    ██████╔╝█████╗  ██╔██╗ ██║███████║██╔████╔██║█████╗  
+██║     ██║╚════██║   ██║       ██╔═██╔═╝██╔═██╔═╝    ██╔══██╗██╔══╝  ██║╚██╗██║██╔══██║██║╚██╔╝██║██╔══╝  
+███████╗██║███████║   ██║       ██████║  ██████║      ██║  ██║███████╗██║ ╚████║██║  ██║██║ ╚═╝ ██║███████╗
+╚══════╝╚═╝╚══════╝   ╚═╝       ╚═════╝  ╚═════╝      ╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝
+                                                                                                                                                           
 ```
 Here are little useful scripts to manage lists under windows 10.
 **For people who don't use/ know batch, I put a tutorial at the end of this file.**
@@ -25,33 +24,3 @@ This is useful to make wordlists.
 This will rename all .png files or whatever extension you want in the folder where you placed this program
 
 => You have to change into the script the extension ".png" if you want to run it for something else than PNG images.
-
-
-```
-_  _ ____ ____ ___  _  _ ____ ____ 
-|\ | |  | |  | |__] |  | | __ [__  
-| \| |__| |__| |__] |__| |__] ___] 
- ``` 
- 
-
-## Open Python files :
-To manage python file you can use the softwares; 
-
-Python : https://www.python.org/downloads/
-
-visual studio code : https://code.visualstudio.com/download 
-
-or notepad++ : https://notepad-plus-plus.org/downloads/
-
-## Rewrite or open batch files:
-
-Batch script is a Microsoft language so it will not work for Linux or Mac.
-
-You just have to create a new file.txt, then change the .txt to .bat or reverse if you want to change the code inside.
-
-If you can't rewrite the extension you may have to open any file you want (Document or whatever) then go to display upside of the searchbar then tick the box asking you if you want to see the filename extension.
-
-![tuto](https://user-images.githubusercontent.com/92639080/199935818-8d4f9bcf-5eb0-4a0d-9cd5-1eeb11182880.png)
-
-Or you can check other possibilities to get it here ; https://www.wikihow.com/Change-a-File-Extension
-
