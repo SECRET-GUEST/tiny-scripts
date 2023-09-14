@@ -10,7 +10,7 @@
 ```
 
 
-# ⚠️ Instant Execution with a Double Click!
+# ⚠️ DANGER : Instant Execution with a Double Click ❗
 
 ## Warning Regarding `suicide.bat` and `suicidalTendencies.bat`
 
