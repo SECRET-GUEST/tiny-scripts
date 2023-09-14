@@ -35,7 +35,9 @@ This is a comprehensive method that combines PyInstaller for compiling the Pytho
 
 ### Recommended Package:
 - [Inno Setup](https://jrsoftware.org/isdl.php)
-
+- [PyInstaller](https://www.pyinstaller.org/)
+- [Ruby](https://www.ruby-lang.org/en/)
+  
 ## Getting Started
 
 To begin, navigate to the respective folders for detailed instructions outlined in the corresponding README files. The configuration files in each folder are quite intuitive to edit and set up. Installing the recommended packages for each method will ensure a smooth process.
