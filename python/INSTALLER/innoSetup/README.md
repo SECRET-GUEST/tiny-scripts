@@ -1,6 +1,6 @@
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
-![Ruby](https://img.shields.io/badge/Ruby-Compatible-red)
-![PyInstaller](https://img.shields.io/badge/PyInstaller-Compatible-orange)
+![Ruby](https://img.shields.io/badge/Ruby-red)
+![PyInstaller](https://img.shields.io/badge/PyInstaller-orange)
 
 ```
 
