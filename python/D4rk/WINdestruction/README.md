@@ -12,7 +12,9 @@
 
 ## ❗ Warning
 
-This repository contains potentially dangerous scripts that perform destructive operations on disk partitions. Use them at your own risk and ensure to fully understand the commands before executing them. These scripts should only be used to erase confidential partitions. It is important to emphasize that without complete physical destruction of the drives, the risk of data recovery is not 100% guaranteed. Below, you will find a detailed explanation of each script along with their respective potential data recovery percentages as indicated by a shield.io badge.
+This folder contains potentially dangerous scripts that perform destructive operations on disk partitions. Use them at your own risk and ensure to fully understand the commands before executing them. These scripts should only be used to erase confidential partitions. It is important to emphasize that without complete physical destruction of the drives, the risk of data recovery is not 100% guaranteed. Below, you will find a detailed explanation of each script along with their respective potential data recovery percentages as indicated by a shield.io badge.
+
+Additionally, within this folder, there is a 'suicide' folder containing scripts of even higher risk, with capabilities extending to system-level data eradication. Please refer to the specific warnings and guidelines detailed in the folder's README before even considering their use.
 
 ---
 
