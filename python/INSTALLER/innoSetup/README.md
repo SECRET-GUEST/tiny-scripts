@@ -49,7 +49,7 @@ This repository contains essential files to help you package and distribute your
 
 1. **Install Inno Setup**: Download and install Inno Setup from the [official website](https://jrsoftware.org/isdl.php).
 
-2. **Configure `setup.iss` File**: Open the `setup.iss` file and set it up with the correct paths, names, and other settings specific to your application. A guide on this configuration can be found in the subsequent section of this README. For more information, refer to the [official documentation](https://jrsoftware.org/ishelp/) or consult GPT-3 for guidance.
+2. **Configure `setup.iss` File**: Open the `setup.iss` file and set it up with the correct paths, names, and other settings specific to your application. A guide on this configuration can be found in the subsequent section of this README. For more information, refer to the [official documentation](https://jrsoftware.org/ishelp/) or consult GPT or whatever for guidance.
 
 3. **Build the Installer**: After setting up the `setup.iss` file, use Inno Setup to build your installer.
 
