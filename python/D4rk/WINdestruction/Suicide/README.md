@@ -71,14 +71,15 @@ dd if=/dev/zero of=%~d0 bs=1M
 - This script should be used as a last resort for data sanitization and should only be executed with extreme caution.
 - Even with a low recovery risk, physical destruction of the drive remains the only method to guarantee 100% data elimination.
 
-
-## Recommendations
+---
+### Recommendations
 
 1. Be certain of the target drive before running these scripts to avoid unintended data loss.
 2. These scripts should only be used on partitions containing confidential information that needs to be securely erased.
 3. For an absolute secure data disposal, physical destruction of the storage medium is recommended.
 4. Always back up important data before proceeding with any form of data wiping.
 
-## License
+---
+### License
 
 These scripts are provided "AS IS" without warranty of any kind, use them at your own risk. By using these scripts, you agree to take full responsibility for any consequences resulted from the usage.
