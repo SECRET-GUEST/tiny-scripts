@@ -26,7 +26,8 @@ The scripts `suicide.bat` and `suicidalTendencies.bat` are highly dangerous and 
 
 We strongly urge you to exercise the utmost caution and to resort to these scripts only as a last resort when all other data deletion methods have been exhausted. We highly recommend backing up all essential data before running these scripts and to consider physical disk destruction as a safer alternative to ensure complete data elimination.
 
-
+---
+---
 ---
 
 ### 4. suicidalTendencies.bat ![Recovery Risk: 90%](https://img.shields.io/badge/Recovery%20Risk-90%25-red)
