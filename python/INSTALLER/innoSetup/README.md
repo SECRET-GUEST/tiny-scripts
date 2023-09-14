@@ -1,4 +1,4 @@
-![Python](https://img.shields.io/badge/Inno_Setup-blue)
+![ISS](https://img.shields.io/badge/Inno_Setup-blue)
 ![Ruby](https://img.shields.io/badge/Ruby-red)
 ![PyInstaller](https://img.shields.io/badge/PyInstaller-orange)
 
