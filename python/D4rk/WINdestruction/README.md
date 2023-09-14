@@ -18,7 +18,7 @@ Additionally, within this folder, there is a [suicide folder](https://github.com
 
 ---
 
-## 1. fastHit.bat
+### 1. fastHit.bat
 ![Recovery Risk: 75%](https://img.shields.io/badge/Recovery%20Risk-75%25-red)
 
 This script formats the specified partition (X:) to NTFS file system and performs a single pass of data wiping. It uses the command:
@@ -33,7 +33,8 @@ format X: /fs:ntfs /p:1
 - `/fs:ntfs`: Formats the partition with NTFS file system.
 - `/p:1`: Specifies the number of passes (1 in this case).
 
-## 2. ultraHit.bat
+---
+### 2. ultraHit.bat
 ![Recovery Risk: 40%](https://img.shields.io/badge/Recovery%20Risk-40%25-orange)
 
 This script writes zeros to all the sectors in the partition (X:) using `dd`, a powerful disk copying tool. The command used is:
@@ -48,7 +49,9 @@ dd if=/dev/zero of=\\.\X: bs=1M
 - `of=\\.\X:`: Output file set to the target partition (X:).
 - `bs=1M`: Block size set to 1 megabyte.
 
-## 3. comboHit.bat
+---
+
+### 3. comboHit.bat
 ![Recovery Risk: 15%](https://img.shields.io/badge/Recovery%20Risk-15%25-yellow)
 
 This script performs three passes of data wiping on the specified partition (X:), making data recovery extremely difficult. It uses a loop to execute the `dd` command three times:
@@ -74,14 +77,15 @@ endlocal
 - It performs 3 passes of writing zeros with a block size of 4M.
 - Uses a loop to execute the `dd` command 3 times, ensuring more thorough data deletion compared to a single pass.
 
-
-## Recommendations
+---
+### Recommendations
 
 1. Be certain of the target drive before running these scripts to avoid unintended data loss.
 2. These scripts should only be used on partitions containing confidential information that needs to be securely erased.
 3. For an absolute secure data disposal, physical destruction of the storage medium is recommended.
 4. Always back up important data before proceeding with any form of data wiping.
 
-## License
+---
+### License
 
 These scripts are provided "AS IS" without warranty of any kind, use them at your own risk. By using these scripts, you agree to take full responsibility for any consequences resulted from the usage.
