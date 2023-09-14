@@ -46,9 +46,6 @@ format %~d0 /fs:fat /p:1 /q
 
 ---
 
-Bien sûr, voici une partie README adaptée pour votre nouveau script `suicide.bat` :
-
----
 
 ## 5. suicide.bat
 ![Recovery Risk: 5%](https://img.shields.io/badge/Recovery%20Risk-5%25-green)
