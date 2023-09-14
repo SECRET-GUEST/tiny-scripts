@@ -19,22 +19,22 @@ This folder contains the necessary files to quickly compile a Python script into
 **Further instructions and details can be found in the corresponding README file inside this folder.**
 
 ### Recommended Packages:
-- PyInstaller: [DOCS](https://www.pyinstaller.org/)
-- Ruby: [DOCS](https://www.ruby-lang.org/en/)
+- [PyInstaller](https://www.pyinstaller.org/)
+- [Ruby](https://www.ruby-lang.org/en/)
 
 ## 2. **cxFreeze**
 
 In this folder, you will find the resources to create an MSI installer for your Python application using the `cxFreeze` Python library. However, it's worth noting that this method is somewhat outdated compared to the more customizable Inno Setup method, which is detailed next. Detailed guidance on how to use `cxFreeze` is available in the README file within this folder.
 
 ### Recommended Package:
-- cxFreeze: [DOCS](https://cx-freeze.readthedocs.io/)
+- [cxFreeze](https://cx-freeze.readthedocs.io/)
 
 ## 3. **Inno Setup**
 
 This is a comprehensive method that combines PyInstaller for compiling the Python script and Inno Setup for creating a quick and customizable MSI installer. The folder contains `.spec` and `.iss` configuration files to streamline the process. The accompanying README file in this folder provides full instructions on setting it up.
 
 ### Recommended Package:
-- Inno Setup: [DOCS](https://jrsoftware.org/isdl.php)
+- [Inno Setup](https://jrsoftware.org/isdl.php)
 
 ## Getting Started
 
