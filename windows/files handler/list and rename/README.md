@@ -24,3 +24,8 @@ This is useful to make wordlists.
 This will rename all .png files or whatever extension you want in the folder where you placed this program
 
 => You have to change into the script the extension ".png" if you want to run it for something else than PNG images.
+
+
+---
+
+Furthermore, for more advanced file management options, you might consider using the Macara software, which offers a range of sophisticated functionalities for handling files with greater ease and efficiency. Discover its potential here: [Macara GitHub Repository](https://github.com/SECRET-GUEST/Macara).
