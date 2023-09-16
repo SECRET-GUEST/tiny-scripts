@@ -1,4 +1,4 @@
-# React TypeScript environnement builder 🛠️
+# React TypeScript Project Creator 🛠️
 
 ![Batch Script](https://img.shields.io/badge/Batch-Script-blue)
 ![Bash Script](https://img.shields.io/badge/Bash-Script-green)
@@ -11,10 +11,11 @@ This repository contains two scripts (`reacTsx.bat` for Windows and `reacTsx.sh`
 ## 📋 Table of Contents
 
 1. [Features](#-features)
-2. [Installation](#-installation)
-3. [Usage](#-usage)
-4. [Project Structures](#-project-structures)
-5. [Links to Cloned Repositories](#-links-to-cloned-repositories)
+2. [Prerequisites](#-prerequisites)
+3. [Installation](#-installation)
+4. [Usage](#-usage)
+5. [Project Structures](#-project-structures)
+6. [Links to Cloned Repositories](#-links-to-cloned-repositories)
 
 ---
 
@@ -23,6 +24,15 @@ This repository contains two scripts (`reacTsx.bat` for Windows and `reacTsx.sh`
 - Quickly set up a new React project with TypeScript.
 - Choose between two different project structures during setup.
 - Easy to use: just run a single script to set up your project.
+
+---
+
+## 🔍 Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+- [Node.js and npm](https://nodejs.org/)
+- [Git](https://git-scm.com/)
 
 ---
 
