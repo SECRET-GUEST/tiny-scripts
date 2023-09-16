@@ -10,7 +10,11 @@
 
 # Quick Python Application Packaging
 
-This repository facilitates the swift creation of an executable (.exe) application from a Python script. It contains three folders, each equipped with different tools and configuration files to compile your Python software into a standalone application and, optionally, package it into an installer. Here’s a brief description of what each folder contains:
+This repository facilitates the swift creation of an executable (.exe) application from a Python script. It contains three folders, each equipped with different tools and configuration files to compile your Python software into a standalone application and, optionally, package it into an installer. 
+
+You can also test my build template here :  [pyBuilder](https://github.com/SECRET-GUEST/pyTemplate)
+
+Here’s a brief description of what each folder contains:
 
 ## 1. **Inno Setup**
 
