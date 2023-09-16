@@ -7,6 +7,8 @@
 This repository contains two scripts (`reacTsx.bat` for Windows and `reacTsx.sh` for Linux/macOS) to quickly set up a new React project with TypeScript and a custom folder structure. You can choose between two different project structures, one for a basic setup and another for a setup with Three.js integration.
 
 ---
+---
+---
 
 ## 📋 Table of Contents
 
@@ -17,7 +19,6 @@ This repository contains two scripts (`reacTsx.bat` for Windows and `reacTsx.sh`
 5. [Project Structures](#-project-structures)
 6. [Links to Cloned Repositories](#-links-to-cloned-repositories)
 
----
 
 ## 🚀 Features
 
@@ -25,7 +26,6 @@ This repository contains two scripts (`reacTsx.bat` for Windows and `reacTsx.sh`
 - Choose between two different project structures during setup.
 - Easy to use: just run a single script to set up your project.
 
----
 
 ## 🔍 Prerequisites
 
@@ -34,7 +34,6 @@ Before you begin, ensure you have the following installed:
 - [Node.js and npm](https://nodejs.org/)
 - [Git](https://git-scm.com/)
 
----
 
 ## 📥 Installation
 
@@ -52,7 +51,6 @@ Before you begin, ensure you have the following installed:
 4. Make the script executable with the command `chmod +x reacTsx.sh`.
 5. Run the script with the command `./reacTsx.sh`.
 
----
 
 ## 🖥️ Usage
 
@@ -64,19 +62,16 @@ Double-click on the `reacTsx.bat` script or run it from the command line, then f
 
 Run the `reacTsx.sh` script from the terminal and follow the on-screen instructions to create your project.
 
----
-
 ## 📁 Project Structures
 
 1. **Basic Architecture (from main branch)**: A basic project structure with a simple folder setup. [Link to Repository](https://github.com/SECRET-GUEST/reactsx/tree/main)
 
 2. **Three.js Architecture (from threeJs branch)**: A project structure that includes a Three.js integration for creating 3D scenes. [Link to Repository](https://github.com/SECRET-GUEST/reactsx/tree/threeJs)
 
----
 
 ## 🔗 Links to Cloned Repositories
 
 - [Basic Architecture (main branch)](https://github.com/SECRET-GUEST/reactsx/tree/main)
 - [Three.js Architecture (threeJs branch)](https://github.com/SECRET-GUEST/reactsx/tree/threeJs)
 
----
+
