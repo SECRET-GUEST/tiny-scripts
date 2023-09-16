@@ -74,10 +74,9 @@ IF "%user_choice%"=="1" (
 :display_content
 cd src
 tree /F
-cd .. 
-npm start
 timeout /T 5
-GOTO end
+cd ..
+npm start
 
 :end
 exit
