@@ -44,3 +44,5 @@ fi
 cd src
 ls -R
 sleep 5
+cd ..
+npm start
