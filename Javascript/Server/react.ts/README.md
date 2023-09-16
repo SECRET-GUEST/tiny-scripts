@@ -1,4 +1,4 @@
-# React TypeScript Project Creator 🛠️
+# React TypeScript environnement builder 🛠️
 
 ![Batch Script](https://img.shields.io/badge/Batch-Script-blue)
 ![Bash Script](https://img.shields.io/badge/Bash-Script-green)
