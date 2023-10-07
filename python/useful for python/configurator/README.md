@@ -23,7 +23,7 @@ Python 3.10
 - 🧩 Easily importable and usable in your Python projects.
 - 🛠️ Simplified interface to access and modify configuration values.
 - 💾 Automatically saves updated configuration values to the file.
-
+ 
 # 🛠️ Usage
 
 1. Import the `config_manager.py` file in your Python project:
