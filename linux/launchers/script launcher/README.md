@@ -40,21 +40,13 @@ Both scripts are available in French and English, with documentation in both lan
 
 ## 📥 Installation
 
-1. Clone the repository to your local machine:
+1. Make the script executable:
 ```bash
-git clone https://github.com/YOUR-GITHUB-USERNAME/bash-script-runner.git
+chmod +x EN_launcher.sh
 ```
-2. Navigate to the repository directory:
+2. Run the script:
 ```bash
-cd bash-script-runner
-```
-3. Make the script executable:
-```bash
-chmod +x script_runner.sh
-```
-4. Run the script:
-```bash
-./script_runner.sh
+./EN_launcher.sh
 ```
 
 ## ❓ Support & Questions
