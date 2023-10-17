@@ -38,21 +38,13 @@ Looking for more? Discover tutorials for installing Linux and more here:
 
 ## 📥 Installation
 
-1. Clone the repository to your local machine:
+1. Make the script executable:
 ```bash
-git clone https://github.com/YOUR-GITHUB-USERNAME/package-manager-script.git
+chmod +x EN_package_backup.sh
 ```
-2. Navigate to the repository directory:
+2. Run the script:
 ```bash
-cd package-manager-script
-```
-3. Make the script executable:
-```bash
-chmod +x package_manager_script.sh
-```
-4. Run the script:
-```bash
-./package_manager_script.sh
+./EN_package_backup.sh
 ```
 
 ## ❓ Support & Questions
