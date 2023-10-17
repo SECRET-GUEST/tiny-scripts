@@ -39,21 +39,13 @@ Looking for more? Discover tutorials for installing Linux and more here:
 
 ## 📥 Installation
 
-1. Clone the repository to your local machine:
+1. Make the script executable:
 ```bash
-git clone https://github.com/YOUR-GITHUB-USERNAME/dconf-backup-restore.git
+chmod +x EN_save_config.sh
 ```
-2. Navigate to the repository directory:
+2. Run the script:
 ```bash
-cd dconf-backup-restore
-```
-3. Make the script executable:
-```bash
-chmod +x dconf_backup_restore.sh
-```
-4. Run the script:
-```bash
-./dconf_backup_restore.sh
+./EN_save_config.sh
 ```
 
 ## ❓ Support & Questions
