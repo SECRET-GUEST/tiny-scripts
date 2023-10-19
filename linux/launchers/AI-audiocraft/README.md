@@ -26,7 +26,7 @@ sudo apt install ffmpeg
 chmod +x install.sh
 ```
 
-3. To install Audiocraft along with its dependencies, simply execute the provided script `install.sh`:
+3. To **INSTALL** and/or **RUN** Audiocraft along with its dependencies, simply execute the provided script `install.sh`:
 
 ```bash
 ./install.sh
