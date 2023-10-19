@@ -12,6 +12,8 @@
 
 This repository provides a script to facilitate the installation and setup of Audiocraft, a project by Facebook Research, on your machine. Audiocraft explores novel interfaces for crafting audio, enabling users to combine the expressiveness of parametric models with the creative possibilities afforded by a wide array of readily-available sounds.
 
+You can use only the French or the English installer, it doesn't matter
+
 ## Installation
 
 1. It's recommended to install `ffmpeg` on your machine before proceeding with the Audiocraft installation. You can install `ffmpeg` using the following command:
