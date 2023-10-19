@@ -12,19 +12,26 @@
 
 This repository provides a script to facilitate the installation and setup of Audiocraft, a project by Facebook Research, on your machine. Audiocraft explores novel interfaces for crafting audio, enabling users to combine the expressiveness of parametric models with the creative possibilities afforded by a wide array of readily-available sounds.
 
-Before running the installer, it is recommended to install `ffmpeg` on your machine to ensure smooth operation of Audiocraft. You can install `ffmpeg` using the following command:
+## Installation
+
+1. It's recommended to install `ffmpeg` on your machine before proceeding with the Audiocraft installation. You can install `ffmpeg` using the following command:
 
 ```bash
 sudo apt install ffmpeg
 ```
 
-## Installation
-
-To install Audiocraft and its dependencies, simply run the provided script `install.sh` by executing the following command in your terminal:
+2. Make the installer script executable by running the following command in your terminal:
 
 ```bash
-bash install.sh
+chmod +x install.sh
 ```
+
+3. To install Audiocraft along with its dependencies, simply execute the provided script `install.sh`:
+
+```bash
+./install.sh
+```
+
 
 This script will:
 
