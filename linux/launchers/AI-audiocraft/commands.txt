@@ -1,0 +1,19 @@
+# This is an example command file for passing arguments to your Python script
+
+# Specify the IP to listen on for connections to Gradio
+#--listen 0.0.0.0
+
+# Specify username for authentication
+#--username your_username
+
+# Specify password for authentication
+#--password your_password
+
+# Specify the port for the server listener to run on
+#--server_port 8000
+
+# If you want to open the Gradio UI in the browser, add the --inbrowser argument
+--inbrowser
+
+# If you want to share the Gradio UI, add the --share argument
+#--share
