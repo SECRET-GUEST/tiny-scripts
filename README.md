@@ -13,7 +13,7 @@
 ![PYTHON](https://img.shields.io/badge/Python-3.1+-blue)
 ![TYPESCRIPT](https://img.shields.io/badge/TYPESCRIPT-blue)
 ![Javascript](https://img.shields.io/badge/JAVASCRIPT-yellow)
-![Batch Script](https://img.shields.io/badge/script-batch-blue)
+![Batch Script](https://img.shields.io/badge/script-batch-DDFF00)
 ![Bash Script](https://img.shields.io/badge/script-bash-green)
 
 Here are multiple random useful scripts for able to be integrated in other script or be used as it is.
