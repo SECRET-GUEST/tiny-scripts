@@ -123,6 +123,65 @@ Un logiciel regroupant ces commandes au travers d'une interface visuelle devrait
 
 
 
+██       ██ ██████       █████  ██ 
+██      ██       ██     ██   ██ ██ 
+██     ██    █████      ███████ ██ 
+██      ██       ██     ██   ██ ██ 
+██       ██ ██████      ██   ██ ██ 
+                                   
+                                   
+Des exemples de prompt pour des models de stable diffusion : https://publicprompts.art/
+
+
+---------------------- PROMPT EXAMPLE ----------------------
+
+((best quality)), ((masterpiece)), ((realistic)), (detailed), ((masterpiece)), absurdres, HDR, 4k, 8k
+
+Negative prompt: (deformed iris, deformed pupils, bad eyes, semi-realistic:1.4) (bad-image-v2-39000, bad_prompt_version2, bad-hands-5, EasyNegative, NG_DeepNegative_V1_4T, bad-artist-anime:0.7),
+(worst quality, low quality:1.3), (depth of field, blurry:1.2), (greyscale, monochrome:1.1), nose, cropped, lowres, text, jpeg artifacts, signature, watermark, username, blurry, artist name, trademark,
+watermark, title, multiple view, Reference sheet, long neck
+
+() = 10% d'importance
+(()) = 20% d'importance
+...
+1:4 = importance de 40% du mot
+
+---------------------- Control net settings img2img ----------------------
+
+1. resize & fill 
+2. dpm karas 2s 
+3. denoising max 
+4. enable
+5. inpaint
+6. preprocessor : inpaint_only+lama
+7. Controlnet is more important 
+
+
+---------------------- MicroWorlds (DreamBooth model) ----------------------
+
+baalbek temple of jupiter, in microworld render style
+
+Trigger phrase: “microworld render style“
+
+
+---------------------- App Icons Generator V1 (DreamBooth Model) ----------------------
+
+
+flat couch vector, minimalist, in style of SKSKS app icon
+
+Trigger phrase: “SKSKS app icon“
+
+Ou avec n'importe quel model : 
+Tiny cute isometric LE TEXTE, soft smooth lighting, with soft colors, 100mm lens, 3d blender render, trending on polycount, modular constructivism, blue background, physically based rendering, centered
+
+
+---------------------- All in one Pixel Art (DreamBooth Model) ----------------------
+
+Godzilla, full body game asset, in pixelsprite style
+
+Trigger phrases: “pixelsprite” & “16bitscene“
+
+
 
 ██      ███████ ███████      ██████  ██████  ███    ██ ██    ██ ███████ ██████  ███████ ██  ██████  ███    ██ ███████ 
 ██      ██      ██          ██      ██    ██ ████   ██ ██    ██ ██      ██   ██ ██      ██ ██    ██ ████   ██ ██      
