@@ -51,5 +51,32 @@ else
     cd "$SCRIPT_DIR/$REPO_NAME/"
 fi
 
-# Launch the application in a background process
-python -m demos.musicgen_app --inbrowser
+# Path to your command file
+COMMAND_FILE="$SCRIPT_DIR/commands.txt"
+
+# Check if the command file exists
+if [[ ! -f "$COMMAND_FILE" ]]; then
+    echo "The command file $COMMAND_FILE does not exist. Stopping the script."
+    exit 1
+fi
+
+# Initialize an empty variable to hold the arguments
+args=""
+
+# Read and accumulate the commands from the file
+while IFS= read -r line || [ -n "$line" ]; do
+    # Skip empty lines and comments
+    [[ $line == \#* || -z $line ]] && continue
+    
+    # Accumulate the arguments
+    args="$args $line"
+done < "$COMMAND_FILE"
+
+# Launch the application in a background process with the arguments
+python -m demos.musicgen_app $args &
+
+# Store the PID of the background process
+APP_PID=$!
+
+# Optional: Wait for the background application to terminate
+wait $APP_PID
