@@ -51,5 +51,33 @@ else
     cd "$SCRIPT_DIR/$REPO_NAME/"
 fi
 
-# Lancez l'application dans un processus en arrière-plan
-python -m demos.musicgen_app --inbrowser
+# Chemin vers votre fichier de commandes
+CHEMIN_FICHIER_COMMANDES="$SCRIPT_DIR/commands.txt"
+
+# Vérifiez si le fichier de commandes existe
+if [[ ! -f "$CHEMIN_FICHIER_COMMANDES" ]]; then
+    echo "Le fichier de commandes $CHEMIN_FICHIER_COMMANDES n'existe pas. Arrêt du script."
+    exit 1
+fi
+
+# Initialisez une variable vide pour contenir les arguments
+args=""
+
+# Lisez et accumulez les commandes du fichier
+while IFS= read -r ligne || [ -n "$ligne" ]; do
+    # Ignorez les lignes vides et les commentaires
+    [[ $ligne == \#* || -z $ligne ]] && continue
+    
+    # Accumulez les arguments
+    args="$args $ligne"
+done < "$CHEMIN_FICHIER_COMMANDES"
+
+# Lancez l'application dans un processus en arrière-plan avec les arguments
+python -m demos.musicgen_app $args &
+
+# Stockez le PID du processus en arrière-plan
+PID_APP=$!
+
+# Optionnel : Attendez que l'application en arrière-plan se termine
+wait $PID_APP
+
