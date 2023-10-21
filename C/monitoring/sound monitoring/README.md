@@ -1,4 +1,11 @@
-# Audio Monitor
+```
+ █████╗ ██╗   ██╗██████╗ ██╗ ██████╗     ███╗   ███╗ ██████╗ ███╗   ██╗██╗████████╗ ██████╗ ██████╗ 
+██╔══██╗██║   ██║██╔══██╗██║██╔═══██╗    ████╗ ████║██╔═══██╗████╗  ██║██║╚══██╔══╝██╔═══██╗██╔══██╗
+███████║██║   ██║██║  ██║██║██║   ██║    ██╔████╔██║██║   ██║██╔██╗ ██║██║   ██║   ██║   ██║██████╔╝
+██╔══██║██║   ██║██║  ██║██║██║   ██║    ██║╚██╔╝██║██║   ██║██║╚██╗██║██║   ██║   ██║   ██║██╔══██╗
+██║  ██║╚██████╔╝██████╔╝██║╚██████╔╝    ██║ ╚═╝ ██║╚██████╔╝██║ ╚████║██║   ██║   ╚██████╔╝██║  ██║
+╚═╝  ╚═╝ ╚═════╝ ╚═════╝ ╚═╝ ╚═════╝     ╚═╝     ╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝   ╚═╝    ╚═════╝ ╚═╝  ╚═╝
+```
 
 ## Introduction
 The Audio Monitor is a simple C application utilizing GTK+ for the graphical interface and pthread for threading. It monitors a specified directory for new WAV audio files and plays them using the default audio player once they appear. The program checks for new files every 10 seconds.
@@ -21,3 +28,7 @@ The Audio Monitor is a simple C application utilizing GTK+ for the graphical int
    ```
 5. Click the "Démarrer" button to start monitoring for new WAV files in the `/tmp/` directory.
 
+
+## Recommandation :
+
+A short version written in python [can be found here](https://github.com/SECRET-GUEST/tiny-scripts/tree/ALL/python/monitoring/Audio%20monitoring)
