@@ -1,7 +1,3 @@
-[![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org)
-[![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![Batch](https://img.shields.io/badge/Batch-Script-orange.svg)](https://en.wikipedia.org/wiki/Batch_file)
- 
 ```
 
 ████████╗██╗███╗   ██╗██╗   ██╗    ███████╗ ██████╗██████╗ ██╗██████╗ ████████╗███████╗
@@ -12,6 +8,13 @@
    ╚═╝   ╚═╝╚═╝  ╚═══╝   ╚═╝       ╚══════╝ ╚═════╝╚═╝  ╚═╝╚═╝╚═╝        ╚═╝   ╚══════╝
                                                                                        
 ```
+![C](https://img.shields.io/badge/C-grey)
+![C++](https://img.shields.io/badge/C++-pink)
+![PYTHON](https://img.shields.io/badge/Python-3.1+-blue)
+![TYPESCRIPT](https://img.shields.io/badge/TYPESCRIPT-blue)
+![Javascript](https://img.shields.io/badge/JAVASCRIPT-yellow)
+![Batch Script](https://img.shields.io/badge/script-batch-blue)
+![Bash Script](https://img.shields.io/badge/script-bash-green)
 
 Here are multiple random useful scripts for able to be integrated in other script or be used as it is.
 In the different folder I will insert some informations relative to the use of these scripts.
