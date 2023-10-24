@@ -1,5 +1,5 @@
 ![C](https://img.shields.io/badge/C-grey)
-![LINUX](https://img.shields.io/badge/Debian-LINUX-orange)
+![LINUX](https://img.shields.io/badge/LINUX-orange)
 ```
  █████╗ ██╗   ██╗██████╗ ██╗ ██████╗     ███╗   ███╗ ██████╗ ███╗   ██╗██╗████████╗ ██████╗ ██████╗ 
 ██╔══██╗██║   ██║██╔══██╗██║██╔═══██╗    ████╗ ████║██╔═══██╗████╗  ██║██║╚══██╔══╝██╔═══██╗██╔══██╗
