@@ -1,5 +1,5 @@
 ![PYTHON](https://img.shields.io/badge/Python-3.10+-blue)
-![LINUX](https://img.shields.io/badge/Debian-LINUX-orange)
+![LINUX](https://img.shields.io/badge/LINUX-orange)
 ```
  █████╗ ██╗   ██╗██████╗ ██╗ ██████╗     ███╗   ███╗ ██████╗ ███╗   ██╗██╗████████╗ ██████╗ ██████╗ 
 ██╔══██╗██║   ██║██╔══██╗██║██╔═══██╗    ████╗ ████║██╔═══██╗████╗  ██║██║╚══██╔══╝██╔═══██╗██╔══██╗
