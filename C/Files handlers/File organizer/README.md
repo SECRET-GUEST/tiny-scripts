@@ -1,3 +1,6 @@
+![WINDOWS](https://img.shields.io/badge/windows-blue)
+![LINUX](https://img.shields.io/badge/Debian-LINUX-orange)
+![MACOS](https://img.shields.io/badge/MacOS-white) 
 ```
 ███████╗██╗██╗     ███████╗███████╗     ██████╗ ██████╗  ██████╗  █████╗ ███╗   ██╗██╗███████╗███████╗██████╗ 
 ██╔════╝██║██║     ██╔════╝██╔════╝    ██╔═══██╗██╔══██╗██╔════╝ ██╔══██╗████╗  ██║██║╚══███╔╝██╔════╝██╔══██╗
