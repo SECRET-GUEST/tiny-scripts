@@ -9,7 +9,7 @@ Une version txt de cette liste est disponible, facile à copier dans les notes d
 ---
 ---
 ---
-### TRAÇAGE DES APPELS
+## TRAÇAGE DES APPELS
 
 ```
 *#31#
@@ -46,7 +46,7 @@ Info sur le renvoi d'appels si le tel est occupé
 ```
 Affiche les infos concernant l'identification des lignes connectées
 
-### INFOS DU TÉLÉPHONE
+## INFOS DU TÉLÉPHONE
 
 ```
 *#0*#
@@ -103,7 +103,7 @@ Pour afficher le menu du firmware de la caméra
 ```
 Pour vérifier la configuration diagnostique
 
-### TESTS DE PÉRIPHÉRIQUES
+## TESTS DE PÉRIPHÉRIQUES
 
 ```
 *#*#0*#*#*
@@ -159,7 +159,7 @@ Pour obtenir la version de l'écran tactile
 ```
 Pour obtenir des informations sur la RAM
 
-### FONCTIONNALITÉS RÉSEAU
+## FONCTIONNALITÉS RÉSEAU
 
 ```
 *#0011#
@@ -186,7 +186,7 @@ Pour insérer le code de verrouillage du réseau
 ```
 Test de terrain
 
-### PARAMÈTRES AUDIO ET VIDÉO
+## PARAMÈTRES AUDIO ET VIDÉO
 
 ```
 *#0283#
@@ -213,7 +213,7 @@ Pour mettre à jour le firmware de la caméra
 ```
 Pour obtenir des informations sur la caméra
 
-### PARAMÈTRES DU SYSTÈME
+## PARAMÈTRES DU SYSTÈME
 
 ```
 *#0808#
@@ -235,7 +235,7 @@ Pour désactiver le mode de journalisation des commandes vocales
 ```
 Pour activer le mode de journalisation des commandes vocales
 
-### GESTION DE LA BATTERIE
+## GESTION DE LA BATTERIE
 
 ```
 *#0228#
@@ -247,7 +247,7 @@ Pour vérifier le statut de la batterie, lecture ADC, RSSI
 ```
 Informations sur l'utilisation du téléphone et de la batterie
 
-### RESTAURATION ET SAUVEGARDE
+## RESTAURATION ET SAUVEGARDE
 
 ```
 *#*#7780#*#*
