@@ -1,4 +1,4 @@
-# Codes Secrets pour Téléphones Mobiles
+# Codes Secrets USSD
 
 Les codes secrets permettent d'accéder à des fonctionnalités cachées ou de réaliser des tests sur votre téléphone.
 
