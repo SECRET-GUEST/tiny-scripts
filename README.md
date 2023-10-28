@@ -35,6 +35,8 @@ If you have any questions or need support, please feel free to open an issue or 
 Discover more mini scripts for 3D artists user-friendly: 
 - [Animation](https://github.com/SECRET-GUEST/animation)
 
+(French) Tutorials and scripts to configure servers / install OS from 0, I recommends noobs to start from Ubuntu tutorial , or learn bash script first for other branches.
+- [linux tutorials](https://github.com/SECRET-GUEST/LINUX/tree/main) 
 
 
 # That's all you have to know.
