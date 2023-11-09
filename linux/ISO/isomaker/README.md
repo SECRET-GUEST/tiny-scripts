@@ -39,3 +39,18 @@ Before running the SD card management script, ensure you have `dd` and `gzip` in
 ## Safety and Disclaimer
 
 The SD card management script involves operations that can result in data loss if not used carefully. Always ensure you are selecting the correct SD card device and have backups of your data before proceeding.
+
+## 💎 Recommendations  
+
+In your quest for more tools to enhance your desktop productivity, these additional repositories are worth a look:
+
+- [ISO maker GUI VERSION](https://github.com/SECRET-GUEST/isomaker) : Same as this script but in command line with GUI
+
+
+- [LNK reader](https://github.com/SECRET-GUEST/windows_link_reader): Allow dual boot Linux users to work with Windows shortcuts.
+- [File organizer ](https://github.com/SECRET-GUEST/file_organizer) : A versatile tool for sorting and organizing files efficiently, ideal for managing recovered data.
+
+
+Looking for more? Discover user-friendly, GUI-free script here: 
+- [Tiny Scripts](https://github.com/SECRET-GUEST/tiny-scripts)
+
