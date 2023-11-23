@@ -12,7 +12,7 @@
 ## Overview
 This repository contains a comprehensive list of Google search tags designed to streamline and optimize your web search experience. These tags enable users to perform more precise and efficient searches on Google, saving time and enhancing the accuracy of search results.
 
-Additionally, we have developed a GPT-based tool that automates the use of these tags, making the process even more efficient. You can access this tool here: [AI-Powered OSINT Web Search Tool](https://chat.openai.com/g/g-snDEfF4QN-osint-web).
+Additionally, there is a GPT-based tool that automates the use of these tags, making the process even more efficient. You can access this tool here: [AI-Powered OSINT Web Search Tool](https://chat.openai.com/g/g-snDEfF4QN-osint-web).
 
 ## What is OSINT?
 OSINT stands for Open Source Intelligence. It refers to the practice of collecting information from publicly available sources for analysis and intelligence purposes. This method is widely used in various fields such as cybersecurity, journalism, and market research. OSINT encompasses a range of information and sources, including media reports, public government data, professional and academic publications, and information shared on social media platforms.
