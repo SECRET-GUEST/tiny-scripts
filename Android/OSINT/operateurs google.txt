@@ -1,0 +1,95 @@
+1. "search term"
+   - Exemple : "recette de gâteau"
+   - Utilisation : Pour rechercher exactement cette phrase.
+
+2. OR
+   - Exemple : vacances OR voyage
+   - Utilisation : Recherche des pages contenant soit "vacances" soit "voyage".
+
+3. AND
+   - Exemple : chat AND chien
+   - Utilisation : Recherche des pages contenant à la fois "chat" et "chien".
+
+4. -
+   - Exemple : pommes -rouges
+   - Utilisation : Recherche des pages contenant "pommes" mais pas "rouges".
+
+5. 
+   - Exemple : "les * de Paris"
+   - Utilisation : Recherche des phrases où * est remplacé par un mot quelconque.
+
+6. ( )
+   - Exemple : (chat OR chien) AND nourriture
+   - Utilisation : Recherche de "chat" ou "chien" en combinaison avec "nourriture".
+
+7. $
+   - Exemple : iPhone $500
+   - Utilisation : Recherche des iPhone au prix de 500 dollars.
+
+8. define:
+   - Exemple : define:philosophie
+   - Utilisation : Cherche la définition du mot "philosophie".
+
+9. Cache:
+   - Exemple : cache:www.wikipedia.org
+   - Utilisation : Affiche la version en cache de Wikipedia.
+
+10. filetype:
+    - Exemple : filetype:pdf guide de voyage
+    - Utilisation : Recherche des fichiers PDF contenant "guide de voyage".
+
+11. site:
+    - Exemple : site:edu biologie
+    - Utilisation : Recherche des pages sur des sites en ".edu" contenant le mot "biologie".
+
+12. related:
+    - Exemple : related:amazon.com
+    - Utilisation : Trouver des sites similaires à Amazon.
+
+13. intitle:
+    - Exemple : intitle:recette
+    - Utilisation : Recherche des pages dont le titre contient "recette".
+
+14. allintitle:
+    - Exemple : allintitle:recette gâteau
+    - Utilisation : Recherche des pages dont le titre contient à la fois "recette" et "gâteau".
+
+15. inurl:
+    - Exemple : inurl:blog
+    - Utilisation : Recherche des pages dont l'URL contient le mot "blog".
+
+16. allinurl:
+    - Exemple : allinurl:recette gâteau
+    - Utilisation : Recherche des pages dont l'URL contient les mots "recette" et "gâteau".
+
+17. intext:
+    - Exemple : intext:chocolat
+    - Utilisation : Recherche des pages contenant le mot "chocolat" dans leur contenu.
+
+18. allintext:
+    - Exemple : allintext:recette gâteau chocolat
+    - Utilisation : Recherche des pages contenant tous les mots "recette", "gâteau" et "chocolat".
+
+19. AROUND(X):
+    - Exemple : pomme AROUND(5) poire
+    - Utilisation : Recherche des pages où "pomme" et "poire" apparaissent à moins de 5 mots d'écart.
+
+20. weather:
+    - Exemple : weather:Paris
+    - Utilisation : Affiche la météo pour Paris.
+
+21. stocks:
+    - Exemple : stocks:GOOG
+    - Utilisation : Affiche les informations sur l'action Google (GOOG).
+
+22. map:
+    - Exemple : map:Paris
+    - Utilisation : Affiche les résultats de carte pour Paris.
+
+23. movie:
+    - Exemple : movie:Inception
+    - Utilisation : Recherche des informations sur le film "Inception".
+
+24. in:
+    - Exemple : 10 miles in km
+    - Utilisation : Convertit 10 miles en kilomètres.
