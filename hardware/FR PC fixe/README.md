@@ -56,4 +56,6 @@ Après avoir assemblé votre PC, vous pouvez installer un système d'exploitatio
 
   Autre remarque, si vous achetez un GPU d'occasion, veillez à que les ventilo fonctionnent correctement !
 
+- **Site incontournable pour comparer tout et rien** : [Versus GTX 970 vs RTX 2060 vs RTX 3060](https://versus.com/en/asus-strix-geforce-gtx-970-directcu-ii-oc-vs-nvidia-geforce-rtx-2060-vs-nvidia-geforce-rtx-3060-ti?fbclid=IwAR3vZJ1huhy_IOYNlE1MgqAUYNQoDqwesA3Dv-gNn0en1snw5YziTAy9m4w)
+
 ![image](https://github.com/SECRET-GUEST/tiny-scripts/assets/92639080/ac576994-5fd0-49ea-bdf8-eff4c82553c7)
