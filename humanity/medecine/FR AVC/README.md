@@ -11,6 +11,7 @@ Si vous décidez de les essayer, assurez-vous de le faire sous la surveillance d
 ---
 
 ### NIVEAU 1 : BISOUNOURS
+---
 
 **1. Sourire Chaque Jour 🌞**
    - Devant un miroir, pratiquez votre plus beau sourire. Essayez de faire sourire les deux côtés de votre visage.
@@ -57,9 +58,11 @@ Si vous décidez de les essayer, assurez-vous de le faire sous la surveillance d
 - **Consultez les Professionnels** : Suivez les conseils de vos thérapeutes.
 
 ---
+---
+---
 
 ### NIVEAU 2 : OBSTINATION
-
+---
 
 **1. Endurance du Sourire :**
    - Tenez un sourire forcé pendant plusieurs minutes. Augmentez progressivement la durée chaque jour.
@@ -102,9 +105,11 @@ Si vous décidez de les essayer, assurez-vous de le faire sous la surveillance d
 - **Consultez régulièrement votre équipe médicale** : Assurez-vous que ces exercices sont appropriés pour votre situation.
 
 ---
+---
+---
 
 ### NIVEAU 3 : IMPOSSIBLE
-
+---
 
 **1. Marathon Facial Non-Stop :**
    - **Exemple :** Faites des sourires, gonflez les joues, haussez les sourcils, et répétez cela pendant 10 minutes avant de passer à une autre série de grimaces.
