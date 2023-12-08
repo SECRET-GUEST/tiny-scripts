@@ -1,4 +1,4 @@
-# 🌟 Guide de Rééducation Après AVC : Voyage vers la Récupération 🌟
+# 🌟 Guide de Rééducation Après AVC 🌟
 
 ## Introduction Importante :
 
