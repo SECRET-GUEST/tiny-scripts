@@ -8,7 +8,6 @@ Si vous décidez de les essayer, assurez-vous de le faire sous la surveillance d
 
 
 ### NIVEAU 1 : BISOUNOURS
----
 
 **1. Sourire Chaque Jour 🌞**
    - Devant un miroir, pratiquez votre plus beau sourire. Essayez de faire sourire les deux côtés de votre visage.
