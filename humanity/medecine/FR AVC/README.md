@@ -6,6 +6,9 @@ Ce guide de rééducation après AVC est une compilation d'idées personnelles e
 
 Si vous décidez de les essayer, assurez-vous de le faire sous la surveillance d'un adulte responsable. Pour certains exercices, comme les grimaces, il peut être utile de les accompagner de médias (photos, vidéos) pour guider correctement leur réalisation.
 
+---
+---
+---
 
 ### NIVEAU 1 : BISOUNOURS
 
