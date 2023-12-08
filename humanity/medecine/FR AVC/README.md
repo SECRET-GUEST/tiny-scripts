@@ -55,10 +55,6 @@ Si vous décidez de les essayer, assurez-vous de le faire sous la surveillance d
 
 ---
 
-**🌈 Gardez l'Espoir et Souriez à Chaque Petite Victoire ! 🌈**
-
-
-
 ### NIVEAU 2 : OBSTINATION
 
 
@@ -102,7 +98,7 @@ Si vous décidez de les essayer, assurez-vous de le faire sous la surveillance d
 - **Écoutez votre corps** : Soyez conscient de vos limites et ne forcez pas au-delà de ce que vous pouvez gérer.
 - **Consultez régulièrement votre équipe médicale** : Assurez-vous que ces exercices sont appropriés pour votre situation.
 
-
+---
 
 ### NIVEAU 3 : IMPOSSIBLE
 
@@ -144,5 +140,5 @@ Si vous décidez de les essayer, assurez-vous de le faire sous la surveillance d
 - **Prenez des Pauses** : Si un exercice est trop difficile, prenez une pause. Reprenez quand vous vous sentez prêt.
 - **Soyez Patient** : Certains jours seront plus difficiles. C'est normal. Continuez à essayer.
 
-
+---
 
