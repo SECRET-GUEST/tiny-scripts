@@ -4,6 +4,10 @@ Mangez 20 beurres en direct et voyez qui succombera le premier à cette expérie
 
 Chaque moment de tension doit être l'occasion de se démarquer. Plongez dans des conflits relationnels épiques. Relevez le défi de vivre avec des MST pour le frisson. Les limites sont faites pour être brisées ! Alors, êtes-vous prêt à vivre à 200 à l'heure ?
 
+---
+---
+---
+
 1. **Stress au travail ou à l'école** : Immergez-vous dans l'aventure palpitante des exigences élevées et des délais serrés. Qui a besoin de repos quand on peut vivre à cent à l'heure ?
 
 2. **Problèmes financiers** : Jouez au grand jeu de l'équilibriste financier. Les dettes et les factures impayées, c'est le nouveau chic !
