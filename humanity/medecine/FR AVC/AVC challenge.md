@@ -1,6 +1,6 @@
 # **Délicieusement audacieux, découvrez le "AVC Challenge"** 
 
-Mangez 20 beurres en direct et voyez qui succombera le premier à cette expérience exaltante. Avec un couplage possible avec le "Marathon sans sommeil" des réseaux sociaux, où le dernier éveillé gagne la gloire éternelle.
+Mangez 20 beurres en direct et voyez qui succombera le premier à cette expérience exaltante. Un couplage est possible avec le "Marathon sans sommeil" des réseaux sociaux, où le dernier éveillé gagne la gloire éternelle.
 
 Chaque moment de tension doit être l'occasion de se démarquer. Plongez dans des conflits relationnels épiques. Relevez le défi de vivre avec des MST pour le frisson. Les limites sont faites pour être brisées ! Alors, êtes-vous prêt à vivre à 200 à l'heure ?
 
