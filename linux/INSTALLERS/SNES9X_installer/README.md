@@ -23,28 +23,45 @@ To use the script, run it in a terminal. You can execute the script in automatic
 
 ### Default Installation Directory
 
-In automatic mode, the script installs Snes9X in the `~/snes9x` directory.
+In automatic mode, the script installs Snes9X in the current user home `/snes9x` directory.
 
 ## Dependencies
 
 The script installs the following packages:
 
-- `libgtk-3-dev`
-- `libgtkmm-3.0-dev`
-- `libsdl2-dev`
-- `libepoxy-dev`
-- `libx11-dev`
-- `libpulse-dev`
-- `libasound2-dev`
-- `portaudio19-dev`
-- `libpng-dev`
-- `zlib1g-dev`
-- `libxv-dev`
-- `libxrandr-dev`
-- `libwayland-dev`
-- `wayland-protocols`
-- `gettext`
-- `libminizip-dev`
+
+- `portaudio19-dev`: For enhanced audio processing and playback support.
+- `libgtk-3-dev` and `libgtkmm-3.0-dev`: For GTK+ graphical user interface elements.
+- `libsdl2-dev`: For handling graphics rendering and input management.
+- `libepoxy-dev`: To manage OpenGL function pointers, important for accurate game graphics emulation.
+- `libx11-dev`, `libxrandr-dev`, and `libxv-dev`: For X11 windowing system compatibility.
+- `libpulse-dev` and `libasound2-dev`: For advanced sound system compatibility.
+- `libpng-dev` and `zlib1g-dev`: For handling PNG images and compression.
+- `libwayland-dev` and `wayland-protocols`: For Wayland display protocol support.
+- `gettext`: For internationalization and localization.
+- `libminizip-dev`: For handling ZIP file compression and decompression.
+
+These additional dependencies, especially `portaudio19-dev`, `libepoxy-dev`, and Wayland related packages, are not explicitly listed in the [official Snes9X FAQ](https://www.snes9x.com/phpbb3/viewtopic.php?f=6&t=2611) but are included to enhance the emulator's functionality and compatibility with a broader range of Linux environments and hardware configurations.
+
+full list : 
+```bash
+portaudio19-dev 
+libgtk-3-dev
+libgtkmm-3.0-dev
+libsdl2-dev
+libepoxy-dev
+libx11-dev
+libpulse-dev
+libasound2-dev
+libpng-dev
+zlib1g-dev
+libxv-dev
+libxrandr-dev
+libwayland-dev
+wayland-protocols
+gettext
+libminizip-dev
+```
 
 ## Possible Errors
 
