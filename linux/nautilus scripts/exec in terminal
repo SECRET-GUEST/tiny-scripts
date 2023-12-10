@@ -1,7 +1,0 @@
-#!/bin/bash
-
-# Récupérer le chemin du fichier sélectionné
-file_path="$NAUTILUS_SCRIPT_SELECTED_FILE_PATHS"
-
-# Ouvrir le terminal et exécuter une commande sur le fichier
-gnome-terminal -- bash -c "cd $(dirname "$file_path"); exec bash"
