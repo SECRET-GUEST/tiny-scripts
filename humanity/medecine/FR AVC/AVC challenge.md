@@ -1,3 +1,5 @@
+# DISCLAIMER : Ne prenez PAS ceci au serieux, c'est un test d'humour noir réalisé par GPT ^^'
+
 # **Délicieusement audacieux, découvrez le "AVC Challenge"** 
 
 Mangez 20 beurres en direct et voyez qui succombera le premier à cette expérience exaltante. Un couplage est possible avec le "Marathon sans sommeil" des réseaux sociaux, où le dernier éveillé gagne la gloire éternelle.
