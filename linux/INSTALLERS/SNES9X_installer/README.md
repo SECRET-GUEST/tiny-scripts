@@ -1,6 +1,6 @@
-![Debian-Based Systems](https://img.shields.io/badge/Debian_Based_Systems-Compatible-green.svg)
+![Debian-Based Systems](https://img.shields.io/badge/Debian_Based_Systems-Compatible-red?colorA=cyan)
 ![Ubuntu 22.04 LTS](https://img.shields.io/badge/Ubuntu-22.04_LTS-orange.svg)
-![Snes9X Version](https://img.shields.io/badge/Snes9X-1.62.3-blue.svg)
+![Snes9X Version](https://img.shields.io/badge/Snes9X-1.62.3-purple.svg)
 ```
 ███████╗███╗   ██╗███████╗███████╗ █████╗ ██╗  ██╗    ██╗███╗   ██╗███████╗████████╗ █████╗ ██╗     ██╗     ███████╗██████╗ 
 ██╔════╝████╗  ██║██╔════╝██╔════╝██╔══██╗╚██╗██╔╝    ██║████╗  ██║██╔════╝╚══██╔══╝██╔══██╗██║     ██║     ██╔════╝██╔══██╗
