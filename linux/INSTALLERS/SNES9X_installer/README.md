@@ -41,7 +41,7 @@ The script installs the following packages:
 - `gettext`: For internationalization and localization.
 - `libminizip-dev`: For handling ZIP file compression and decompression.
 
-These additional dependencies, especially `portaudio19-dev`, `libepoxy-dev`, and Wayland related packages, are not explicitly listed in the [official Snes9X FAQ](https://www.snes9x.com/phpbb3/viewtopic.php?f=6&t=2611) but are included to enhance the emulator's functionality and compatibility with a broader range of Linux environments and hardware configurations.
+These additional dependencies, especially `portaudio19-dev`, `libepoxy-dev`, and Wayland related packages, are not explicitly listed in the [official Snes9X FAQ](https://github.com/snes9xgit/snes9x/wiki/Compiling) but are included to enhance the emulator's functionality and compatibility with a broader range of Linux environments and hardware configurations.
 
 full list : 
 ```bash
