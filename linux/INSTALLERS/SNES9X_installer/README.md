@@ -1,6 +1,4 @@
-![Debian-Based Systems](https://img.shields.io/badge/Debian_Based_Systems-Compatible-cyan?colorA=red)
-![Ubuntu 22.04 LTS](https://img.shields.io/badge/Ubuntu-22.04_LTS-orange.svg)
-![Snes9X Version](https://img.shields.io/badge/Snes9X-1.62.3-purple.svg)
+![Debian](https://img.shields.io/badge/Debian_Based_Systems-Compatible-cyan?colorA=red)
 ```
 ███████╗███╗   ██╗███████╗███████╗ █████╗ ██╗  ██╗    ██╗███╗   ██╗███████╗████████╗ █████╗ ██╗     ██╗     ███████╗██████╗ 
 ██╔════╝████╗  ██║██╔════╝██╔════╝██╔══██╗╚██╗██╔╝    ██║████╗  ██║██╔════╝╚══██╔══╝██╔══██╗██║     ██║     ██╔════╝██╔══██╗
@@ -9,6 +7,8 @@
 ███████║██║ ╚████║███████╗███████║ █████╔╝██╔╝ ██╗    ██║██║ ╚████║███████║   ██║   ██║  ██║███████╗███████╗███████╗██║  ██║
 ╚══════╝╚═╝  ╚═══╝╚══════╝╚══════╝ ╚════╝ ╚═╝  ╚═╝    ╚═╝╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝╚═╝  ╚═╝
 ```
+![Ubuntu 22.04 LTS](https://img.shields.io/badge/Ubuntu-22.04_LTS-orange.svg)
+![Snes9X Version](https://img.shields.io/badge/Snes9X-1.62.3-purple.svg)
 
 # Snes9X Installer Script for Debian-based Systems
 
