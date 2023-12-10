@@ -1,4 +1,4 @@
-![Debian](https://img.shields.io/badge/Debian_Based_Systems-Compatible-cyan?colorA=red)
+![Debian](https://img.shields.io/badge/Debian_Based_Systems-red)
 ```
 ███████╗███╗   ██╗███████╗███████╗ █████╗ ██╗  ██╗    ██╗███╗   ██╗███████╗████████╗ █████╗ ██╗     ██╗     ███████╗██████╗ 
 ██╔════╝████╗  ██║██╔════╝██╔════╝██╔══██╗╚██╗██╔╝    ██║████╗  ██║██╔════╝╚══██╔══╝██╔══██╗██║     ██║     ██╔════╝██╔══██╗
