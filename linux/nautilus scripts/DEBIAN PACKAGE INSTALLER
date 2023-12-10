@@ -1,0 +1,11 @@
+#!/bin/bash
+
+IFS=$'\n' # Définir le séparateur de champ interne sur un saut de ligne
+
+for file in $NAUTILUS_SCRIPT_SELECTED_FILE_PATHS; do
+    if [[ "$file" == *.deb ]]; then
+        gnome-terminal -- bash -c "sudo apt update && sudo apt upgrade -y && sudo dpkg -i '$file' && sudo apt-get install -f && read -n1 -s -r -p 'Appuyez sur une touche pour fermer...'"
+    else
+        zenity --error --text="Le fichier $file n'est pas un paquet .deb"
+    fi
+done
