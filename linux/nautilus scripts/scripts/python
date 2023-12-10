@@ -1,0 +1,5 @@
+#!/bin/bash
+python3 "$(echo -n "$NAUTILUS_SCRIPT_SELECTED_FILE_PATHS" | tr -d '\n')"
+
+# debug :
+#python3 "$NAUTILUS_SCRIPT_SELECTED_FILE_PATHS" > ERROR.txt 2>&1
