@@ -65,8 +65,14 @@ libminizip-dev
 
 ## Possible Errors
 
-- **Insufficient Permissions**: If you try to install the software in a directory where you do not have the necessary permissions, the script will fail. Ensure you have the required permissions in the chosen directory.
-- **Unsupported File Systems**: Attempting to install on an NTFS disk (typically used in dual-boot with Windows) might lead to issues if the disk is locked by Windows (e.g., due to fast startup or an ongoing update).
+- **Insufficient Permissions**: Installation may fail if executed in a directory without adequate permissions. Ensure you have the necessary rights for your chosen directory.
+- **Unsupported File Systems**: Installing on NTFS disks, often used in Windows dual-boot setups, can lead to issues, particularly if the disk is locked by Windows due to fast startup or updates.
+- **No Desktop Found**: The script might not find the desktop directory correctly without `xdg-user-dir`. Install it using
+    ```
+    sudo apt-get install xdg-user-dirs
+    ```
+    In its absence, the script may use default paths or `$XDG_DESKTOP_DIR`, but this is less reliable.
+
 
 ## Contributing
 
