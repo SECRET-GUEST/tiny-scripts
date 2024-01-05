@@ -1,4 +1,8 @@
 #!/bin/bash
+# Get script directory
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" &>/dev/null && pwd)"
+# Go to that directory
+cd "$SCRIPT_DIR"
 
 # Name of the virtual environment
 ENV_NAME="py3_VENV_fooocus"
