@@ -1,4 +1,8 @@
 #!/bin/bash
+# Obtenir le répertoire du script
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" &>/dev/null && pwd)"
+# Définir le répertoire de travail sur le répertoire du script
+cd "$SCRIPT_DIR"
 
 # Nom de l'environnement virtuel
 ENV_NAME="py3_VENV_fooocus"
