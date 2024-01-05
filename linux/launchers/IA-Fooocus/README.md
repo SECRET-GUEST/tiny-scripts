@@ -1,3 +1,12 @@
+```
+███████╗ ██████╗  ██████╗  ██████╗  ██████╗██╗   ██╗███████╗    ███████╗████████╗ █████╗ ██████╗ ████████╗███████╗██████╗ 
+██╔════╝██╔═══██╗██╔═══██╗██╔═══██╗██╔════╝██║   ██║██╔════╝    ██╔════╝╚══██╔══╝██╔══██╗██╔══██╗╚══██╔══╝██╔════╝██╔══██╗
+█████╗  ██║   ██║██║   ██║██║   ██║██║     ██║   ██║███████╗    ███████╗   ██║   ███████║██████╔╝   ██║   █████╗  ██████╔╝
+██╔══╝  ██║   ██║██║   ██║██║   ██║██║     ██║   ██║╚════██║    ╚════██║   ██║   ██╔══██║██╔══██╗   ██║   ██╔══╝  ██╔══██╗
+██║     ╚██████╔╝╚██████╔╝╚██████╔╝╚██████╗╚██████╔╝███████║    ███████║   ██║   ██║  ██║██║  ██║   ██║   ███████╗██║  ██║
+╚═╝      ╚═════╝  ╚═════╝  ╚═════╝  ╚═════╝ ╚═════╝ ╚══════╝    ╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚══════╝╚═╝  ╚═╝
+```
+
 # Fooocus Installation Script
 
 This README provides an overview of the installation script for the Fooocus AI, a powerful tool for [description of what Fooocus does]. The main repository for Fooocus can be found at: [https://github.com/lllyasviel/Fooocus](https://github.com/lllyasviel/Fooocus).
@@ -20,7 +29,7 @@ The provided Bash script automates the setup and launch process for Fooocus on L
 
 1. **Download the Script**: Download the installation script from [source of the script].
 
-2. **Run the Script**: Make the script executable with `chmod +x your_script_name.sh` and then run it using `./your_script_name.sh`.
+2. **Run the Script**: Make the script executable with `chmod +x start_Fooocus.sh` and then run it using `./start_Fooocus.sh`.
 
 3. **Choose Preset**: When prompted, choose your desired preset by entering `1` for Anime, `2` for Realistic, or `3` for no preset.
 
