@@ -49,50 +49,30 @@ format %~d0 /fs:fat /p:1 /q
 
 ### 5. suicide.bat ![Recovery Risk: 5%](https://img.shields.io/badge/Recovery%20Risk-5%25-green)
 
-This script is designed for highly destructive data eradication, either by using a Unix/Linux-based command or its equivalent in Windows. The primary purpose is to irreversibly erase all data on the partition from which it is executed. The Unix/Linux command and its equivalent Windows command are as follows:
+#### Preferred Method: Using Linux for Data Destruction
+For a thorough and controlled disk wipe, using a command in a Linux environment is recommended. Here's the typical command used:
 
 #### Unix/Linux Command:
 ```batch
-dd if=/dev/zero of=%~d0 bs=1M
+dd if=/dev/zero of=/dev/sdX bs=1M
 ```
 
 #### Operations Explained (Unix/Linux):
 - `dd`: A disk copying tool used in Unix/Linux for converting and copying files.
 - `if=/dev/zero`: Sets the input file to `/dev/zero`, which effectively writes zeros.
-- `of=%~d0`: Sets the output file to the partition from which the script is executed.
+- `of=/dev/sdX`: Sets the output file to the target disk (replace `/dev/sdX` with the appropriate disk identifier, like `/dev/sda`).
 - `bs=1M`: Sets the block size to 1 megabyte, determining the size of each chunk of zeros written.
 
-#### Windows Equivalent Command:
-```batch
-@echo off
-SET ScriptPath=%~dp0
+This command overwrites the entire target disk with zeros, ensuring a comprehensive data wipe. For guidance on installing Linux and executing this command, you can refer to my detailed tutorial in French here: [Installing Linux Tutorial](https://github.com/SECRET-GUEST/LINUX), or find numerous online resources for Linux installation guides.
 
-PowerShell -Command "& {
-    $drive = Split-Path -Path '%ScriptPath%' -Root
-    $blockSize = 1MB
-    $filePath = Join-Path -Path $drive -ChildPath 'destructiveZero.bin'
+#### Using suicide.bat on Windows
+The `suicide.bat` script is a Windows alternative but is less predictable compared to the Linux method. It requires administrative privileges and attempts to fill the disk with zeros, intermittently deleting files and system processes to make space.
 
-    $fs = [System.IO.File]::Create($filePath)
-    $bytes = New-Object byte[] $blockSize
+**Execution Requirements and Risks:**
+- Administrative privileges are required, and the script will prompt for elevation if not run as an administrator.
+- Extremely destructive, potentially rendering the OS and data irrecoverable.
+- The process is aggressive and unpredictable, with potential for system failure before complete data eradication.
 
-    try {
-        while ($true) {
-            $fs.Write($bytes, 0, $bytes.Length)
-            $fs.Flush()
-        }
-    } catch {
-        # Ignore exceptions and continue until the disk is full or system becomes unstable
-    } finally {
-        $fs.Close()
-    }
-}"
-```
-
-#### Operations Explained (Windows):
-- This PowerShell script is designed to create a file on the target drive and continuously write zeros to it until the drive is full.
-- `$drive` dynamically identifies the drive where the batch script is executed.
-- The script attempts to fill the entire drive with zeros, potentially overwriting all existing data.
-- This approach is more comprehensive and aggressive compared to the original Unix/Linux `dd` command, as it continuously writes until the drive is completely full, potentially causing system instability.
 
 #### ⚠️ Extreme Caution:
 - Both scripts will irreversibly destroy all data on the drive from which they are run.
