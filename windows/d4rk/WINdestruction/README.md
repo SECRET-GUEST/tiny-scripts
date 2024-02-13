@@ -35,19 +35,50 @@ format X: /fs:ntfs /p:1
 - `/p:1`: Specifies the number of passes (1 in this case).
 
 ---
+
 ### 2. ultraHit.bat ![Recovery Risk: 40%](https://img.shields.io/badge/Recovery%20Risk-40%25-orange)
 
-This script writes zeros to all the sectors in the partition (X:) using `dd`, a powerful disk copying tool. The command used is:
+This script writes zeros to all the sectors in the partition (X:) using `dd`, a powerful disk copying tool. For Unix/Linux systems, the command used is:
 
 ```batch
 dd if=/dev/zero of=\\.\X: bs=1M
 ```
 
-#### Operations Explained:
+#### Operations Explained (Unix/Linux):
 - `dd`: Disk copying tool used to convert and copy files.
 - `if=/dev/zero`: Input file is set to `/dev/zero`, which writes zeros.
 - `of=\\.\X:`: Output file set to the target partition (X:).
 - `bs=1M`: Block size set to 1 megabyte.
+
+For Windows systems, an equivalent PowerShell script is provided:
+
+```powershell
+$drive = "X:"
+$blockSize = 1MB
+$driveInfo = Get-PSDrive -Name $drive[0]
+$totalSize = $driveInfo.Used + $driveInfo.Free
+$filePath = $drive + "\zero.bin"
+
+$fs = [System.IO.File]::Create($filePath)
+$bytes = New-Object byte[] $blockSize
+$written = 0
+
+while ($written -lt $totalSize) {
+    $fs.Write($bytes, 0, $bytes.Length)
+    $fs.Flush()
+    $written += $bytes.Length
+}
+
+$fs.Close()
+Remove-Item $filePath
+```
+
+#### Operations Explained (Windows):
+- This PowerShell script creates a file on the target drive and fills it with zeros.
+- `$drive = "X:"`: Specifies the target drive.
+- `$blockSize = 1MB`: Sets the block size for the operation.
+- The script calculates the total size of the drive and writes zeros until the drive is filled.
+- Finally, it removes the file, leaving the drive filled with zeros.
 
 ---
 
