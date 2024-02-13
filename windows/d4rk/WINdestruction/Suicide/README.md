@@ -47,28 +47,39 @@ format %~d0 /fs:fat /p:1 /q
 
 ---
 
-
 ### 5. suicide.bat ![Recovery Risk: 5%](https://img.shields.io/badge/Recovery%20Risk-5%25-green)
 
-This script initiates a highly destructive operation, which writes zeros to every byte of the partition from which the script is executed, essentially "committing suicide". The command used is as follows:
+This script is designed for highly destructive data eradication, either by using a Unix/Linux-based command or its equivalent in Windows. The primary purpose is to irreversibly erase all data on the partition from which it is executed. The Unix/Linux command and its equivalent Windows command are as follows:
 
+#### Unix/Linux Command:
 ```batch
 dd if=/dev/zero of=%~d0 bs=1M
 ```
 
-#### Operations Explained:
-- `dd`: Disk copying tool used to convert and copy files.
-- `if=/dev/zero`: Input file is set to `/dev/zero`, which writes zeros.
-- `of=%~d0`: Output file set to the partition from which the script is executed.
-- `bs=1M`: Block size set to 1 megabyte.
+#### Operations Explained (Unix/Linux):
+- `dd`: A disk copying tool used in Unix/Linux for converting and copying files.
+- `if=/dev/zero`: Sets the input file to `/dev/zero`, which effectively writes zeros.
+- `of=%~d0`: Sets the output file to the partition from which the script is executed.
+- `bs=1M`: Sets the block size to 1 megabyte, determining the size of each chunk of zeros written.
+
+#### Windows Equivalent Command:
+```batch
+PowerShell -Command "& {New-Object byte[] ([System.Convert]::ToInt32((1MB).ToString().Replace('MB','')) * 1024 * 1024) | Set-Content -LiteralPath '%~dp0zero.bin' -Encoding Byte}"
+```
+
+#### Operations Explained (Windows):
+- The PowerShell script creates a new byte array, the size of which is determined by the intended file size (here, 1MB).
+- `New-Object byte[]`: Creates a new byte array.
+- `([System.Convert]::ToInt32((1MB).ToString().Replace('MB','')) * 1024 * 1024)`: Converts the desired file size into bytes (in this case, 1MB).
+- `Set-Content -LiteralPath '%~dp0zero.bin' -Encoding Byte`: Writes the byte array to a file named `zero.bin` in the same directory as the script, effectively filling it with zeros.
 
 #### ⚠️ Extreme Caution:
-- This script will irreversibly destroy all data on the drive from which it is run.
-- The operating system and all data will be lost during this process.
-- It's very likely that the system will become unresponsive and fail before the process completes, as essential system files will be deleted.
-- Before executing, ensure that there is absolutely nothing of value on the drive, and you fully intend to "kill" the drive.
-- This script should be used as a last resort for data sanitization and should only be executed with extreme caution.
-- Even with a low recovery risk, physical destruction of the drive remains the only method to guarantee 100% data elimination.
+- The original Unix/Linux script will irreversibly destroy all data on the drive from which it is run.
+- The Windows equivalent script creates a file filled with zeros, which can consume significant storage space and potentially lead to storage issues.
+- Ensure there is absolutely nothing of value on the target partition before executing either version.
+- These scripts should be used as a last resort for data sanitization and executed with extreme caution.
+- Physical destruction of the drive remains the only method to guarantee 100% data elimination.
+
 
 ---
 ### Recommendations
