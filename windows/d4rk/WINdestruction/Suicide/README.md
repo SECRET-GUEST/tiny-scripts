@@ -64,22 +64,41 @@ dd if=/dev/zero of=%~d0 bs=1M
 
 #### Windows Equivalent Command:
 ```batch
-PowerShell -Command "& {New-Object byte[] ([System.Convert]::ToInt32((1MB).ToString().Replace('MB','')) * 1024 * 1024) | Set-Content -LiteralPath '%~dp0zero.bin' -Encoding Byte}"
+@echo off
+SET ScriptPath=%~dp0
+
+PowerShell -Command "& {
+    $drive = Split-Path -Path '%ScriptPath%' -Root
+    $blockSize = 1MB
+    $filePath = Join-Path -Path $drive -ChildPath 'destructiveZero.bin'
+
+    $fs = [System.IO.File]::Create($filePath)
+    $bytes = New-Object byte[] $blockSize
+
+    try {
+        while ($true) {
+            $fs.Write($bytes, 0, $bytes.Length)
+            $fs.Flush()
+        }
+    } catch {
+        # Ignore exceptions and continue until the disk is full or system becomes unstable
+    } finally {
+        $fs.Close()
+    }
+}"
 ```
 
 #### Operations Explained (Windows):
-- The PowerShell script creates a new byte array, the size of which is determined by the intended file size (here, 1MB).
-- `New-Object byte[]`: Creates a new byte array.
-- `([System.Convert]::ToInt32((1MB).ToString().Replace('MB','')) * 1024 * 1024)`: Converts the desired file size into bytes (in this case, 1MB).
-- `Set-Content -LiteralPath '%~dp0zero.bin' -Encoding Byte`: Writes the byte array to a file named `zero.bin` in the same directory as the script, effectively filling it with zeros.
+- This PowerShell script is designed to create a file on the target drive and continuously write zeros to it until the drive is full.
+- `$drive` dynamically identifies the drive where the batch script is executed.
+- The script attempts to fill the entire drive with zeros, potentially overwriting all existing data.
+- This approach is more comprehensive and aggressive compared to the original Unix/Linux `dd` command, as it continuously writes until the drive is completely full, potentially causing system instability.
 
 #### ⚠️ Extreme Caution:
-- The original Unix/Linux script will irreversibly destroy all data on the drive from which it is run.
-- The Windows equivalent script creates a file filled with zeros, which can consume significant storage space and potentially lead to storage issues.
-- Ensure there is absolutely nothing of value on the target partition before executing either version.
+- Both scripts will irreversibly destroy all data on the drive from which they are run.
+- The Windows script, in particular, is designed to fill the entire drive, which can cause the system to become unresponsive or fail.
 - These scripts should be used as a last resort for data sanitization and executed with extreme caution.
 - Physical destruction of the drive remains the only method to guarantee 100% data elimination.
-
 
 ---
 ### Recommendations
