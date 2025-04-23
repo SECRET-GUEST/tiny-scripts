@@ -8,9 +8,9 @@
                                                                                                                                                               
 ```
 
+[![Bash Script](https://img.shields.io/badge/script-bash-green)](https://www.gnu.org/software/bash/)
+[![LINUX](https://img.shields.io/badge/Debian-LINUX-orange)](https://www.debian.org/)
 
-![Bash Script](https://img.shields.io/badge/script-bash-green)
-![LINUX](https://img.shields.io/badge/Debian-LINUX-orange)
 
 # DConf Backup Restore Script 💾
 
