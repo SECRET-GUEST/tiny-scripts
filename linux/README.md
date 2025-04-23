@@ -1,4 +1,4 @@
-![LINUX](https://img.shields.io/badge/LINUX-yellow)
+[![LINUX](https://img.shields.io/badge/LINUX-yellow)](https://www.linuxfromscratch.org/)
 
 ```
 ██╗     ██╗███╗   ██╗██╗   ██╗██╗  ██╗
