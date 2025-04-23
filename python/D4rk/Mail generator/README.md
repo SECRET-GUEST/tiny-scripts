@@ -1,4 +1,4 @@
-Python version 2.7 but still work for 3.11
+[![Python 2.7+ Compatible](https://img.shields.io/badge/Python-2.7%20→%203.11-blueviolet?logo=python)](https://docs.python.org/3/)
 ```
 ██████╗  █████╗ ███╗   ██╗██████╗  ██████╗ ███╗   ███╗    ███╗   ███╗ █████╗ ██╗██╗     ███████╗██████╗ 
 ██╔══██╗██╔══██╗████╗  ██║██╔══██╗██╔═══██╗████╗ ████║    ████╗ ████║██╔══██╗██║██║     ██╔════╝██╔══██╗
