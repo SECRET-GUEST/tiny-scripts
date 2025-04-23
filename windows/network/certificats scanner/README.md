@@ -1,3 +1,13 @@
+[![OS](https://img.shields.io/badge/WviNdwoS-Powershell-blue)](https://img.shields.io/badge/OS-Windows-blue)
+```
+ ██████╗███████╗██████╗ ████████╗    ███████╗ ██████╗ █████╗ ███╗   ██╗███╗   ██╗███████╗██████╗ 
+██╔════╝██╔════╝██╔══██╗╚══██╔══╝    ██╔════╝██╔════╝██╔══██╗████╗  ██║████╗  ██║██╔════╝██╔══██╗
+██║     █████╗  ██████╔╝   ██║       ███████╗██║     ███████║██╔██╗ ██║██╔██╗ ██║█████╗  ██████╔╝
+██║     ██╔══╝  ██╔══██╗   ██║       ╚════██║██║     ██╔══██║██║╚██╗██║██║╚██╗██║██╔══╝  ██╔══██╗
+╚██████╗███████╗██║  ██║   ██║       ███████║╚██████╗██║  ██║██║ ╚████║██║ ╚████║███████╗██║  ██║
+ ╚═════╝╚══════╝╚═╝  ╚═╝   ╚═╝       ╚══════╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝
+```
+
 # Exportateur de Certificats
 
 Un utilitaire PowerShell pour exporter en toute sécurité les informations de certificats à des fins d'analyse, conçu pour les utilisateurs soucieux de la sécurité.
