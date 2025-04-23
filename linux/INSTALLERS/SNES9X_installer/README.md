@@ -1,4 +1,4 @@
-![Debian](https://img.shields.io/badge/Debian_Based_Systems-red)
+[![Debian](https://img.shields.io/badge/Debian_Based_Systems-red)](https://www.debian.org/)
 ```
 ███████╗███╗   ██╗███████╗███████╗ █████╗ ██╗  ██╗    ██╗███╗   ██╗███████╗████████╗ █████╗ ██╗     ██╗     ███████╗██████╗ 
 ██╔════╝████╗  ██║██╔════╝██╔════╝██╔══██╗╚██╗██╔╝    ██║████╗  ██║██╔════╝╚══██╔══╝██╔══██╗██║     ██║     ██╔════╝██╔══██╗
@@ -7,8 +7,9 @@
 ███████║██║ ╚████║███████╗███████║ █████╔╝██╔╝ ██╗    ██║██║ ╚████║███████║   ██║   ██║  ██║███████╗███████╗███████╗██║  ██║
 ╚══════╝╚═╝  ╚═══╝╚══════╝╚══════╝ ╚════╝ ╚═╝  ╚═╝    ╚═╝╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝╚═╝  ╚═╝
 ```
-![Ubuntu 22.04 LTS](https://img.shields.io/badge/Ubuntu-22.04_LTS-grey?colorA=orange)
-![Snes9X Version](https://img.shields.io/badge/Snes9X-1.62.3-grey?colorA=purple)
+[![Ubuntu 22.04 LTS](https://img.shields.io/badge/Ubuntu-22.04_LTS-grey?colorA=orange)](https://releases.ubuntu.com/22.04/)
+[![Snes9X Version](https://img.shields.io/badge/Snes9X-1.62.3-grey?colorA=purple)](https://github.com/snes9xgit/snes9x/releases/tag/1.62.3)
+
 
 # Snes9X Installer Script for Debian-based Systems
 
