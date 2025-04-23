@@ -8,10 +8,10 @@ Pyinstaller configuration file
 ╚═╝        ╚═╝   ╚═╝╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝╚═╝  ╚═╝     ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝     ╚═╝ ╚═════╝ 
                                                                                                                                           
 ```
-![Python](https://img.shields.io/badge/Python-3.x-blue)
-![Ruby](https://img.shields.io/badge/Ruby-red)
-![PyInstaller](https://img.shields.io/badge/PyInstaller-orange)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow)
+[![Python](https://img.shields.io/badge/Python-3.x-blue)](https://www.python.org/)
+[![Ruby](https://img.shields.io/badge/Ruby-red)](https://www.ruby-lang.org/en/)
+[![PyInstaller](https://img.shields.io/badge/PyInstaller-orange)](https://www.pyinstaller.org/)
+
 
 # 📦 PyInstaller Configuration for Single Executable and Directory-based Applications
 
