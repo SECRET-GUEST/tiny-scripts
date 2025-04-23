@@ -8,11 +8,11 @@
 ╚═╝  ╚═══╝ ╚═════╝ ╚═╝     ╚═╝╚═════╝ ╚══════╝╚═╝  ╚═╝╚══════╝    ╚═╝╚═╝  ╚═══╝  ╚═══╝  ╚══════╝╚═╝  ╚═╝   ╚═╝   ╚══════╝╚═╝  ╚═╝
 ```
 [![Python](https://img.shields.io/badge/Python-3.10.13-blue.svg)](https://www.python.org/downloads/release/python-31013/)
-![Batch Script](https://img.shields.io/badge/script-batch-DDFF00)
-![Bash Script](https://img.shields.io/badge/script-bash-green)
+[![Batch Script](https://img.shields.io/badge/script-batch-DDFF00)](https://www.gnu.org/software/bash/)
+[![Bash Script](https://img.shields.io/badge/script-bash-green)](https://www.gnu.org/software/bash/)
 ![STABLE](https://img.shields.io/badge/VERSION-1.0.0-green)
-![WINDOWS](https://img.shields.io/badge/WINDOWS-blue)
-![LINUX](https://img.shields.io/badge/Linux-orange)
+[![WINDOWS](https://img.shields.io/badge/WINDOWS-blue)](https://www.microsoft.com/windows)
+[![LINUX](https://img.shields.io/badge/Linux-orange)](https://www.linuxfromscratch.org/)
 
 # 🔄 File Renamer Utility
 
