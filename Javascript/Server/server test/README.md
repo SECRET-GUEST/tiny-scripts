@@ -1,4 +1,5 @@
-[![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![JavaScript](https://img.shields.io/badge/JAVASCRIPT-yellow)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
 
 ```
 ███████╗███████╗██╗     ███████╗    ███████╗███████╗██████╗ ██╗   ██╗███████╗██████╗ 
