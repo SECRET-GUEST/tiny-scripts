@@ -8,10 +8,10 @@ Python 3.10
  ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝     ╚═╝ ╚═════╝     ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚═╝  ╚═╝
                                                                                                                  
 ```
+[![Python](https://img.shields.io/badge/Python-3.x-blue)](https://www.python.org/)
+[![Config](https://img.shields.io/badge/Config-Manager-green)](https://en.wikipedia.org/wiki/Configuration_management)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow)](https://opensource.org/licenses/MIT)
 
-![Python](https://img.shields.io/badge/Python-3.x-blue)
-![Config](https://img.shields.io/badge/Config-Manager-green)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow)
 
 # 📝 Description
 
