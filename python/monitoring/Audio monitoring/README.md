@@ -1,5 +1,6 @@
-![PYTHON](https://img.shields.io/badge/Python-3.10+-blue)
-![LINUX](https://img.shields.io/badge/LINUX-orange)
+
+[![PYTHON](https://img.shields.io/badge/Python-3.10+-blue)](https://www.python.org/downloads/release/python-310/)
+[![LINUX](https://img.shields.io/badge/LINUX-orange)](https://www.linuxfromscratch.org/)
 ```
  █████╗ ██╗   ██╗██████╗ ██╗ ██████╗     ███╗   ███╗ ██████╗ ███╗   ██╗██╗████████╗ ██████╗ ██████╗ 
 ██╔══██╗██║   ██║██╔══██╗██║██╔═══██╗    ████╗ ████║██╔═══██╗████╗  ██║██║╚══██╔══╝██╔═══██╗██╔══██╗
