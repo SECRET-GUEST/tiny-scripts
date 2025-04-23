@@ -9,8 +9,7 @@
  ╚═════╝ ╚═════╝    ╚═╝         ╚═══╝  ╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ 
 ```
 
-[This page is also available in English.](https://github.com/SECRET-GUEST/tiny-scripts/blob/ALL/windows/Services/FO%20Vanguard/EN_README.md)
-![English](https://img.shields.io/static/v1?label=&message=English&color=blue&logo=flag&logoColor=white)
+![English](https://img.shields.io/static/v1?label=&message=LANG-English&color=blue&logo=flag&logoColor=white)
 
 # Gestionnaire Riot Vanguard
 
