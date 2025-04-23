@@ -1,6 +1,6 @@
-![WINDOWS](https://img.shields.io/badge/windows-blue)
-![LINUX](https://img.shields.io/badge/Debian-LINUX-orange)
-![MACOS](https://img.shields.io/badge/MacOS-white) 
+[![Windows](https://img.shields.io/badge/WINDOWS-blue)](https://www.microsoft.com/en-us/windows)
+[![Linux (Debian)](https://img.shields.io/badge/Debian-LINUX-orange)](https://www.debian.org/)
+[![macOS](https://img.shields.io/badge/MacOS-white)](https://www.apple.com/macos/)
 ```
 ███████╗██╗██╗     ███████╗███████╗     ██████╗ ██████╗  ██████╗  █████╗ ███╗   ██╗██╗███████╗███████╗██████╗ 
 ██╔════╝██║██║     ██╔════╝██╔════╝    ██╔═══██╗██╔══██╗██╔════╝ ██╔══██╗████╗  ██║██║╚══███╔╝██╔════╝██╔══██╗
@@ -9,7 +9,7 @@
 ██║     ██║███████╗███████╗███████║    ╚██████╔╝██║  ██║╚██████╔╝██║  ██║██║ ╚████║██║███████╗███████╗██║  ██║
 ╚═╝     ╚═╝╚══════╝╚══════╝╚══════╝     ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝╚══════╝╚══════╝╚═╝  ╚═╝
 ```
-![C](https://img.shields.io/badge/C-GCC-purple)
+[![C](https://img.shields.io/badge/C-grey)](https://en.wikipedia.org/wiki/C_(programming_language))
 ![ALPHA](https://img.shields.io/badge/ALPHA-red) 
 
 # File Organizer Script 🧾
