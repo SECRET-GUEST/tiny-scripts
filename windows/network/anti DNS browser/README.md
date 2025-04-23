@@ -1,4 +1,5 @@
-[![OS](https://img.shields.io/badge/OS-Windows-blue)](https://img.shields.io/badge/OS-Windows-blue)
+[![OS](https://img.shields.io/badge/WINDOWS-blue)](https://www.microsoft.com/windows)
+
 ```
 ██╗███╗   ██╗ ██████╗ ██████╗  ██████╗ ███╗   ██╗██╗████████╗ ██████╗ 
 ██║████╗  ██║██╔════╝██╔═══██╗██╔════╝ ████╗  ██║██║╚══██╔══╝██╔═══██╗
