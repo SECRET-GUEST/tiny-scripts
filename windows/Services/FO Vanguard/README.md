@@ -10,7 +10,7 @@
 ```
 
 [This page is also available in English.](https://github.com/SECRET-GUEST/tiny-scripts/blob/ALL/windows/Services/FO%20Vanguard/EN_README.md)
-![English](https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_Kingdom.svg)
+![English](https://img.shields.io/static/v1?label=&message=English&color=blue&logo=flag&logoColor=white)
 
 # Gestionnaire Riot Vanguard
 
