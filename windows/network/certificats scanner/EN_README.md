@@ -31,12 +31,13 @@ This script exports a filtered list of certificates from your Windows certificat
 
 ## Usage
 
-1. Open PowerShell with administrative privileges
-2. Run the script:
-   ```powershell
-   .\CertificateExporter.ps1
-   ```
-3. Find the generated file on your desktop: `certificats_a_analyser.txt`
+1. Download the `CertificateExporter.ps1` script
+2. Right-click on the file and select "Run with PowerShell"
+   - On Windows 11, this option is directly available in the context menu
+   - On Windows 10, you might need to select "Open with" then "PowerShell"
+3. The script will run automatically and generate the `certificats_a_analyser.txt` file on your desktop
+
+Note : To analyze your certificates, copy the content of the generated file and submit it to your AI assistant. Note that the output instructions are in French, so you may want to request a translation or analysis in your preferred language
 
 ## Security Features
 
