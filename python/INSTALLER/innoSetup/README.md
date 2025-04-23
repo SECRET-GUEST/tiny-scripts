@@ -1,6 +1,7 @@
-![ISS](https://img.shields.io/badge/Inno_Setup-blue)
-![Ruby](https://img.shields.io/badge/Ruby-red)
-![PyInstaller](https://img.shields.io/badge/PyInstaller-orange)
+[![ISS](https://img.shields.io/badge/Inno_Setup-blue)](https://jrsoftware.org/isinfo.php)
+[![Ruby](https://img.shields.io/badge/Ruby-red)](https://www.ruby-lang.org/en/)
+[![PyInstaller](https://img.shields.io/badge/PyInstaller-orange)](https://www.pyinstaller.org/)
+
 
 ```
 
