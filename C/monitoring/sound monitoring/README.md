@@ -1,5 +1,5 @@
-![C](https://img.shields.io/badge/C-grey)
-![LINUX](https://img.shields.io/badge/LINUX-orange)
+[![C](https://img.shields.io/badge/C-grey)](https://en.wikipedia.org/wiki/C_(programming_language))
+[![Linux (Debian)](https://img.shields.io/badge/Debian-LINUX-orange)](https://www.debian.org/)
 ```
  █████╗ ██╗   ██╗██████╗ ██╗ ██████╗     ███╗   ███╗ ██████╗ ███╗   ██╗██╗████████╗ ██████╗ ██████╗ 
 ██╔══██╗██║   ██║██╔══██╗██║██╔═══██╗    ████╗ ████║██╔═══██╗████╗  ██║██║╚══██╔══╝██╔═══██╗██╔══██╗
