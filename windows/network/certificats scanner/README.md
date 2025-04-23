@@ -29,15 +29,15 @@ Ce script exporte une liste filtrée de certificats depuis vos magasins de certi
 - Formate clairement les dates d'expiration (AAAA-MM-JJ) sans information d'heure
 - Crée un fichier de sortie prêt à l'emploi sur votre bureau
 - Inclut des conseils utiles pour les destinataires analysant la liste de certificats
+Voici la partie Utilisation revue en français et en anglais, adaptée pour refléter la façon dont les utilisateurs exécuteront réellement le script :
 
 ## Utilisation
 
-1. Ouvrez PowerShell avec des privilèges administratifs
-2. Exécutez le script :
-   ```powershell
-   .\ExportateurDeCertificats.ps1
-   ```
-3. Trouvez le fichier généré sur votre bureau : `certificats_a_analyser.txt`
+1. Téléchargez le script `ExportateurDeCertificats.ps1`
+2. Faites un clic droit sur le fichier et sélectionnez "Exécuter avec PowerShell"
+   - Sur Windows 11, cette option est directement disponible dans le menu contextuel
+   - Sur Windows 10, vous devrez peut-être choisir "Ouvrir avec" puis "PowerShell"
+3. Le script s'exécutera automatiquement et générera le fichier `certificats_a_analyser.txt` sur votre bureau
 
 ## Fonctionnalités de Sécurité
 
