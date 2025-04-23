@@ -1,20 +1,20 @@
-![OS](https://img.shields.io/badge/WINDOWS-blue)
+[![OS](https://img.shields.io/badge/WINDOWS-blue)](https://www.microsoft.com/windows)
 ```
 ███╗   ███╗██╗ ██████╗██████╗  ██████╗ ███████╗ ██████╗ ███████╗████████╗
 ████╗ ████║██║██╔════╝██╔══██╗██╔═══██╗██╔════╝██╔═══██╗██╔════╝╚══██╔══╝
 ██╔████╔██║██║██║     ██████╔╝██║   ██║███████╗██║   ██║█████╗     ██║   
 ██║╚██╔╝██║██║██║     ██╔══██╗██║   ██║╚════██║██║   ██║██╔══╝     ██║   
 ██║ ╚═╝ ██║██║╚██████╗██║  ██║╚██████╔╝███████║╚██████╔╝██║        ██║   
-╚═╝     ╚═╝╚═╝ ╚═════╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝ ╚═════╝ ╚═╝        ╚═╝                                                                                                                                  
+╚═╝     ╚═╝╚═╝ ╚═════╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝ ╚═════╝ ╚═╝        ╚═╝
 ```
-
+[![PowerShell Badge](https://img.shields.io/badge/PowerShell-Scripts-green)](https://docs.microsoft.com/en-us/powershell/)
+[![Batch Badge](https://img.shields.io/badge/Batch-Scripts-blue)](https://ss64.com/nt/)
 
 # Windows Scripting Utility Repository
 
 This repository houses a collection of utility scripts crafted to streamline various tasks on Windows 10. These scripts are written in batch and PowerShell. Here's a quick guide to help you get started with these scripts:
 
 ## Utilizing Batch and PowerShell Scripts
-![Batch Badge](https://img.shields.io/badge/Batch-Scripts-blue)
 
 Batch and PowerShell scripts are potent tools capable of automating tasks and enhancing your productivity. Here’s how you can utilize and modify these scripts:
 
@@ -27,7 +27,6 @@ Batch and PowerShell scripts are potent tools capable of automating tasks and en
 ---
 
 ### Creating and Editing PowerShell Scripts
-![PowerShell Badge](https://img.shields.io/badge/PowerShell-Scripts-green)
 
 1. **Creating a Script**: Create a new text file (`.txt`) and rename the extension to `.ps1` to convert it into a PowerShell script.
 2. **Editing a Script**: To modify a PowerShell script, change the extension from `.ps1` to `.txt` and edit it with a text editor.
