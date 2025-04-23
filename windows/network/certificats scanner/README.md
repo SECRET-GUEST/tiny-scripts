@@ -39,6 +39,8 @@ Voici la partie Utilisation revue en français et en anglais, adaptée pour refl
    - Sur Windows 10, vous devrez peut-être choisir "Ouvrir avec" puis "PowerShell"
 3. Le script s'exécutera automatiquement et générera le fichier `certificats_a_analyser.txt` sur votre bureau
 
+Note : Pour analyser vos certificats, copiez le contenu du fichier généré et soumettez-le à votre assistant IA
+
 ## Fonctionnalités de Sécurité
 
 Le script inclut plusieurs niveaux de filtrage de sécurité pour garantir que les informations sensibles ne sont jamais exportées :
