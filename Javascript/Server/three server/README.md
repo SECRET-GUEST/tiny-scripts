@@ -1,4 +1,7 @@
-[![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)[![Windows](https://img.shields.io/badge/OS-Windows-informational.svg)](https://www.microsoft.com/windows)[![Visual Studio Code](https://img.shields.io/badge/IDE-Visual%20Studio%20Code-blueviolet.svg)](https://code.visualstudio.com/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Windows](https://img.shields.io/badge/OS-Windows-informational.svg)](https://www.microsoft.com/windows)
+[![Visual Studio Code](https://img.shields.io/badge/IDE-Visual%20Studio%20Code-blueviolet.svg)](https://code.visualstudio.com/)
+
 
 ```
 ██╗    ██╗███████╗██████╗ ██████╗  █████╗  ██████╗██╗  ██╗
@@ -9,8 +12,10 @@
  ╚══╝╚══╝ ╚══════╝╚═════╝ ╚═╝     ╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝
                                                                                                                                      
 ```
+
 [![Webpack](https://img.shields.io/badge/Webpack-5.0.0-blue.svg)](https://webpack.js.org/)
-[![Batch Script](https://img.shields.io/badge/Batch%20Script-1.0.0-blue.svg)](https://url_a_mettre_a_jour)
+[![Batch Script](https://img.shields.io/badge/Batch%20Script-1.0.0-blue.svg)](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands)
+
 
 # ENGLISH DESCRIPTION AVAILABLE BOTTOM OF THIS DESCRIPTION
 
