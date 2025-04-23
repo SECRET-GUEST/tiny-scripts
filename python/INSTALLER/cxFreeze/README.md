@@ -1,4 +1,4 @@
-![Python](https://img.shields.io/badge/Python-3.x-blue)
+[![Python 3.11](https://img.shields.io/badge/Python-3.11-blueviolet?logo=python)](https://docs.python.org/3/)
 
 ```
  ██████╗██╗  ██╗    ███████╗██████╗ ███████╗███████╗███████╗███████╗
