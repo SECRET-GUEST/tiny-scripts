@@ -10,6 +10,7 @@
 ```
 
 [🇬🇧 This page is also available in English.](https://github.com/SECRET-GUEST/tiny-scripts/blob/ALL/windows/Services/FO%20Vanguard/EN_README.md)
+[![English](https://github.com/SECRET-GUEST/tiny-scripts/blob/ALL/windows/Services/FO%20Vanguard/flag-uk.png)](https://github.com/SECRET-GUEST/tiny-scripts/blob/ALL/windows/Services/FO%20Vanguard/EN_README.md)
 
 # Gestionnaire Riot Vanguard
 
