@@ -9,7 +9,7 @@
  ╚═════╝ ╚═════╝    ╚═╝         ╚═══╝  ╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ 
 ```
 
-[![🇬🇧 English](https://img.shields.io/badge/-English-blue?style=flat&logo=gnu&logoColor=white)](https://github.com/SECRET-GUEST/tiny-scripts/blob/ALL/windows/Services/FO%20Vanguard/EN_README.md)
+[![🇬🇧 English](https://img.shields.io/badge/ENGLISH-blue?style=flat&logo=gnu&logoColor=white)](https://github.com/SECRET-GUEST/tiny-scripts/blob/ALL/windows/Services/FO%20Vanguard/EN_README.md)
 
 # Gestionnaire Riot Vanguard
 
