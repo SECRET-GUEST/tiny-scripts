@@ -1,8 +1,8 @@
 # React TypeScript Project Creator 🛠️
 
-![Batch Script](https://img.shields.io/badge/Batch-Script-blue)
-![Bash Script](https://img.shields.io/badge/Bash-Script-green)
-![Project Setup](https://img.shields.io/badge/Project-Setup-orange)
+[![Batch Script](https://img.shields.io/badge/script-batch-DDFF00)](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands)
+[![Bash Script](https://img.shields.io/badge/script-bash-green)](https://www.gnu.org/software/bash/)
+
 
 This repository contains two scripts (`reacTsx.bat` for Windows and `reacTsx.sh` for Linux/macOS) to quickly set up a new React project with TypeScript and a custom folder structure. You can choose between two different project structures, one for a basic setup and another for a setup with Three.js integration.
 
