@@ -1,4 +1,5 @@
-[![OS](https://img.shields.io/badge/WviNdwoS-Powershell-blue)](https://img.shields.io/badge/OS-Windows-blue)
+[![PowerShell Badge](https://img.shields.io/badge/WviNdwoS-Powershell-Scripts-green)](https://docs.microsoft.com/en-us/powershell/)
+
 ```
  ██████╗███████╗██████╗ ████████╗    ███████╗ ██████╗ █████╗ ███╗   ██╗███╗   ██╗███████╗██████╗ 
 ██╔════╝██╔════╝██╔══██╗╚══██╔══╝    ██╔════╝██╔════╝██╔══██╗████╗  ██║████╗  ██║██╔════╝██╔══██╗
