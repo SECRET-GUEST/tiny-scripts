@@ -2,20 +2,12 @@
 [![Batch Script](https://img.shields.io/badge/script-batch-DDFF00)](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands)
 
 ```
-
 ██████╗ ███████╗███████╗███████╗████████╗    ██╗    ██╗██╗███╗   ██╗██████╗ ██████╗  ██████╗ ███████╗    ██╗   ██╗██████╗ ██████╗  █████╗ ████████╗███████╗
-
 ██╔══██╗██╔════╝██╔════╝██╔════╝╚══██╔══╝    ██║    ██║██║████╗  ██║██╔══██╗██╔══██╗██╔═══██╗██╔════╝    ██║   ██║██╔══██╗██╔══██╗██╔══██╗╚══██╔══╝██╔════╝
-
 ██████╔╝█████╗  ███████╗█████╗     ██║       ██║ █╗ ██║██║██╔██╗ ██║██║  ██║██║  ██║██║   ██║███████╗    ██║   ██║██████╔╝██║  ██║███████║   ██║   █████╗  
-
 ██╔══██╗██╔══╝  ╚════██║██╔══╝     ██║       ██║███╗██║██║██║╚██╗██║██║  ██║██║  ██║██║   ██║╚════██║    ██║   ██║██╔═══╝ ██║  ██║██╔══██║   ██║   ██╔══╝  
-
 ██║  ██║███████╗███████║███████╗   ██║       ╚███╔███╔╝██║██║ ╚████║██████╔╝██████╔╝╚██████╔╝███████║    ╚██████╔╝██║     ██████╔╝██║  ██║   ██║   ███████╗
-
 ╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝   ╚═╝        ╚══╝╚══╝ ╚═╝╚═╝  ╚═══╝╚═════╝ ╚═════╝  ╚═════╝ ╚══════╝     ╚═════╝ ╚═╝     ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚══════╝
-
-                                                                                                                                                       
 ```
 
 # Stop Windows Updates (Safe-Mode Batch)
@@ -199,3 +191,4 @@ You can use Group Policy “Notify for download and install” instead of full d
 [11]: https://learn.microsoft.com/en-us/windows/release-health/status-windows-11-24h2?utm_source=chatgpt.com "Windows 11, version 24H2 known issues and notifications"
 [12]: https://superuser.com/questions/946957/stopping-all-automatic-updates-windows-10?utm_source=chatgpt.com "Stopping all automatic updates Windows 10"
 [13]: https://learn.microsoft.com/en-us/windows/deployment/update/waas-wu-settings?utm_source=chatgpt.com "Manage additional Windows Update settings"
+
