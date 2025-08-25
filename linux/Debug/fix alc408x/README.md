@@ -1,4 +1,4 @@
-[![Ubuntu 22.04](https://img.shields.io/badge/Ubuntu-22.04%20LTS-E95420?logo=ubuntu&logoColor=white&style=for-the-badge)](https://releases.ubuntu.com/jammy/)
+/[![Ubuntu 22.04](https://img.shields.io/badge/Ubuntu-22.04%20LTS-E95420?logo=ubuntu&logoColor=white&style=for-the-badge)](https://releases.ubuntu.com/jammy/)
 [![Ubuntu 24.04](https://img.shields.io/badge/Ubuntu-24.04%20LTS-E95420?logo=ubuntu&logoColor=white&style=for-the-badge)](https://releases.ubuntu.com/noble/)
 
 ```
@@ -10,6 +10,8 @@
 ╚═╝  ╚═╝╚══════╝ ╚═════╝     ╚═╝ ╚═════╝  ╚════╝ ╚═╝  ╚═╝    ╚═╝     ╚═╝╚═╝  ╚═╝
                                                                                 
 ```
+## [→ Une version Française de cette note est disponnible ici ←](https://github.com/SECRET-GUEST/tiny-scripts/blob/ALL/linux/Debug/fix%20alc408x/README_FR.md)
+
 
 # Fix no audio on ASUS Z690/Z790 boards (ALC408x “USB Audio”)  
 **Ubuntu 22.04 HWE / 24.04 LTS — PipeWire or PulseAudio**
