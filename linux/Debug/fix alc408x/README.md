@@ -19,12 +19,12 @@
 ## 🚀 Quick fix (copy & paste)
 
 
-# 1. Identify your USB “Audio” card (usually card 1)
+### 1. Identify your USB “Audio” card (usually card 1)
 ```bash
 aplay -l
 ```
 
-# 2. Test each PCM until you hear “Front Center”
+### 2. Test each PCM until you hear “Front Center”
 
 ```bash
 for d in 0 1 2 3; do
@@ -33,7 +33,7 @@ for d in 0 1 2 3; do
 done
 ```
 
-# Suppose sound works on plughw:Audio,1 → pin it as default:
+### Suppose sound works on plughw:Audio,1 → pin it as default:
 
 ```bash
 sudo tee /etc/asound.conf >/dev/null <<'EOF'
@@ -42,7 +42,7 @@ ctl.!default { type hw card "Audio" }
 EOF
 ```
 
-# 3. Restart audio stack & set default sink
+### 3. Restart audio stack & set default sink
 
 ```bash
 systemctl --user restart wireplumber pipewire pipewire-pulse 2>/dev/null || true
