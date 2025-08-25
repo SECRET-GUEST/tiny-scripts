@@ -19,12 +19,12 @@
 ## 🚀 Quick fix (copy & paste)
 
 
-### 1. Identify your USB “Audio” card (usually card 1)
+# 1. Identify your USB “Audio” card (usually card 1)
 ```bash
 aplay -l
 ```
 
-### 2. Test each PCM until you hear “Front Center”
+# 2. Test each PCM until you hear “Front Center”
 
 ```bash
 for d in 0 1 2 3; do
@@ -33,7 +33,7 @@ for d in 0 1 2 3; do
 done
 ```
 
-### Suppose sound works on plughw:Audio,1 → pin it as default:
+# Suppose sound works on plughw:Audio,1 → pin it as default:
 
 ```bash
 sudo tee /etc/asound.conf >/dev/null <<'EOF'
@@ -42,7 +42,7 @@ ctl.!default { type hw card "Audio" }
 EOF
 ```
 
-### 3. Restart audio stack & set default sink
+# 3. Restart audio stack & set default sink
 
 ```bash
 systemctl --user restart wireplumber pipewire pipewire-pulse 2>/dev/null || true
@@ -123,4 +123,12 @@ systemctl --user restart wireplumber pipewire pipewire-pulse 2>/dev/null || true
 * Working PCM: `plughw:Audio,1` (example, may differ)
 * Fix used: `/etc/asound.conf` pointing to correct PCM
 
+---
 
+## 💎 Recommendations  
+
+If you are looking for more tools to enhance your desktop productivity, here are a few additional repositories worth exploring:
+
+- [Linux](https://github.com/SECRET-GUEST/LINUX) — Step-by-step tutorials to safely and easily install a Linux OS (Ubuntu recommended for beginners).  
+
+- [LNK Reader](https://github.com/SECRET-GUEST/windows_link_reader) — A handy tool for dual-boot Linux users who need to open and work with Windows `.lnk` shortcuts.  
