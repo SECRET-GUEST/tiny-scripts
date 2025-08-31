@@ -1,5 +1,5 @@
-[![PowerShell Script](https://img.shields.io/badge/Script-PowerShell-DDFF00?logo=powershell&logoColor=black)](https://learn.microsoft.com/en-us/powershell/)
 [![WinDdos](https://img.shields.io/badge/WinDdos-blue?logo=windows&logoColor=white&style=for-the-badge)](https://www.microsoft.com/en-us/windows)
+[![PowerShell Script](https://img.shields.io/badge/Script-PowerShell-DDFF00?logo=powershell&logoColor=black)](https://learn.microsoft.com/en-us/powershell/)
 ```
 ███████╗██████╗ ██╗   ██╗    ██╗  ██╗██╗██╗     ██╗     ███████╗██████╗ 
 ██╔════╝██╔══██╗╚██╗ ██╔╝    ██║ ██╔╝██║██║     ██║     ██╔════╝██╔══██╗
@@ -123,6 +123,7 @@ Spy Killer **frees your system** without breaking the tools gamers need.
 
 Issues? Suggestions?
 Open a GitHub issue or ping me on \[your contact link here].
+
 
 
 
