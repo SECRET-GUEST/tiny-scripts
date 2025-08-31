@@ -72,7 +72,7 @@ Built for **power users who care about privacy and performance**.
    OR:
    ```powershell
    powershell -ExecutionPolicy Bypass -File .\SpyKiller.ps1
-````
+   ```
 
 3. Let it clean. Reboot your machine.
 
@@ -123,6 +123,7 @@ Spy Killer **frees your system** without breaking the tools gamers need.
 
 Issues? Suggestions?
 Open a GitHub issue or ping me on \[your contact link here].
+
 
 
 
