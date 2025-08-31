@@ -78,16 +78,6 @@ Built for **power users who care about privacy and performance**.
 
 ---
 
-## 📌 Optional Add-ons
-
-You can extend Spy Killer with:
-
-* Scheduled tasks to detect & block re-enabled services
-* Restore points or log tracking
-* `.exe` packaging with silent mode using `ps2exe` or `Win-PS2EXE`
-
----
-
 ## 🧠 Why Spy Killer?
 
 Because Windows is bloated with silent background spyware and telemetry:
@@ -123,6 +113,7 @@ Spy Killer **frees your system** without breaking the tools gamers need.
 
 Issues? Suggestions?
 Open a GitHub issue or ping me on \[your contact link here].
+
 
 
 
