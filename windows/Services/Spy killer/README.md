@@ -37,9 +37,8 @@ Spy Killer is a focused, no-BS PowerShell script to:
 - **Remove Cortana + OneDrive**
 - **Clean AdobeGC spyware logs**
 - **Kill bloatware apps**
-- ...while keeping your Xbox/Game Bar & Microsoft gaming services **intact**.
 
-Built for **power users who care about privacy and performance**.
+Made for those who’d rather kill telemetry than reward a broken system 💀
 
 ---
 
@@ -104,6 +103,7 @@ Spy Killer **frees your system** without breaking the tools gamers need.
 
 Issues? Suggestions?
 Open a GitHub issue or ping me on \[your contact link here].
+
 
 
 
