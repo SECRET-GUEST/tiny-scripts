@@ -2,6 +2,7 @@
 [![PowerShell Script](https://img.shields.io/badge/Script-PowerShell-DDFF00?logo=powershell&logoColor=black)](https://learn.microsoft.com/en-us/powershell/)
 ![💀💀💀💀💀](https://img.shields.io/badge/-💀💀💀💀💀-000000?style=flat-square)
 
+
 ```
 ███████╗██████╗ ██╗   ██╗    ██╗  ██╗██╗██╗     ██╗     ███████╗██████╗ 
 ██╔════╝██╔══██╗╚██╗ ██╔╝    ██║ ██╔╝██║██║     ██║     ██╔════╝██╔══██╗
@@ -105,6 +106,7 @@ Spy Killer **frees your system** without breaking the tools gamers need.
 
 Issues? Suggestions?
 Open a GitHub issue or ping me on \[your contact link here].
+
 
 
 
