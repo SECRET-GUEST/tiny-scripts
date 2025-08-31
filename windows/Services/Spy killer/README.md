@@ -1,15 +1,12 @@
-![Status](https://img.shields.io/badge/STATUS-STABLE-brightgreen?style=flat-square)
-![Script](https://img.shields.io/badge/Script-PowerShell-blue?style=flat-square)
-![OS](https://img.shields.io/badge/OS-Windows_10%2F11-blueviolet?style=flat-square)
-![Privacy](https://img.shields.io/badge/Anti--Telemetry-Yes-red?style=flat-square)
+[![PowerShell Script](https://img.shields.io/badge/Script-PowerShell-DDFF00?logo=powershell&logoColor=black)](https://learn.microsoft.com/en-us/powershell/)
+[![WinDdos](https://img.shields.io/badge/WinDdos-blue?logo=windows&logoColor=white&style=for-the-badge)](https://www.microsoft.com/en-us/windows)
 ```
-
-███████╗██████╗ ██╗   ██╗██╗  ██╗     ██╗  ██╗██╗██╗     ██╗     ███████╗██████╗
-██╔════╝██╔══██╗╚██╗ ██╔╝██║ ██╔╝     ██║ ██╔╝██║██║     ██║     ██╔════╝██╔══██╗
-█████╗  ██████╔╝ ╚████╔╝ █████╔╝█████╗█████╔╝ ██║██║     ██║     █████╗  ██████╔╝
-██╔══╝  ██╔═══╝   ╚██╔╝  ██╔═██╗╚════╝██╔═██╗ ██║██║     ██║     ██╔══╝  ██╔══██╗
-███████╗██║        ██║   ██║  ██╗     ██║  ██╗██║███████╗███████╗███████╗██║  ██║
-╚══════╝╚═╝        ╚═╝   ╚═╝  ╚═╝     ╚═╝  ╚═╝╚═╝╚══════╝╚══════╝╚══════╝╚═╝  ╚═╝
+███████╗██████╗ ██╗   ██╗    ██╗  ██╗██╗██╗     ██╗     ███████╗██████╗ 
+██╔════╝██╔══██╗╚██╗ ██╔╝    ██║ ██╔╝██║██║     ██║     ██╔════╝██╔══██╗
+███████╗██████╔╝ ╚████╔╝     █████╔╝ ██║██║     ██║     █████╗  ██████╔╝
+╚════██║██╔═══╝   ╚██╔╝      ██╔═██╗ ██║██║     ██║     ██╔══╝  ██╔══██╗
+███████║██║        ██║       ██║  ██╗██║███████╗███████╗███████╗██║  ██║
+╚══════╝╚═╝        ╚═╝       ╚═╝  ╚═╝╚═╝╚══════╝╚══════╝╚══════╝╚═╝  ╚═╝
 ```
 
 ---
@@ -126,6 +123,7 @@ Spy Killer **frees your system** without breaking the tools gamers need.
 
 Issues? Suggestions?
 Open a GitHub issue or ping me on \[your contact link here].
+
 
 
 
