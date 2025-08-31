@@ -91,15 +91,6 @@ Spy Killer **frees your system** without breaking the tools gamers need.
 
 ---
 
-## 🧼 What It Doesn't Touch
-
-| Left Untouched   | Reason                                 |
-| ---------------- | -------------------------------------- |
-| Xbox Game Bar    | Needed for Win+G overlay & cloud saves |
-| Xbox Game Save   | Syncs your game progress               |
-| Windows Indexing | Keeps search usable & snappy           |
-
----
 
 ## ⚠️ Disclaimer
 
@@ -113,6 +104,7 @@ Spy Killer **frees your system** without breaking the tools gamers need.
 
 Issues? Suggestions?
 Open a GitHub issue or ping me on \[your contact link here].
+
 
 
 
