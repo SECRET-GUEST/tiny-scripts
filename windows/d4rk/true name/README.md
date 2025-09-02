@@ -1,3 +1,14 @@
+[![WinDdos](https://img.shields.io/badge/WinDdos-blue?logo=windows&logoColor=white&style=for-the-badge)](https://www.microsoft.com/en-us/windows)
+
+```
+████████╗██████╗ ██╗   ██╗███████╗    ███╗   ██╗ █████╗ ███╗   ███╗███████╗███████╗
+╚══██╔══╝██╔══██╗██║   ██║██╔════╝    ████╗  ██║██╔══██╗████╗ ████║██╔════╝██╔════╝
+   ██║   ██████╔╝██║   ██║█████╗      ██╔██╗ ██║███████║██╔████╔██║█████╗  ███████╗
+   ██║   ██╔══██╗██║   ██║██╔══╝      ██║╚██╗██║██╔══██║██║╚██╔╝██║██╔══╝  ╚════██║
+   ██║   ██║  ██║╚██████╔╝███████╗    ██║ ╚████║██║  ██║██║ ╚═╝ ██║███████╗███████║
+   ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚══════╝    ╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝╚══════╝
+```
+
 # Re assign real names to their owner
 
 This PowerShell script automatically replaces all occurrences of:
@@ -47,4 +58,5 @@ The script will show each file modified and print a summary at the end.
 * Safe for everyday documents, configs, and logs.
 * Critical system areas are ignored automatically to avoid breaking WinDdos.
 * If you want to extend the list of file types, edit the `$IncludeExt` array in the script.
+
 
