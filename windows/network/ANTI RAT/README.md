@@ -1,3 +1,14 @@
+[![WinDdos](https://img.shields.io/badge/WinDdos-blue?logo=windows&logoColor=white&style=for-the-badge)](https://www.microsoft.com/en-us/windows)
+
+```
+ █████╗ ███╗   ██╗████████╗██╗    ██████╗  █████╗ ████████╗
+██╔══██╗████╗  ██║╚══██╔══╝██║    ██╔══██╗██╔══██╗╚══██╔══╝
+███████║██╔██╗ ██║   ██║   ██║    ██████╔╝███████║   ██║   
+██╔══██║██║╚██╗██║   ██║   ██║    ██╔══██╗██╔══██║   ██║   
+██║  ██║██║ ╚████║   ██║   ██║    ██║  ██║██║  ██║   ██║   
+╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚═╝    ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   
+```
+
 # 🛡️ Windows Security Utilities (PowerShell)
 
 A small collection of PowerShell scripts for investigating suspicious activity on Windows systems.  
@@ -85,3 +96,4 @@ MIT License.
 Free to use, modify, and share — attribution appreciated.
 
 ```
+
